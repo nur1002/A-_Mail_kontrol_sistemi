@@ -1,0 +1,1148 @@
+id,image_ID,complaint_text_tr,complaint_type,is_verifiable
+1,e1,Ürünü yanık göndermişler ürünün etiketi bile yok yeni değil helal etmiyorum tavsiye hiç etmiyorum,Faulty,Yes
+2,e2,Etek sipariş verdim pantolon geldi,Incorrect,Yes
+3,e3,"Urun bu sekilde geldi uzerinde lekesi var deneyip nasil durduguna bile bakamadim lekeyi gorunce, iade edecegim.",Faulty,Yes
+4,e4,Çocuk kandırır gibi bol olsun diye xxl sipariş ettiğim pijama takımını s beden gönderip üstüne etiketinide kesmişsiniz anlamıyoeum zaten olmıycağı için iade edicem herhangi bir kazançta sağlayamıycaksınız bedeniniz yoksa neden seçeneklerde xxl yazıyorsunuz ki,Ill-fitting,No
+5,e5,Bedeninizi almanıza rağmen dar gelecektir. ,Ill-fitting,No
+6,e6,şortlu takım sipariş vermiştim uzun paçalı geldi,Incorrect,Yes
+7,e7,S beden gondermisler L siparis vermistim dikkat etmiyolar bile,Ill-fitting,Yes
+8,e8,Kumaşı güzel ama lekeli geldi,Faulty,Yes
+9,e9,başka ürün gönderildi,Incorrect,Yes
+10,e10,Bana gelen pijama sanki dikis okulunun bir öğrenci dikmiş. o kadar eğri dikisler ki o kadar yamuk o kadar kalitesiz... kumas içinde pamuk üzde sifir- tamamen poliester ,Faulty,Partially
+11,e10,"kargo poşeti açtım ve ağır sigara kokusu geldi, pijamayı actim ve içinde pis kokusu ve sac ... hiç denemeden geri koydum.",Refurbished,No
+12,e11,yanlış ürün gönderildi siparişlerinizi kontrolü kargolamıyor musunuz acaba insanların boşu boşuna zamanını alıyorsunuz ayrıca kargo ücreti de tarafınıza yansıyor yazık yani,Incorrect,Yes
+13,e12,urun aynı beden gelmedi,Ill-fitting,Yes
+14,e13,L istedim S beden gönderilmiş,Ill-fitting,Yes
+15,e14,Ürünün kumaşı kalitesiz.,Disappointing,No
+16,e15,İstediğim beden değil xl gelmiş şaka mısınz,Ill-fitting,Yes
+17,e16,İplerin yerleri çok yanlış yerlere dikilmiş biri yukarıda bir diğeri ise aşağıda bağladığımda iki ip arası havada duruyo bunu bu şekilde kullanamam ayrıca pijaması ise çok yanlış dikilmiş çizgileri eşit değil giydiğimde yamuk duruyor o yüzden iade ettim,Faulty,Yes
+18,e17,çok kalitesiz resimdeki rengi bekliyordum ama bembeyaz bi renk geldi.,Discolored,Partially
+19,e17,paçaları resimde geniş gözüküyor bana gelen yamuk yumuk dikilmiş. tek yıldız,Faulty,No
+20,e18,sipariş verdiğim ürün yerine baöbaşka bir şortlu takım gönderilmiş. işini çok özensiz yapan bir firma . iade ile uğraştırdıkları için çok kızgınım.,Incorrect,Yes
+21,e19,yanlış benden gönderilmiş bu ne sorumsuzluk,Ill-fitting,Yes
+22,e20,Ürünün defosu var. Tekrar sipariş vereceğim.,Faulty,Partially
+23,e21,Ürünü defolu geldi  bana mı denk geliyor anlamadım,Faulty,Yes
+24,e22,Yanlış ürün geldi üstelik kapı iadesi yok kargo bana çok uzak çocuklarla çıkma şansım da yok,Incorrect,Yes
+25,e23,istediğim ürün gelmedi hayal kırıklığı,Incorrect,Yes
+26,e24,Tamamen dikişleri sökülmüş bir ürün gönderilmiş ,Faulty,Yes
+27,e25,çok beğenerek almıştım ama defosu var bu biraz üzdü maalesef,Faulty,Partially
+28,e26,Ürün defolu geldi,Faulty,Partially
+29,e27,bildiğin tül ceket değil,Inferior,Partially
+30,e28,Bu renk ne ya pudra pembesi diye aldım çingene pembesi geldi ahahahahha ne renk aynı ne kumaş rezil bir renk rezil bi kalite,Discolored,No
+31,e29,ürün alt üst beden yanlış geldi değişim talep ettim onaylandı fakat gelen 2. kargo da alt üst farklı ilkinde 42 40 gelmişkwn ikincide 42 38 olarak geldi parçaları evde kendim değiştirsem sonuca daha kolay ulaşırım gibi duruyor hediye almıştım doğum günü geçeli 10 gün oldu hala hediyeyi vericem bu ürüne kadar hiç problem yaşamamıştım vee son olarak siparişimin ücret iadesi yapıldı sırf kargosu bedava olsun diye alışveriş yaptığım bi üründü kckfkdkfk cidden hayal kırıklığına uğradım bu kez,Ill-fitting,Partially
+32,e30,Yırtık geldi iade,Faulty,Yes
+33,e31,Urunu denedigimde lekeyi farkettim.. teendyolmiladan bu özensizligi beklemezdim.,Faulty,Yes
+34,e32,Elbisede 36 beden etikette 38 diyor daha düzgün kontrol sağlamanızı beklerdim,Ill-fitting,Yes
+35,e33,Ürün bu şekilde geldi cöp olan birşeyi müşterinize göndermeyin paketlemeyi kim yapıyorsa dikkatli yapsın böyle satıcı olamaz,Faulty,Yes
+36,e34,Beğenmedim çok ince,Inferior,No
+37,e35,model aynı fakat tokasız geldi . neden böyle hatalar yapılırki,Incomplete,Partially
+38,e36,Püskül yerinin altında kaldığı için yıkadıktan sonra yırtık olduğunu gördüm bu üç oldu. milla benim için bitti. ,Faulty,Yes
+39,e37,Sürekli etiket ve beden yanlış geliyor siyahını istedim onda da aynı şey oldu 36 istiyorum ürün 38 beden etiket 36 yazıyor,Ill-fitting,No
+40,e38,üstte durusunu bilmiyorum çünkü deneyemedim fermuari kırık ve yarıda sıkışmış şekilde geldi paketi açarken fermuarin parçası içinden düştü. ya kargoda kırıldı yada öylece paketleyip göndermişler bilemiyorum. direk iade,Faulty,Partially
+41,e39,Cekete asla benzemiyor gömlek gibi incecik ve formu yok,Inferior,Partially
+42,e40,cok begenmeme ragmen sökük geldi,Faulty,Partially
+43,e41,"Fondoten lekesi vardı, anlamıyorum bu iadeler alınırken kontrolden geçmiyor mu?",Refurbished,Partially
+44,e42,yorumlarda fazla abartılmış bir ürün lekeli geldi ve kalitesini beğenmedim ,Faulty,Yes
+45,e42,36beden almama rağmen üstü çok salaş,Ill-fitting,No
+46,e43,Hatalı dikiş ve leke mevcut,Faulty,Yes
+47,e44,Rengi beyaz değil sanki buz maviymiş ama rengi atmış gibi çirkin bir renk ,Discolored,Partially
+48,e44,kumaşı çok sert alt kesimi de hoş durmuyor giyince iade,Inferior,No
+49,e45,Etek boyu eşit değil,Faulty,Yes
+50,e46,Ürün defolu geldi pile kısımlarında ip çekmiş gibi izler vardı,Faulty,Partially
+51,e47,Eksik ürün gönderildi,Incomplete,No
+52,e48,resmen giyilmiş kullanılmış gönderildi.Üzerinde lekeler ve parfüm kokusu vardı.stoktan almıştım.Geri iade ettim,Refurbished,Yes
+53,e49,Lekeli geldi,Faulty,Yes
+54,e50,Dügmesi kopmuş geldi,Faulty,Partially
+55,e51,Aldığım ürün komple yanlış geldi resmen dalga geçer gibi sürekli aynı sorunu yaşıyorum gerçekten sıkıldım artık,Incorrect,Yes
+56,e52,Hiç rahat bir ayakkabı değil bir kere giydim ve çöp oldu,Inferior,No
+57,e53,ürün güzeldi ama kusurlu geldi iade.,Faulty,Yes
+58,e54,giyilmis deformeli ayakkabı gönderdiler şaka gibisiniz ,Refurbished,Yes
+59,e55,Taşı düşmüş sağ tarafın çok kaliteli değil,Faulty,Partially
+60,e56,Ürünün kullanılmış ve yıpranmış olduğu net bir şekilde görülüyor. Ayakkabının kemerine ekstra delik açılmış milladan asla beklemezdim. Resmen kandırmak bu verdiğimiz paranın karşılığı bu olmamalı.,Refurbished,Yes
+61,e57,Ürün kusurlu gönderilmiş. Şaka gibi ya bide olmadık kargoya gidip iade edeceğim. Ödediğim kargo parası da cabası,Faulty,Yes
+62,e58,Ürünün kenarındaki ayakkabı bağını geçirmek için iğne yok ,Incomplete,No
+63,e59,Kusurlu ürün gönderildi,Faulty,Yes
+64,e60,Çok özensiz yapılmış öününde çizikler var uhu izi gibi yapışkanların izi var,Faulty,Partially
+65,e61,Kesınlıkle bu fıyatı haketmıyor,Disappointing,No
+66,e62,Aksesuarı kopuk göndermişler iade ettim,Faulty,Yes
+67,e63,Hayatım da bu parayla boyle dandik bir şey almadım bayram için aldım iyade de edemiyorum hep yapıştırma yapılmış açılmalar var iki giymede tabanı elimde kalacak,Faulty,Yes
+68,e64,"şaka gibi topukları eğri gelmis ben de o kadar geç fark ettim ki elimde kaldılar mecburen, kendi körlüğüme daha çok üzüldüm, fark etmem için dısarı çıkarken giymem gerekiyormus meğer.",Faulty,No
+69,e65,kopuk ve tabanı yırtık geldi,Faulty,Yes
+70,e66,İki tane sol ayakkabi gondermişler şaka yapar gibi şok oldum bide davette giyerim diye almıştım gercekten rezillik yani,Incorrect,Yes
+71,e67,800 kusur fiyat aliyorsunuz gonderdiginiz ayakkabiya bakin ki taslarinin goruntusu kuflenmis gibi cirkin bi rengi var iade,Faulty,No
+72,e68,36 numara istedim 40 numara geldi,Ill-fitting,No
+73,e69,İki tane sağ ayakkabı geldi,Incorrect,Partially
+74,e70,Aşırı sert ve rahatsız iade,Inferior,No
+75,e71,Çok kötü hiç rahat değil,Inferior,No
+76,e72,mor sipariş ettim pembe göndermişler.,Discolored,Yes
+77,e73,Yanlis gonderildi !!! Yarın kullanmam gerekiyordu barkodu kutuya pembe basmislar kutuya krem koymuslar gonderirken kontrol etseydinizzaten gec geldi bir hafta beklemezdim,Incorrect,Yes
+78,e74,Ayakkabı defolu gibi,Faulty,Partially
+79,e75,40 numara siparis ettim 36 geldi,Ill-fitting,Yes
+80,e76,Ürün kusurlu gönderilmistir,Faulty,Yes
+81,e77,Ürünün iç kısmında zımba vardı ne alakaysa ayağımı kanattı giyer giymez dikkat etmemişsiniz ürünün zımbasını çıkarcam derken zarar verdim ücret iadesi istiyorum,Faulty,Yes
+82,e78,Görselde ki ayakkabı gelmedi,Incorrect,Yes
+83,e79,Ya şimdi merak ediyorum herkesin aldığı üründe bağcıklari dışardan benimki niye içerden kardeşim tabiki iade olucak,Faulty,Partially
+84,e80,Ürün defolu geldi,Faulty,Yes
+85,e81,Ürün güzel ama maalesef sol tekleri olarak gönderilmiş iki ayakkabı da ….. Mecbur iade,Incorrect,Yes
+86,e82,Ürün güzel fakat önü açılmış geldi iade edeceğim,Faulty,Partially
+87,e83,Aşırı rahatsız. Terliğin önü taş gibi parmaklarına vuruyor insanın. Asla ergonomik değil. ,Inferior,No
+88,e83,Biri büyük biri küçük bir de. İade ettim.,Ill-fitting,Yes
+89,e84,Ayağımı çok sıktı gerçekten incecik bir ayağınız olması gerekiyor,Ill-fitting,Partially
+90,e85,Fiyatına değmez bence almayın ben iade edicem,Disappointing,No
+91,e86,Yırtık geldiğinden dolayı iade etmek istiyorum,Faulty,Partially
+92,e87,yapıştırma izleri çok belli taban yamuk iade,Faulty,Partially
+93,e88,yakkabinin birinin paleti eksik geldi. eksik parcanin tedarik edilmesini istedim ama muhtemelen iade etmemi soyleyecekler. 1 hafta paramin yatmasini bekleyecegim. bi isiniz de dogru olsun allah askina bu ulkede isini adam akilli yapan hicbir isletme yok. bir daha buradan alisveris yapmayacagim.,Incomplete,Yes
+94,e89,Beğenmedim,Disappointing,No
+95,e90,Ürünün bilek kısmındaki bağcığını neden göndermediğinizi anlamıyorum gerçekten her ikisinde de aynı şekilde yok. Numara tam kalıp ayakta güzel duruyor fakat hatalı geldiği için iade,Incomplete,Partially
+96,e91,Kusurlu geldi,Faulty,Yes
+97,e92,aşırı kalitesiz bir terlik çok kötü bekledimden daha kötü,Disappointing,Yes
+98,e93,Defolu geldi,Faulty,Yes
+99,e94,Aşırı ince. Asla düzgün durmuyor. Kırış kırış,Inferior,Partially
+100,e95,36 giyorum 38 sipariş verdim çok büyük oldu omuzlar kocaman sevmedin ben,Ill-fitting,No
+101,e96,Bir kez de şu Trendyol sorunsuz bir ceket getirsin. Her alışımda bu sefer bir şey yoktur diyorum. İadelerden ben yoruldum. Bu cebi böyle yollamaya utanmadınız mı gerçekten? Vatkasını dikmemişsiniz bile ben söküp dikiş attım sırf iade etmemek için ama bu cebi görseydim asla yapmazdım. Asla kaliteli değilsiniz 1-2 ay bir şey almayacağım (ahhehehe mecbur illaki alırım biliyorum ahheheheeh),Faulty,Yes
+102,e97,Asla bu parayı haketmiyor asla paketi açar açmaz iade kodu oluşturdum o kadar sönük bi kumaşı duruşu var ki ne biçim blazer ceket bu,Disappointing,No
+103,e98,34 beden aşırı bol,Ill-fitting,Yes
+104,e99,Siyahı çok çok kötü. Çok parlak. Çok ince. Hiç memnun kalmadım.,Inferior,Partially
+105,e100,Defolu ürün gönderildi. 172-63 kg 36 beden istediğim bollukta oldu.,Faulty,Partially
+106,e101,Cook bol çok 3 beden küçük alın,Ill-fitting,No
+107,e102,Rengi siyah değil alacalı lekeli gibi beyaz beyaz görüntüler var iade,Discolored,Yes
+108,e103,Yırtık geldi,Faulty,Yes
+109,e104,Ben begenmedim sweat kumaşı var,Disappointing,No
+110,e105,ürünün düğmesi kopuk geldi maalesef İADE,Faulty,Yes
+111,e106,"Ürünün dikişi daha kaliteli olabilir ceplerinden avuç avuç ip söküğü geliyor, annemde babamda tekstilci bir iş dikildiği zaman sökülmemesi için bu ipler temizlenir biraz daha kaliteli yapın bence fiyatlarınız çokta ucuz değil",Faulty,Partially
+112,e107,34 beden istedim. Yanlış beden geldi. Daha doğrusu yanlış beden kartı basmışlar geri iade,Ill-fitting,Yes
+113,e108,Ürün görselde ki gibi değil tok bir kumaşı yok aksine çok ince kaliteli görünmüyor.,Inferior,No
+114,e109,Hayal kırıklığı. Çok çok ince ve kalitesiz ürün.,Inferior,No
+115,e110,gorselle alakasiz bir ürün geldi,Incorrect,Yes
+116,e111,Ürünün boncukları dökülmüştü yapıştırma izleri vardı kumaşı ince açıkcası kaliteli durmuyor,Faulty,Yes
+117,e112,Siz sakamisiniz ya 38 aldim buyuk geldi iade edip 36 aldim simdi geldi kendi yolladigim 38 i geri yollamissiniz 36 yerine,Ill-fitting,Partially
+118,e113,Resmen ürün giyilmiş yıkanmış rengi solmuş deterjan kokuyor ve fabrika çıkışı gibi değil kırış kırış ürün. Yıkanıp rengi solan ürünü bana yollamışsınız!!!,Refurbished,Partially
+119,e114,Renk farkına bakın nasıl takım giyeyim ceket yıkanmış gibi aynı maalesef iade,Discolored,Yes
+120,e115,kemer yerleri yok,Incomplete,Partially
+121,e116,Ürün çok güzel ama okadar özensiz bir şekilde geldi ki düğmenin biri yok ,Incomplete,Partially
+122,e117,Ürün çok kalitesiz,Disappointing,No
+123,e118,Defolu ürün gönderildi ayrıca çok ince baharlık bir ürün,Faulty,Yes
+124,e119,Yanlış ürün yolladılar,Incorrect,Yes
+125,e120,astari kusurlu.,Faulty,Partially
+126,e120,musteri temsilcisi ilgisiz. kalitesiz almayin,Disappointing,Partially
+127,e121, Yarın için acil almıştım fakat dikişsiz geldi mila asla eski kalitesinde değil,Faulty,Yes
+128,e122,Vasat. 16 günde geldi siparişim. Hem de defolu. İade…,Faulty,Partially
+129,e123,ceket lekeli geldi iadeeeee,Faulty,Yes
+130,e124,asla göründüğü gibi değiller...Şile bezi gibi tül aynıı ilk defa alışveriş yapmadığım için güvendim ama değmezmiş gerçekten,Inferior,Yes
+131,e125,Ürün kendi görselinde muazzam görünüyor. Fakat yaka dikişleri inanılmaz hatalı bir şekilde geldi. Rengini kumaşını ve modelini beğenmeme rağmen iade edeceğim. Trendyolmilla’dan beklenmeyen kalite bu.,Faulty,Yes
+132,e126,Alakasız ceket geldi hic beyenmedım,Incorrect,Yes
+133,e127,Kumaşını duruşunu sevdim fakat defolu gelmese iyiydi,Faulty,Yes
+134,e128,Ben beğenmedim yaa. Model güzel değil... 1.66 boy 82 kiloyum.. İade ettim...,Disappointing,No
+135,e129,etek yerine elbise göndermişler,Incorrect,Yes
+136,e130,"
+ipleri hep sarkmış sanki ütü izi gibi lekeler var",Faulty,Partially
+137,e131,Gerçekten yazıklar olsun artık kesinlikle trendyolu silip kullanmıcam. Önce 36 neden sipariş ettim 46 beden gönderdiler iade ettim tekrar sipariş verdim beğendiğim için şimdide 40 göndermişler gerçekten rezillik benim için trendyol bitti,Ill-fitting,Yes
+138,e132,yedek düğmesi yoktu,Incomplete,No
+139,e133,Sakın kanıp almayın satıcı deyişim yapmıyor ürünlerin hepsi sıkıntılı kanmayın,Disappointing,Yes
+140,e134,astarinda yırtık var,Faulty,Partially
+141,e135,urun güzel fakat defolu bariz bisekilde görüluyo kalite kontrol 0 iade,Faulty,Partially
+142,e136,cep kenarları gördüğünüz gibi öylesine dikilmiş ve sökümeye başlamış,Faulty,Partially
+143,e137,"Dikiş hatası var, kol astarı yırtık geldi",Faulty,Yes
+144,e138,Ürünü daha yeni açma fırsatım oldu dikişleri güzel değil,Faulty,Partially
+145,e139,Allah aşkınıza kaç gündür bu ürünü bekliyorum ne kadar sorumsuzsunuz ya yırtık ürün gelmiş ve kargo ücretsiz gelsin diye ben başka ürün de eklemiştim lütfen aynı ürünü bana tekrar gönderin,Faulty,Yes
+146,e140,Gerı ıade defolu ürün,Faulty,Yes
+147,e141,40 44 beden istedim 40 beden geldi mecburen iade. Daha dikkatli olursanız sevinirim,Ill-fitting,Yes
+148,e142,Defolu ürün göndermişler!,Faulty,Yes
+149,e143,arkadaşlar L beden istedim XS gelmiş. Daha ne yazmalıyım bilemedim.,Ill-fitting,Yes
+150,e143,Kumaş çok basit tavsiye etmem.,Disappointing,No
+151,e144,XL beden aldığım halde beyaz olan siyahtan yaklaşık 2 beden dar geldi! Fotoğraflarda görebilirsiniz,Ill-fitting,Partially
+152,e145,Hiç beğenmedim. ,Disappointing,No
+153,e145,Kumaşı hiç rahat değil. Kumaşı yakıyor.,Inferior,No
+154,e146,Şaka gibi yakasını ters dikmişler ,Faulty,Yes
+155,e147,Ürün defolu geldi,Faulty,Partially
+156,e148,Kirli kullanılmış ürün gönderildi,Refurbished,Yes
+157,e149,Bej çizgili yazıyor mavi çizgili geldi ???,Incorrect,Yes
+158,e150,"Ürün yırtık geldi :( belimin sol kısmı yırtık olarak geldi, iyi ki denerken fark ettim. Kumaşı terleten bi kumaşa benziyor ancak modeli çok güzel.",Faulty,Yes
+159,e151,48 kilo s beden sipariş ettim küçük geldi iade edip M sipariş ettim L göndermişler. Ayrıca sipariş ettikten 5 gün sonra geldi kargo süreci çok uzun sürüyor hiç memnun kalmadım.,Ill-fitting,Yes
+160,e152,bu ne biçim kumaş dalga mı geçiyorsunuz,Disappointing,No
+161,e153,Şaka gibi bir ürün 53 kilo 160 boya m söyledim ama bırak denk gelmesini bacağımdan yukarı çıkmadı yorumlara bakarak aldım ama umduğum gibi gelmedi kesinlikle. İADE,Ill-fitting,No
+162,e154,çok ince kotu bi kumasi vardi ,Inferior,No
+163,e154,fazla kısa geldi bedeni buyuk almak gerekir fiyatina göre iyiydi,Ill-fitting,Partially
+164,e155,Etek ile ne alakası var bunun insanları kandırıyorsunuz,Incorrect,Yes
+165,e156,Ben etek sipariş vermiştim ama yanlış geldiği için giyemedim ve tam tatile gittiğim zamanda geldi iade edemedim de,Incorrect,Yes
+166,e157,beli lastikli oldugu icin sevmedim,Disappointing,No
+167,e158,Kumaşı bi garip tay tüyü koltuk gibi nasıl yazlık ürün ben anlamadım. İade edicem,Disappointing,No
+168,e159,Ben beğenmedim kalitesini,Disappointing,No
+169,e160,"Ürün, görsel de kloş bir model olarak görünüyor ama değil direk kalem etek formun da geliyor, bunun dışında saten ya da ince rahat açılan bir model gibi dursa da ürün kışlık kadife- kaz tüyü gibi minik tüylü ve ligralı bir etek.Görselde ki modelle hiç benzerliği yok, fotoğraf ekleyenleri sonradan inceledim zaten kalem formlu geldiği ve basit kumaştan olduğu kombinlerinde ki duruşundan anlaşılıyor, direk iade",Disappointing,No
+170,e161,"renkler göründüğü gibi canlı değil , ",Discolored,No
+171,e161,"hiç hoş bir kumaşı yok. Aldığıma pişman oldum , bir defa yıkarsam renklerin tamamen karisacagindan şüpheliyim.",Inferior,No
+172,e162,Ürün elime geldi kumaş iyi fakat basende kocaman bir dikiş hatası var basen kısmında yumurta gibi bi çıkıntı var hadi keserken görülmedi bu hata dikerken görülmedi mi ??? İade edecektim eteği oğlum etiketi koparmış elimde kala kaldı giyince basenimde yumurta varmış gibi duruyor eteğin sağ basen tarafı tam bir fiyasko oldu benim için…,Faulty,Yes
+173,e163,Çok güzel kumaşı fakat tek yıkamada çekti,Inferior,No
+174,e164,"eteği üçüncü giyişim. ilk fotoğraftaki gibi tüylenmeler oldu eteğin her yerinde. kumaşı irite edecek yerlerde oturmadim, çanta takmadim yine de durum bu. bel lastiği de kendini saldi ki beli bol gelerek giyiyordum, sündürmüş olma ihtimalim yok.",Inferior,Partially
+175,e165,Ürünü üç dört kere giydim şimdiden tülerdi çabuk deforme oluyor. Onun dışında kalıbı kumaşı güzel,Inferior,Partially
+176,e166,Ürün bence bahsedildiği gibi degil kesinlikle kalın kumaş filan demis ama normal bir kumaşı var   ,Disappointing,No
+177,e166,ayrıca dikiş yerleri ip cekilmiş gibi bence en önemlisi bel kısmına dikilen lastik basit bir dikis ile dikilmiş ve sökük gelmiş iade olck.,Faulty,Partially
+178,e167,Yırtık gelmıs urun bna özen sıfır,Faulty,Yes
+179,e168,Etek rengi kumaşı falan güzel fakat sadece bir kez giydim ve yıkanmasıyla ipleri söküldü uzunca. Terzilik iş çıktı başıma beklemiyordum sadece bir kez yıkandı.Bir kullanım için alacaksınız alın.,Inferior,Yes
+180,e169,S istedim m geldi ?,Ill-fitting,Yes
+181,e170,Ürünü aldığımda evimde boy aynası yoktu. Yıkayıp dolaba kaldırdım. Boy aynası aldım ve denediğimde gördüğüm şey eteğin yamukluğu oldu. Kalitesi güzel ama bu fiyata böyle bir hata hoş değil. İade zamanı da geçti.,Faulty,Partially
+182,e171,"Yanlış ürünü yollamışlar, ama tebrikler yırtmaçtan tutturmuşsunuz 😂",Incorrect,Yes
+183,e172,XXS sipariş vermiştim XS gönderilmiş ama güzel oturdu üstüme 42 kgyim. Ürün pamuklu değil polyester karışımı yüksek,Ill-fitting,Yes
+184,e173,5 metrede bir durup eteği aşağı çekmeniz gerekiyor çünkü sürekli yukarı kayıyor. Rezil bir gün geçirmek istiyorsanız tercih edebilirsiniz,Ill-fitting,No
+185,e174,"Tamam iç gösteren etek olur ama bu kadarı olmaz. Ederi 50TL bile olmayan ürüne 140TL uygun diye ödene yapmamanızı tavsiye ederim. Öylesine giymek için almıştım ama öylesine bile giyilecek etek değil. Çok dert eden biri değilim iç gösteren çamaşırları ama bu etek röntgen gibi, bir kere görüntü estetik olmuyor. Giyenlere ve beğenmelere hayret ettim 😄",Inferior,Partially
+186,e175,siyahını da aynı beden almıştım o tam oldu bunun da etiketinde xs yazmasına rağmen aşırı büyük oldu,Ill-fitting,No
+187,e176,Kalitesi harikaydı ama bu şekilde geldiği için iade etmek zorunda kaldım keşke dikkat etseydiniz siyahıda xs boyutundaydı o yüzden iptal ettim üzdü ☹️,Faulty,Yes
+188,e177,Arkadaşım ile aldık onun xs benim L beden ikisi arasında dağlar kadar fark var ürünün fotoğraftaki ile benzerliği neredeyse hiç yok alacaksanız muadil almayın arkadaşlar,Ill-fitting,No
+189,e178,"Fırfırların kesimi yamuk, ön ve arka uzunluk birbirini tutmuyor. Kesinlikle orijinal marka alınmalı o yüzden iade",Faulty,Yes
+190,e179,Hem kumaş hem renk fotodakiyle alakasız,Disappointing,No
+191,e179,eteğin bitiş boyu kalça direkt iade,Ill-fitting,Partially
+192,e180,Ürün defolu geldi ikisini de aldım beyazı lekeliydi ,Faulty,Yes
+193,e181,Görseldekiyle alakası yok kısacık ve s beden olmasına rağmen bol geldi. Ayrıca paketleme özensiz sadece kargo poşetine koyup göndermişler…. Beğenerek almıştım ama Üzülerek İade,Ill-fitting,No
+194,e182,Kalitesi kötü değil ama çookk kısa benim boyum 153 47 kiloyum baya kalçamın altında kaldı yanları zaten daha kısa olduğu için memnun kalmadım ,Ill-fitting,No
+195,e182,bir de yıkadım daha da çekti sanki ben bikini üstüne giyerim artık,Inferior,No
+196,e183,"ikisini de s sipariş vermiştim biri xs diğeri l gelmiş, ürünler de kalitesiz tavsiye etmem",Ill-fitting,Yes
+197,e184,Etek çok güzel ama önü lekeli geldi iade maalesef,Faulty,Yes
+198,e185,Ürün güzel olsa da hem lekeli hem yırtık gönderildi. Malesef iade edeceğim,Faulty,Partially
+199,e186,Lekeli geldi,Faulty,Yes
+200,e187,ok açıklama yapmaya gerek yok. Gizem Zanbak linkiyle ürünü aldım. Fakat elime bambaşka bir ürün geldi. Müşteri temsilcisini arıyorum açmıyor. Şikayet oluşturuyorum cevap verilmiyor. Normalde ürünün üretim kumaşı tül değil. Ama bana nedense Tül şeklinde gönderildi. Üstelik görsellere bakıldığı zaman farkı anlayacaksınız. Almadan önce iletişime geçin.,Inferior,Partially
+201,e188,Aldığım ürün etek ve bana gelen ürün bu..,Incorrect,Yes
+202,e189,yırtık geldi,Faulty,Yes
+203,e190,öncelikle üzerinde küçük bi leke var.,Faulty,Yes
+204,e190, iç gösteriyor . ve kumaşı umduğum gibi çıkmadı o yüzden iade edeceğim,Inferior,No
+205,e191,kumaşı ve dikişleri çok kaliteli değil ama modeli güzel. benimki lekeli geldi😠,Faulty,Yes
+206,e192,Ürün güzel olsa da hem lekeli hem yırtık gönderildi. Malesef iade edeceğim,Faulty,No
+207,e193,"Ürün aşırı yamuk ve iki yerden delik geldi, satıcı yeni ürün göndermek yerine iade talebi oluşturmamı ve bunu “vazgeçtim” olarak seçmemi istedi 😂",Faulty,Partially
+208,e194,S beden istemiştim xs gönderilmiş daha özenli olmasını dilerdim çünkü çok geç geldi mecbur iade,Ill-fitting,Yes
+209,e195,Maalesef ürünüm gelmedi çok üzgünüm tamamen farklı bir ürün ile karşılaştım 😔,Incorrect,Yes
+210,e196,Ürün resmen kalem çiziği ile geldi özellikle beyan ürünlerde dikkat edilmesi gerekirken kontrol edilmeden gönderilmesi saçmalık,Faulty,Yes
+211,e197,L beden istedim s gelmiş,Ill-fitting,Yes
+212,e198,"İlk Xs bedenini aldım boyu çok kısa geldiği için S bedenini de sipariş verdim. Elime ulaşan S beden etekle Xs’ nin arasında hiçbir fark yok. Açıklamada Xs ve S beden arasında belden 3 cm boydan 4 cm fark olduğu yazıyordu. Zaten fiyatı uygun bir etek değil ve insanları böyle mağdur edemezsiniz. Elinizde S beden etek yoksa stoğu bitmiş olarak gösterin. Aynı beden ürüne birine S birine Xs yazarak insanları mağdur etmeyin lütfen. Ben 165 50 kiloyum etek, şort boyundan bile kısa. Almak istiyorsanız buna dikkat edin. Etek hem iç gösteriyor hem çok kısa hem de kalitesiz. Hiç beğenmedim.",Ill-fitting,No
+213,e199,Bana tükenmez kalem lekesiyle geldi indirimde aldım diye mi anlamadım ama iade etmedim çünkü çok zamlandı,Faulty,Yes
+214,e200,Pek beğenmedim kumaşı kalitesiz ,Disappointing,No
+215,e200,zaten siyahıyla arasında boy farkı var,Ill-fitting,Yes
+216,e201,eteğin m bedenini sipariş verdim gelen ürüne bak eteğe benzer hali yok,Incorrect,Yes
+217,e202,böyle bir rezillik görmedim bayramdan önce sipariş ettim bayram biteli iki hafta olucak 13 gündür yok siparisim geldi o da sorunlu dikisleri sökük ve yamuk dikim etegin katlari üst üste gelmis kardeismde var onunkinden bu ürün daha kısa özensiz iade,Faulty,Yes
+218,e203,Yırtıklı geldi sökülmüş ama iade etmiyorum uğraşamam biraz özen lütfen,Faulty,Yes
+219,e204,etek güzel ama bu fiyata değmez,Disappointing,No
+220,e205,Siyah istedim beyaz ürün gönderdiniz,Discolored,Yes
+221,e206,Yani aslında güzel. Ama kadıköyden aldığım 200tl lik eteğin aynısı. Bu fiyattan tabii ki tok bir kumaş güzel bir bel performansı bekliyordum. Herhangi bi yerde üçte biri fiyatına bulabileceğiniz bir ürün. İade ediyorum,Disappointing,No
+222,e207,Ürün yanlış geldi,Incorrect,Yes
+223,e208,Ürünüm yanlış geldi etek yerine bluz gönderilmiş imdat imdat biri bana ne yapacağımı iletsin muhattap bulamıyorum imdat imdat imdat fatura etek kesilmiş imdat yardım edin,Incorrect,Yes
+224,e209,Aynı eteğin farklı iki renginin aynı bedenini aldım. siyahon açıklamada yazan ölçülerde alakası yok. Satıcıdan değişim rica ettim cevap bile gelmedi. Model olarak da kat kat olduğu için kabarık ve şişman gösteriyor,Ill-fitting,Yes
+225,e210,s istemistim l gondermissiniz iade talebi olusturdum,Ill-fitting,Yes
+226,e211,Ürün kesinlikle çok kalitesiz tüylenmeler mevcut satıcı kesinlikle ürünün arkasında durmuyor değişim olmasını talep ettim red edildi hiç memnun kalmadım,Inferior,Yes
+227,e212,defolu kumaşlı ürün gönderdiler bide üründe kusur yok söylüyorlar,Faulty,Yes
+228,e213,Defolu geldi,Faulty,Yes
+229,e214,Daha giyeli 2 saat olmadı kumaşın haline bakın. 299 lira çöp oldu. Hayatımda bu kadar kalitesiz bi kumaş görmedim.,Inferior,Yes
+230,e215,Ürünü büyük umutlarla beğenerek aldım yazlık kurtarıcı bir parça gibi duruyordu ama hem kumaşı hem modeli görseldekinden çok farklı geldiği için iade ettim.,Disappointing,No
+231,e216,Allah bildiği gibi yapsın sizi yırtık geldi,Faulty,Yes
+232,e217,Çok basit ve iç gösteriyor. Eteğin 2 yandan kulak gibi çıkıntıları daha da geniş gösteriyor baseni olmayanlar için iyi ama yine de görüntüsü kötü.,Inferior,Yes
+233,e218,yani bu kadar insan almış bu kadar insan yorum foto filan atmış ve çok beğenilmiş de insanlar gerçekten kör mü bu salt naylon böyle naylonluğu var ya demiyorum bu SADECE NAYLON KUMAŞ öyle böyle yakmaz cayır cayır eder naylondan da kıyafet dikilmez yazık ya gönderdikleri şey giyinilir mi,Inferior,No
+234,e219,"Ürünü iade ettim alığımda bir çok hatası vardı 
+",Faulty,Yes
+235,e219,ve aşırı kalitesiz modelinde basenliyseniz güzel durmayabilir,Disappointing,No
+236,e220,"yırtık gönderildi, maalesef iade👎🏻 kumaşından pek bi kalite beklemeyin bu arada",Faulty,Yes
+237,e221,"%100 Viskon değil, Polyester. Aynı ürünü satan başka mağazalar var, karşılaştırın.",Inferior,No
+238,e222,2 yıl önce de aynısını aldım eskiyince yenisini alayım dedim. Sandım ki aynı üründür görseli bile değişmedi. Ama bir ürün bu kadar kaliteden ödün verebilir. Masa örtüsüyle değiştirmişler eteği resmen.,Disappointing,No
+239,e222,Ayrıca kesimi de bozuk kuşağı dikişli değil pes doğrusu.,Faulty,Yes
+240,e223,"Bu etek değil, kumaş sadece! Aşırı kalitesiz demek bile yetmiyor",Inferior,No
+241,e224,Yanlış ürün göndermişsiniz iade,Incorrect,Yes
+242,e225,Ürünün duruşu bedene oturuşu güzel ancak defolu geldi,Faulty,Yes
+243,e226,"Çok güzel etek duruşu vs. iyi ama defolu ürün geldi, iade.",Faulty,Yes
+244,e227,uzun zamandır favorilerimde duran bir üründü. geçenlerde kardeşim almış canlı görünce bayıldım sipariş ettim. ama bana tamamen farklı bir kumaştan geldi. Bu yüzden belindeki ipi vs çok kötü duruyor. maalesef iade edicem hevesim kursağımda kaldı.,Disappointing,No
+245,e228,kalitesiz bir kumaş olmasının yanı sıra dikimi tamamlanmamis ya da yırtık gönderildi. kuşağı parça parça elimde kaldı. marketteyken başıma geldi. resmen rezillikti. Diktirebilirdim ama bir yıkamada elimde kalmasindan çekindiğim için iade gönderiyorum.,Faulty,Partially
+246,e229,M beden aldım XL beden gönderildi.,Ill-fitting,Yes
+247,e229,Boyum 1.64 boyu fazla kısa oldu,Ill-fitting,No
+248,e230,Başka bir model geldi,Incorrect,Yes
+249,e231,"Beyaz renk istediğim etek siyah geldi nasıl böyle bir yanlışlık ola bilir, yanlış renk gelmesi beni zor durumda bıraktı acil lazımdı hatalarını hiç bir şekilde telafi etmediler yanlış gelen ürünün tedarik edilmesi lazımdı onu yapmadılar",Discolored,Yes
+250,e231,ayrıca bel kısmı lastikli yorumlarda 49 kg ye s beden ola bileceğini söylemişsiniz ama dar oldu m anca olurdu ,Ill-fitting,No
+251,e232,Aşırı kötü aşırı kısa bune,Ill-fitting,No
+252,e233,Ürün asla görseldeki gibi değil. ,Disappointing,No
+253,e233,Beli lastikli boyu çok kısa. Büyük beden almama rağmen dar oldu. İade👎🏻,Ill-fitting,No
+254,e234,Rengi çok çiğ beyazı iade,Discolored,No
+255,e235,Ben l beden ıstedım sız xs. Gndermısınız iade talabimi olusturayım mıne yapmam gerekıyor,Ill-fitting,Yes
+256,e236,Siyah geldi ya,Discolored,Yes
+257,e237,çok kötü. sırf uğraşmamak için iade etmedim ben uyguna almıştım. bildiğiniz penye kumaş,Inferior,No
+258,e238,xs soylemistim l gelmis şaka misiniz ya yorumum da siliniyo tekrar atiyorum,Ill-fitting,Yes
+259,e239,Bel kısmında böyle bir ip çekilmesi olmuş arkadan da büzgülü gibi duruyor,Faulty,No
+260,e240,L istedim m yollamışlar,Ill-fitting,Yes
+261,e241,O kadar ince ki kesinlikle tavsiye etmem,Inferior,No
+262,e242,Beklenildiği gibi değil iade 👎🏻,Disappointing,No
+263,e243,Beden yanlış geldi Xs istemiştim L göndermişsiniz bu sorunun çözülmesini istiyorum,Ill-fitting,Yes
+264,e244,"kullanılmış, hatta likeli ürün, uyduruk penye zaten ürünude begenmedim ama bu leke hiç hoş değil, midem bulandı aynen çöp..",Refurbished,Yes
+265,e245,inanılmaz kalitesiz bir kumaş hic begenmedim,Disappointing,No
+266,e246,Almayın farklı farklı ürünler geliyor,Incorrect,No
+267,e247,XS kalıbı büyük beğenmedim,Ill-fitting,No
+268,e248,Eteğin uçları arasında boy farkı var iade maalesef,Faulty,Yes
+269,e249,"0 verebilsem 0 verirdim bu nasıl bir rezillik hediye diye aldığım ürün rezil oldum saten etek diye aldığım ürün katlı bildiğin ispanyol eteği olarak geldi, dalga mı geçiyorsunuz?",Incorrect,Yes
+270,e250,"etek yerine pantolon gönderilmiş, sipariş bekliyoruz olana bak",Incorrect,Yes
+271,e251,ürün defolu geldi iade,Faulty,Yes
+272,e252,istediğim etek buydu fakat bana bambaşka bir etek yollandı Lütfen yaptığınız hatayı düzeltin çok mutsuzum.,Incorrect,Yes
+273,e253,merhaba yanlış ürün göndermişsiniz,Incorrect,Yes
+274,e254,Fermuarı sorunlu tam açılmıyor takılıyor bozuk geldi.Hemen iade etmek istedim.24 saat dolmak üzere satıcıdan dönüş yok yenisini sipariş vermekten vazgeçmek uzereyim,Faulty,No
+275,e255,Farklı ürün gönderildi,Incorrect,Yes
+276,e256,Ürün defolu geldi iade😐,Faulty,Yes
+277,e257,Eteğim yıkanınca çekmiş önce yeşili almıştım cok memnundum. anlayamadım giyeyim dedim neredeyse dizimin altına gelmiş yıkanınca 😕 böyle olmamalıydı ya,Inferior,Yes
+278,e258,Large (40) istememe rağmen Medium (38) göndermişler şimdi kargoya ile uğraş dur,Ill-fitting,Yes
+279,e259,"Çok çabuk tüylenme yaptı,",Inferior,Yes
+280,e260,Yanlış beden gönderilmiş iade,Ill-fitting,Yes
+281,e261,Dikişi bu şekildeydi iade,Faulty,Yes
+282,e262,Dikişleri o kadar kötü ki çok kalitesiz duruyor. Ayrıca yırtmaç çevresinde dikiş yok.,Faulty,Partially
+283,e263,Kumaşı çok ince. İade ettim,Inferior,Yes
+284,e264,Ne irenç bir ürün gönderdiğiniz benim sipariş ettiğim ürünle alakası bile yok düz elbise göndermişsiniz,Incorrect,Yes
+285,e265,Askısı yanlıs dıkılmıs mantıklımı boyle yamuk olacak şey mı,Faulty,Partially
+286,e266,M beden almıştım. Üst L alt S beden geldi. Ne biçim iş anlamadım. Kumaşı güzel alınır fiyatına göre iç gösteriyor güneş ışıgında.,Ill-fitting,Partially
+287,e267,"inanılmaz ince ve inanilmaz kalitesiz, etek altı astar gibi..bi şekilde giyer miyim dedim ama yok iade",Inferior,No
+288,e268,Yırtık da değil makasla kesilmiş. İade ne yazık ki,Faulty,Yes
+289,e269,Kumaşı gayet güzel fakat etek ucu ne yazık ki yamuk kesilip dikilmiş. Fotoğraflarda göründüğü gibi,Faulty,Partially
+290,e270,Yanlış ürün yollandı siyah yerine bordo geldi,Incorrect,Yes
+291,e271,Dikiş hataları var muntazam durmuyor,Faulty,No
+292,e272,Etek yırtılmış bir şekilde geldi.,Faulty,Yes
+293,e273,Kalıpları çok küçük. Xl almama rağmen s beden kardeşime oldu,Ill-fitting,No
+294,e274,"SİYAH sipariş verdiğim NASIL OLDUYSA kahverengi geldi. Elinde madem siyah yok. Alıcıyla iletişime geçin, Göndermeyin ürünü. Kahverengi isteseydim kahverengi seçerdim",Discolored,Yes
+295,e275,istediğim ürün gelmedi yerine s beden balıkçı yaka uzun yırtmaçlı triko elbise geldi trentyol da ilk defa böyle bir hata ile karşılaşıyorum çok yazık.,Incorrect,Yes
+296,e276,Etek diye sipariş verdim şort geldi. Resimde etek gösteriyorsunuz ama şort gondermişsiniz,Incorrect,Yes
+297,e277,Paketi m beden ama etegin etiketinde L beden zaten m beden olmadigi etegin buyuklugundende belli ,Ill-fitting,Yes
+298,e277,kumasida cok kotu almayin,Disappointing,No
+299,e278,ikisi astar gibi parlak ve ince geldi. 1 tanesi etek gibi giyebilecek kalınlıkta,Inferior,No
+300,e279,Bu nedir? Ben siyah dar mini etek istemiştim ve acildi.,Incorrect,Yes
+301,e280,bu kadar saçma bir kumaş görmedim iki katlı iken bile öbür tarafı görebiliyorsunuz giymeyi denemedim bile ki bu siyah rengi tabi ki iade,Inferior,Yes
+302,e281,Elime şort geldi bu ne sorumsuzluk,Incorrect,Yes
+303,e282,xs istemedim s istedim ya bu ne küçücük,Ill-fitting,Yes
+304,e283,Etek görsel ile alakası yok 30 cm boyu yok bile eteğin işcilik yok,Disappointing,Partially
+305,e284,Kalem etek diyor gelen etek mini etek,Disappointing,Yes
+306,e285,Eteğin yan tarafı yırtıktı hiç beğenmedim ,Faulty,Yes
+307,e285,kumaşını da beğenmedim verdiğim paraya değeceğini düşünmüyorum,Disappointing,No
+308,e286,Yırtık fermuar kısmı sökük,Faulty,Partially
+309,e287,Kalite kontrol yapılmış ama nesine yapılmış anlamadım. Fermuarını 10 dakikada açtım ve kapatamadım. ,Faulty,No
+310,e287,Kumaş deseniz karton gibi yazın pantolon giysem daha az sıcaklarım. Böyle bir ürünü kontrol edip satmanız manidar olmuş,Disappointing,No
+311,e288,"Kumaşı vs iyi ama ütü hatası ve dikiş hatası var , ütüden dolayı iz kalmış , dikiş hatasından dolayı kötü duruyor önü diğer rengi de çok iyi",Faulty,Partially
+312,e289,Siyah rengini sipariş etmiştim ama farklı bir renk geldi. Siyah için o kadar bekledikten sonra hayal kırıklığı oldu.,Discolored,Yes
+313,e290,"Eteğin arka ortasındaki kemer yeri kopuk geldi, fark etmeden etiketini koparıp yıkamıştım, arkasında bir delik var şu an ve ürün kötü dedim diye trendyol yorumumu yayınlamıyor inanılmaz",Faulty,Yes
+314,e291,Çok kalın bi kumaş sevmedim,Disappointing,No
+315,e292,uzun alakasız bir etek gönderilmiş,Incorrect,Yes
+316,e293,S beden sipariş verdim l beden göndermişsin bu kadar özensizlik olamaz,Ill-fitting,Yes
+317,e294,beğenmedim güzel değil dikimide gozel degil,Disappointing,No
+318,e295,s beden sipariş vermiştim ama L beden geldi iade falanda etmiyorum hayal kırıklığı,Ill-fitting,Yes
+319,e296,ürün defolu geldi bu yüzden iade,Faulty,Yes
+320,e297,Asla almayın yanlış dikim hatalı ürün daha önce siyahından almıştım çok beğendim tekrar siyah ve lacivert aldım sanki bambaşka bir satıcıdan almışım gibi yırtmaçları tam ortada kalıpları farklı etiket farklı yamuk yumuk dikilmiş saçma sapan geldi ikiside,Faulty,Partially
+321,e298,İstediğim gibi gelmedi ve ürün hatalı tavsiye etmiyorum,Faulty,No
+322,e299,Kalıbı ve kumaşı inanılmaZ kötüü aşırı kalitesiz duruyor. Lastiği cok kalın ve inanılmaz kaba duruyor. Kaliteli diyenler neyin kafasını yaşıyor hiç kalite görmemişler galiba.,Disappointing,No
+323,e300,M beden siparişim xs geldi bu sebepten iade ve puan kırdım.kargo ve ürün Harika fakat 2 beden küçük göndermek nedir Allah aşkına elinizde yoksa 1 ben küçük veya 1 deden büyük yollarsınız anlarım ama 2 beden kafa bulmak gibiydi gerçekten.,Ill-fitting,Yes
+324,e301,Gönderdiğiniz ürün kullanılmış lekeli bu nasıl bir dikkatsizlik,Refurbished,Yes
+325,e302,ürün tütü etek olarak kabarık ve güzel ama böyle dikiş hatası olamaz ve her yerden ip fırlıyor. kızımın gösterisi için aldım yetişmeyecegi için değiştiremiyorum. yorumları güzel diye almıştım çok da olmazsa olmaz deil yani,Faulty,Partially
+326,e303,Ürün görsellerinde bulunan kurdele malasef bana gönderilen eteklerin hiçbirinde yok. Öğrencilerime 23 nisan için almıştım umarım bu hata telafi edilir.,Incomplete,Yes
+327,e304,Sökük ürün gönderilmiş Arkadaşım aldığı için beğenip sipariş vermiştim ama arkadaşımın ürününden çok farklı bambaşka kötü bir şey gönderilmiş,Faulty,Yes
+328,e305,Tülü çok sert ve dik duruyor hiç beğenmedim kalitesini. 23 nisana yenisi yetısmeyecegı ıcın iade edemıyorm.,Inferior,No
+329,e306,"Beden etiketi yok koparılmış, xl beden istedim,xs gibi bir etek geldi maalesef iade",Ill-fitting,No
+330,e307,L beden istememe rağmen xs geldi. Kargo ücreti ödedim. Şimdi tekrar sipariş verip tekrar kargo ücretimi ödeyeceğim. Birde kargoyla uğraşacağım. Ayrıca satıcıya yazdım ilgilenmedi bile// ikğnci siparişimide cerdim gelen eteğe bakın şaka gibi yaa dalgamı geçiyorsunuz,Ill-fitting,Yes
+331,e308,güzeldi ama bedeni dar kalıp büyük alın,Ill-fitting,No
+332,e308,ve benim ürünüm yırtık,Faulty,Yes
+333,e309,"boy 96 yazıyordu bana 84 cm geldi , kumaşı gayet güzel ama boy sıkıntısı var. Asla tavsiye etmiyorum",Ill-fitting,Yes
+334,e310,"Henüz 2 kere giydim , 2 kere de makinede düşük ısıda yıkadım . Hemen tülerdi",Inferior,Yes
+335,e311,Şaka mısınız ? Xxs istedim gelen bedene bak!,Ill-fitting,Yes
+336,e312,Bir hafta bu hale geldi sözün bittiği yer,Inferior,Yes
+337,e313,dikisleri çok güzel ama kargolama çok güzel ama kumaşı o kadar ince ve kötü ki ki ancak spor yaparken giyile bilir ve ilanilmaz iç gösteriyor,Inferior,Yes
+338,e314,M söyledim çok dar geldi o yüzden iade,Ill-fitting,No
+339,e315,ürün bana defolu geldi bunu bildiridim ve yenisini göndericez dediler bendeki nolucak dedim sizde kalsın dediler ama yenisi falan gelmedi ilk defa böyle bir şeyle karşılaşıyorum,Faulty,Yes
+340,e316,"Etek sipariş ettim. Dalgıç kıyafeti geldi. Sorunu bildirdim, geri dönüş alamadım. Sorunun giderilmesi için hiç bir yardım anlamadım, kötü",Incorrect,Yes
+341,e317,baska urun gonsdermisler nasil o parani yiye bileveksiniz anlamiyorum hakimi helal etmiyorum!,Incorrect,Yes
+342,e318,etek siparişim yerine alakasız bir mayo geldi iade yada eteğin bana gönderilmesini istiyorum,Incorrect,Yes
+343,e319,bir yildizi bile hak etmiyor yanlis urun gonderildi tamamen alakasi olmayan bir urun almayin aldirmayin,Incorrect,Yes
+344,e320,"Ürün satın aldıktan sonra 100 tl indirime girdi, yakın bir zamanda giyeceğimden iade etmedim. 2.giyişimde tiftiklendi, önermiyorum önerenler 1 kere mi giymiş anlamadım",Inferior,Yes
+345,e321,"Kullanılmış,etiketsiz,parfüm kokan hatta saç kılı olan ürün geldi.İade ettim.",Refurbished,Partially
+346,e322,eteğin fermuarı bozuk geldi eteğin fermuar kenarları da zedeli,Faulty,Yes
+347,e323,Dalgamı geçiyorsunu 50 beden söyledik 36 beden daracık etek geldi iade,Ill-fitting,No
+348,e324,Defolu ürün göndermişsiniz kumaş kalitesi kötü,Faulty,Yes
+349,e325,Eteğin boyu ve modeli çok güzel fakat bana gelen ürünün kemer kısmı yamuk olduğundan dolayı iade ediyorum,Faulty,No
+350,e326,Urun hasarli.,Faulty,Yes
+351,e327,Ben hayatımda böyle satıcı görmedim 2 kere sipariş verdim ikisinde de rengi solu geldi artk geri göndermeye yoruldum güneşte solmuş mu artk kullanılmış mı bilmiyorum ama ck kötü almayın,Discolored,No
+352,e328,Etekte leke var maalesef giydikten sonra farkettim. Çok da toz topluyor. Maalesef beğenmedim.,Faulty,Yes
+353,e329,ürünün ön kısmında defosu vardi lakin uğraşmak istemiyorum iadeyle terizyle defolu yeri halledicem.,Faulty,Partially
+354,e329,saticiya sormak istiyorum bir günde tüylenme olması çok garip değil mi,Inferior,Yes
+355,e330,dikiş kısmı yanlış dikilmiş. giyince çıkıntı gibi duruyor. lütfen kontrol edip yollayın. iade ile uğraşmak zorunda değilim!!!,Faulty,Yes
+356,e331,Lacivert isteseydim siyah almazdım,Discolored,Yes
+357,e332,Arka kısmının ön kısımdan uzun olması hiç hoşuma gitmedi. Sanki kuyruklu elbise giymiş gibi kötü duruyor. İade ediyorum,Disappointing,No
+358,e333,Çok kalitesiz ve çirkin görünüyor. Daha önce aynısının beyazını aldım bayılarak kullanıyordum ama bununla arasında dağlar kadar fark var .,Disappointing,No
+359,e334,resimdekiyle uzaktan yakından alakası yok. iade.,Disappointing,No
+360,e335,kusurlu geldi,Faulty,Yes
+361,e336,bedeni s giymeme rağmen bol oldu pliselerin arası çok geniş göründüğü gibi değil,Ill-fitting,No
+362,e337,Tam farklı bir örün gönderdiler,Incorrect,Yes
+363,e338,Siyah etek sipariş etmiştim ama bana düşen lacivert oldu. Maalesef iade ediyorum 😏,Discolored,Yes
+364,e339,hiç tavsiye etmem arkadaşlar astardan hallice hiç güzel değil sırf iade ile uğraşmamak için göndermiyorum,Inferior,No
+365,e340,Ürün elime yeni ulaştı hüsrana uğradım defolu geldi,Faulty,Yes
+366,e341,"Siz insanla dalga mı geçiyorsunuz. Sizden severek be çok beğenerek iki adet etek sipariş ettim evet birincisi olduğu gibi iyi geldi ama bu siyah hatalı yani arkada boydan boya dikiş yapılmış çok çirkin duruyordu öyle gönderilmiş. Nasıl olurda birde kontrol ederek gönderiyorsunuz sözde, yazıklar olsun. bende geri iade için gönderdim ve üzülerek aynı fiyatta bu eteği daha sipariş edemicem artı pazar günü artık bu adreste bulunamıcam diye üzüldüm.",Faulty,Yes
+367,e342,ürünü beğendik tam beden fakat etek ucuna gelen volan kısmında yırtık var iade.tekrar alacağız.bu tür durumlarda yerine yenisini alırken firma kargoda inisiyatif kullanmalı.,Faulty,No
+368,e343,"Görseldekiyle hiç alakası yok çok çirkin bi kalıp, iade ediyorum",Disappointing,Yes
+369,e344,tek yildiz bile cok. etek resmen tülden yapilmis bu etegi ancak sahilde bikini üstüne kullanabilirsiniz baskada kullanilmaz. direkt iade,Inferior,Yes
+370,e345,Ürün acayip derece ince yakinlastirarak çektim altına mutlaka bise giymeden çıkılmaz üstümde güzel durdu fakat hediye ederim iade ile uğrasamam,Inferior,Yes
+371,e346,Yalnış bir şey göndərilib,Incorrect,Yes
+372,e347,Ürünü XXS sipariş vermiştim satıcıya da XXS göndermesini rica etmiştim ama XS gönderilmiş iade kodu oluşturdum tekrar sipariş vereceğim ama bu sefer lütfen XXS gelsin,Ill-fitting,Yes
+373,e348,Dikiş hayattası var paketlerken bakılmalı çöp iyade için uğraşılmaz,Faulty,Yes
+374,e349,Kumaş dikim hataları var büzük duruyor,Faulty,Partially
+375,e350,ürün bugün elime ulaştı ama biryeri dikissiz böle nasıl gönderebilirsin anlamiyorum iade edicem,Faulty,Yes
+376,e351,Deri etek sipariş verdim penye etek geldi lütfen işinizi dikkate alarak yapın gayet kalitesiz bir ürün tam bir hayal kırıklığı lütfen hatanızı telafi edin bir tek hızlı kargo oldu acele kargo olacak diye ürün doğrumu ona baksaydınız çok ince bir penyesi var iç gösteriyor lütfen işinizi özenli yapın parasını deri etek parası verdim ayrıca,Incorrect,Yes
+377,e352,Sipariş verdiğim ürünle hiç alakası olmayan. İr ürün gönderildi,Incorrect,Yes
+378,e353,Ömrümde gördüğüm en dandik kötü kumaş budur net. Asla bu fiyatı hak edecek bir kalitede değil. Hemen kargoladılar kalıbıda çok güzel oldu boyu da tam ideal kısa değil güzel ama kumaşı fiyasko. Güneş ve ışık yansımasında iç gösterir gibi duruyor. Yorumlara güvenerek sipariş etmiştim ama yorumlara güvenmemem gerektiğini anladım. İade edip etmeme konusunda kararsızım acil böyle bir eteğe ihtiyacım olduğundan sipariş etmiştim.,Inferior,No
+379,e354,Allah aşkına oradaki gösterilen ürünle gelen aynı mı bel dikişine kumaşına kadar farklı. İade..,Disappointing,No
+380,e355,Bu kadar övülen eteğin bu olduğuna inanamadım. İncecik astarsız giyilmez üste yapışıyor astarla elektriklenme yapıyor tok durmuyor. Kaliteli denmiş bir de🤦,Inferior,No
+381,e356,"Aklı olan bu kalitesizlikte bir kumaşı ne cildine değdirir ne de para verip alır. Bir de markayız diye ortaya çıkmayın lütfen, marka dediğin kalite ile olur. Biraz insaf gerçekten.",Inferior,Yes
+382,e357,Sadece birkaç kez giydim ve geldiği durum bu almanızı önermiyorum,Inferior,Yes
+383,e358,Yorumlara güvenerek sipariş vermiştim ama ya yorumlar bot ya da yanlış ürün gönderildi. 1.65 cm 59 kg'um ve o kadar kısa oldu ki. Sanki çocuk eteği gibi durdu zaten paketinde de çocuk ibaresi var bu nasıl bir karışıklık anlamadım.. Her neyse iade ediyorum.,Ill-fitting,No
+384,e359,Açıkçası ürün beklediğim gibi değil scuba etek daha öncede aldım ve bunun kalitesini beğenmedim ,Disappointing,No
+385,e359,ayrıca beden olarak kendi bedenimden büyük almama rağmen acayip dar yapmışlar kısaca beğenmedim 👎,Ill-fitting,No
+386,e360,Ürün dikiş hatalı geldi,Faulty,Yes
+387,e361,Eteğim yok ortada elbise göndermişsiniz,Incorrect,Yes
+388,e362,Şaka yapıyorsunuz herhalde gönderilen etekle fotoğraftaki eteğin alakası yok,Incorrect,Yes
+389,e363,Çok kötü geldi yırtmacı sadece makasla kesilmiş bırakılmış ,Faulty,No
+390,e363,çok fazla iç gösteriyor kalitesi sıfır,Inferior,Yes
+391,e364,dum duz kalem etegi makasla yirtmac verip 280 liraya satiyolar durusu kumasi iyi yalniz bu parayi hak eden bi etek degil. ETEKTE OVERLOK YOK,Faulty,Partially
+392,e365,çok hızlı geldi ama yamuk kesilmiş ve dikişi patlak dalgıç kumaş sadece ucu sökülmüş dikerim ve keserim ama keşke bu şekilde olmasaydı uğraşmamak için iade etmiycem,Faulty,Yes
+393,e366,Basit kumaş bu nedir ya,Inferior,No
+394,e367,İade edeceğim yamuk geldi ve biçimsiz,Faulty,Yes
+395,e368,Etek çok ince bir kumaşa sayip kesinlikle yazlık. Saten yumuşaklığı yok yoklukta gider:),Inferior,No
+396,e369,Fiyatına göre kalitesi kötü,Disappointing,No
+397,e370,"S beden istedim L beden geldi. Kumaşı, modeli güzel aslında ama üstümden dökülüyor. Böyle ürünler standart beden olarak yapılıyorsa en küçük bedene de olacak şekilde yapılmalı, beli lastikli zaten esner.",Ill-fitting,Yes
+398,e371,Cebin iç kısmında ufak bir yırtık var!,Faulty,Yes
+399,e372,ürün güzeldi çok beğendim fakat dikiş hataları var ayrıca sökükte olması beni üzdü daha dikkatli paketlenmeliydi iade edip tekrar sipariş vermeyi düşünüyorum ..,Faulty,Yes
+400,e373,arkadaşlar kumaş mükemmel çok kaliteli diyorsunuzda ürün naylon yağmurluk kumaşında polyester tafetta astar kumaş gibi,Disappointing,No
+401,e374,eteğin kalitesini pek sevemedim fazla tüylenme yapıyor ,Inferior,Yes
+402,e374,geldiğinde pis kokuyordu,Refurbished,No
+403,e375,Çok geç geldi satıcı ilgisizdi üstüne ürün tek cepli geldi.. ,Faulty,No
+404,e375,kalitesi kötü iade,Disappointing,No
+405,e376,"ürün sökük geldi insan bir kontrol eder, nasıl iş yapıyorsunuz!!",Faulty,Yes
+406,e377,"Direk iade, ben iadeyle uğraşmayı sevmem, ama bu açık şekilde müşteriye saygısızlık. yırtık etek göndermek ne demek. ",Faulty,No
+407,e377,bir de aşırı geniş.,Ill-fitting,No
+408,e378,Siyah istedim yeşil geldi. Yeşili de almak istiyordum ama siyah onceligimdi. krem rengi eteğe göre bedeni daha iyi oldu kumaşı ona göre daha hafif bana uzun geldi ikiside. Boyum 1..49 _75 kiloym. uzun boylulara güzel olur 🐣 5 puanlık etek ama rengi istedim.gelememis.,Discolored,Yes
+409,e379,aşırı terletecek bir kumaş %100 polyester arkadaşlar,Inferior,No
+410,e379,yan dikişleri aşırı kötü yapılmış,Faulty,Yes
+411,e380,Beyaz alıyorum sarı gibi saçma bir renk gönderiliyor. Beyaz eteklerimin altında sarı sarı belli oluyor.,Discolored,Yes
+412,e380,Ve kumaşı çok kalitesiz,Disappointing,No
+413,e381,İlk yıkamamda kendiliğinden sökülmeye başladı 👎,Inferior,Yes
+414,e382,Ürün çok kötü dikisileri hiç iyi degil,Faulty,Partially
+415,e383,kusurulu gönderildi,Faulty,No
+416,e384,ürün lekeli bir şekilde geldi ,Faulty,Yes
+417,e384,üstelik iç gösteriyor,Inferior,No
+418,e385,2. Giyişim ve kumaşında bozulmalar var. Paranıza yazık almayın,Inferior,Partially
+419,e386,Ürün defolu geldi lekeliydi resmen. iade yaptım mecburen. yeri çok guzel ama iade etmek zorunda kaldım görülecek yerdeydi. yikandiginda gecmeyebilirdi,Faulty,Yes
+420,e387,Üründe lekeler var kusurlu ürün gönderildi beyram icin alınmıstı sımdı bir sıparıs daha verılse yetısmez hıc bır anlamı kalmadı,Faulty,Yes
+421,e388,bana gönderilen siyah etekti keşke biraz daha dikkat edilse iade,Discolored,Yes
+422,e389,etek sipariş veriyorum saçma sapan ceket gönderiyorsunuz bu nasıl bir dikkatsizlik,Incorrect,Yes
+423,e390,Ürün maalesef yamuk kesim. Yanları ortaya göre kısa. Tesettür için alacaklar iyi düşünmeli.,Faulty,Yes
+424,e390,Boyu da kısa. Üzülerek iade..,Ill-fitting,No
+425,e391,Hem defolu hemde kirli iade istiyorum,Faulty,Partially
+426,e392,fermuarlı yeri çok belli iade,Faulty,Yes
+427,e393,Güzel ama lekeli geldi üzüldüm,Faulty,Yes
+428,e394,Biraz iç belli ediyor basen kısmı. ,Inferior,No
+429,e394,İçerik üreticilerinin önerdiği kadar beğenmedim.,Disappointing,No
+430,e395,Ürün güzel fakat lekeli ve kumaşı kırık geldi ütü ile düzeleceğini düşünmüyorum kumaşın kendisi defolu o kadar para ödüyoruz bu mu yani pes,Faulty,Yes
+431,e396,Resimdekiyle alakası yok resimde yanı büzgülü bana gelen düz bir etek hiç dikkat edilmemiş,Disappointing,No
+432,e397,Tavsiye etmem çok kisa ben aldım siz almayın sisler parasını hak etmiyor,Ill-fitting,No
+433,e398,L istiyorum neden M-L ?,Ill-fitting,Yes
+434,e399,hayatımda daha kötü çok az etek gördüm 5 yıldız verenlere inanarak aldım arkadaşlar kumaşı aşırı kalitesiz görünce hayal kırıklığına uğradım iç gösteren bir kumaşı var hadi onu da geçtim bildiğiniz tayt kumaşı gibi parlak kumaş aşırı basit görünüyor,Inferior,No
+435,e400,Siz şaka mı yapıyosunuz görseldekiyle tek alakası siyah olması. Yanı büzgülü falan değil dümdüz siyah etek yırtmacı da asla o kadar derin değil sakın almayın paranız boşa gider.,Disappointing,Yes
+436,e401,Eteği çok beğenerek aldım ama dikişi açılmıştı onu hallederdim ama boydan bi kısmının uzun olması normal mı anlamadım çok üzülerek iade edeceğim,Faulty,Yes
+437,e402,Etek istemiştim bluz geldi böyle özensizlik olamaz,Incorrect,Yes
+438,e403,Sipariş verdiğim eteğin önü kısa arkası uzun geldi.Kusurlu ürün gönderildi malesef iade etmek zorunda kaldım.,Faulty,Yes
+439,e404,Lastiği tam dikilmemiş düzgün durmuyor beğenmedim,Faulty,No
+440,e405,Ne kumaşın ne modelin görselle ilgisi yok ,Disappointing,No
+441,e405,lekeli ürün gönderilmiş.dikişleri yamuk ayrıca,Faulty,Yes
+442,e406,Aşırı kötü kokuyor ve bel kısmındaki lastik çok özensiz. Üç noktadan tutturulmuş tam bir tur dikilmemiş bile.,Faulty,No
+443,e407,çok köyü hıc görüntüde olduğu gibi değil❌beğenmedim,Disappointing,No
+444,e407,naylon gibi hoş değil ,Inferior,Yes
+445,e408,Kalıbı güzel ama polyester ürün,Inferior,No
+446,e409,Hiç esnek değil . Kalitesini beğenmedim . Keşke beli biraz esneyen kumaştan olsaydı .,Disappointing,No
+447,e410,Geldi yıkadım bel kısmının tülleri hep böyle tiftik tiftik attı yıkadığım için iadede edemiyorum çöp oldu ürün almayın öyle aman aman bir model de değil,Inferior,Yes
+448,e411,2 yerinden yırtık ve lekeli geldi hemen iade edeceğim ,Faulty,Yes
+449,e411,astarıda tül gibi bu kadar iç göstereceğini düşünmemiştim,Inferior,No
+450,e412,Böyle saygısızlık olmaz.Etegi giyeceğim zaman ütülerken fark ettim her yeri yırtık defolu ürün göndermek nedir.,Faulty,Yes
+451,e413,Aşırı kötü ve yırtıkları var özensiz bir gönderim dikkatsiz özensiz hazırlama hiç begenmedim,Faulty,Yes
+452,e414,böyle pis bişey hayatımda görmedim resmen giyilmiş kullanılmış ürünü göndermişsiniz eteğin iç astarında kan lekesi var etikete beden markaya ait hiç bişey yok çünkü bu ürün iadeden gelmiş bariz belli astar gibi bişey hiç beğenmedim tavsiye de etmem (tatlı yorumda hak edene yapılır),Refurbished,Yes
+453,e415,Kalite ve fiyat olarak çok güzel. Fakat ürünün alt kesiminde hata vardı. Üzülerek iade :(,Faulty,No
+454,e416,96 cm boyunda dediniz dalga mı geçiyorsunuz 90 cm etek göndermişsiniz mankenleri başka yerden alıyorsunuz herhalde uzun görünüyor mankende iade,Ill-fitting,Yes
+455,e417,etekte leke var ama güzel.,Faulty,Yes
+456,e418,Ürün geldi beğendim ama maalesef kumaşın böyle ütü izlerine benzermizler vardı üzülerek iade edicem 🥺,Faulty,Yes
+457,e419,etek kısacık geldi anlatıldığı gibi asla deil,Ill-fitting,No
+458,e420,Yani kumaş alsam ben bile dikerim hayatımda böyle saçma bi etek görmedim dalga geçer gibi dikişleri falan memnun kalanlara şaşkınım gerçekten olur mu olmaz mı diye denemicem bile perde giysem daha iyi bu ne ya,Faulty,Yes
+459,e421,Beli lastiği büzüş büzüş . Birde dibi güzel değil özensiz dikilmiş . ,Faulty,Yes
+460,e421,Kumaşı kalın ince değil o yüzden iade 2 yıldz,Inferior,No
+461,e422,merhaba iyi günler maalesef ben etek sipariş ettim elbise geldi nasıl böyle karışıklık oluyor anlamıyorum lütfen yardımcı olur musunuz,Incorrect,Yes
+462,e423,görselle yorumların gelen ürünle alakası yok ,Disappointing,No
+463,e423,bildiğiniz muşamba gibi,Inferior,No
+464,e424,Ürün yeni geldi yırtmaç ve fermuar kısmında deforme var iade edicem. Yapısı yumuşak ve hoş bir görünümü var. Hediye için teşekkür ederim,Faulty,Partially
+465,e425,Denemek amaçlı üstüme giydiğim ilk dakika da yırtmaç gitti. Dikişleri bile çok kötü,Faulty,Yes
+466,e426,aşırı dar kalıp 63 kilo beli kapanmadi,Ill-fitting,No
+467,e426,kumasida çok ince iadee,Inferior,No
+468,e427,etegin boyu kısa diyenler olmuştu yorumda aksine etek çok uzun geldi terzide kestiricem beli gayet iyi sıkı lastikli,Ill-fitting,No
+469,e428,s beden istedim L gondermissiniz dalga mı geçiyorsunuz benimle,Ill-fitting,Yes
+470,e429,egenmedim iki tarafı birleştirince biri uzun gelmiş yine de kesmemişler hiçmi görmediniz dikerken çok kalitesiz,Faulty,Yes
+471,e430,Çok kötü bir kumaş,Disappointing,No
+472,e431,Bu ne ya yırtık pırtık bi etek geldi hiç beğenmedim,Faulty,Yes
+473,e432,asırı kötü ve defolu gönderdiler kocam yirtık vardı gönderirken görmemisler sanki o kadar para veriyoruz duzgün gönderin artik su ürünleri,Faulty,Yes
+474,e433,Aşırı iç gösteriyor.,Inferior,No
+475,e434,Alt kısmı aşırı sünmüş deliklerle dolu saçma sapan bi ürün,Faulty,Yes
+476,e435,güzel ama kumaşı kaliteli değil maalesef geri iade,Disappointing,No
+477,e436,Ürün kusurlu geldi kesimde ve dikişlerde bariz hatalar var . ,Faulty,Yes
+478,e436,Oda yetmez gibi incecik iç gösteriyor yani anlamıyorum yüz lira etmez hatta 15 liraya astar diye alırsınız böyle bir kumaş bile diyemeyecgim durumda Vasatın altı anlam veremediğim bir alış-veriş oldu ve iade.,Inferior,No
+479,e437,Defolu ürün göndermişler,Faulty,Yes
+480,e438,hiç beğenmedim,Disappointing,No
+481,e439,Bir kere giydim de pek beğenmedim ya ,Disappointing,No
+482,e439,çok buruşuk kumaşından dolayı ütülemesi de zor oluyor,Inferior,Yes
+483,e440,Perde gibi çok iç gösteriyor,Inferior,No
+484,e441,Dikişleri kötü ve lekeli gelmişti çok hevesle almıştım,Faulty,Yes
+485,e442,rengi koyu geldi,Discolored,Yes
+486,e443,Rengi biraz sarımtrak ,Discolored,Yes
+487,e443,kaliesi de kötü ama 200 tl ye anca bu kadar oluyor.,Disappointing,No
+488,e444,Beklentimin altında geldi maalesef pek beğenmedim,Disappointing,No
+489,e445,Etek sipariş ettim korse geldi,Incorrect,Yes
+490,e446,Ürün defolu geldi lütfen ürünleri gönderirken dikkatli olunnn,Faulty,Yes
+491,e447,Dalga gecer gibi 36 istedigim bedeni 2xl gondermisler,Ill-fitting,Yes
+492,e448,Siyah istedim taba rengi geldi. ,Discolored,Yes
+493,e448,S beden istedim xs geldi iade ve bu iadenin ücreti bana ait olmayacak sizin iş bilmezliğiniz,Ill-fitting,Yes
+494,e449,Etek uçları rastgele kesilmiş Yarısı kısa yarısı uzundu. İade ettim.,Faulty,Yes
+495,e450,siyah rengiyle kahve rengini sipariş verdim ama 2 side kahverengi olarak gönderilmiş,Discolored,Yes
+496,e451,ürün çok Güzel fakat sökuk geldi terziye gitcek yani,Faulty,Yes
+497,e452,istediğim ürünle alakası yok bune biçim sorumsuzluktur ya Trendyol benim için tamamıyla hayal kırıklığı oldu,Incorrect,Yes
+498,e453,çok pis kokuyor ve defolu geldi,Faulty,Yes
+499,e454,eteğin kumaşı iyi ama kaç beden olduğu yazmıyor bel iki karış anca dar kaç beden olduğunu görseydim direkt yazacaktım ama bu 48 beden değil asla 3 XL böyle olmaz,Ill-fitting,No
+500,e455,Ben siyah seçtim yanlış ürün gönderilmiş iade edeceğim,Incorrect,Yes
+501,e456,yarısı siyah yarısı lacivert geldi. anneme anneler günü hediyesi almıştım iade ve değişim için zaman kalmadı. kumaşı güzel ama keşke her yeri simsiyah olsaydı. muhtemelen üretim hatası,Faulty,Yes
+502,e457,Eteği Ocak ayında aldım. Çok dışarı çıkan biri değilim eteği aldığımdan beri 3 veya 4 kere giydim. ilk giydigimde güzel gibi dursada ikinci giymede tiftiklendi. bir iki defa daha giysem etek üstümde yırtılacak. ilk giydigimde kimsenin hakkına girmemek için iade etmedim ama almak isteyen olursa bunlara dikkat ederek alsın.,Inferior,Yes
+503,e458,bana etek yerine tayt göndermissinz,Incorrect,Yes
+504,e459,Ürün beden olarak tam oldu ancak hatali geldi hep üzülmüş bir şekilde hatalı geldi,Faulty,Yes
+505,e460,ürün harika yalnız defolu geldi iade edip 2 tane almayı düşünüyorum şans vereceğim bu ürüne şans verilir bu fiyata umarım defosuz iki tane bu güzel üründen gönderirler ondan sonra yorumumu güncelleyeceğim,Faulty,Yes
+506,e461,Bedeni çok küçük. L beden istedim ama S beden gibi. ,Ill-fitting,No
+507,e461,Ayrıca kumaşı çok ince şifon gibi. Günlük kullanım için almıştım ama maalesef iade edeceğim.,Inferior,Yes
+508,e462,bu nasil etek ya.görselle hiç alakası yok.yazık yazık.,Disappointing,No
+509,e462,bildigin yamuk dikişi,Faulty,Yes
+510,e463,Ürün yırtık gönderildi,Faulty,Yes
+511,e464,Ürün yırtık geldi.fiyat performansına göre idare eder,Faulty,Yes
+512,e465,"Ürün yırtık ve defolu geldi, hiç beklediğim gibi değil",Faulty,Partially
+513,e466,"Ürün güzeldi kaliteli fakat rengi çok açık, koyu taba değil o yuzden iade ettim",Discolored,No
+514,e467,Etek sipariş ettim fakat pantolon gönderildi.,Incorrect,Yes
+515,e468,dalgamı geciyorsun ya insanla siz L beden alıyorum xs gonderiyorsunuz bu ne dikkatsizlik insanı iadeyle ugrastiriyorsunuz işim gücüm bırakıp bide kargoya gidicem iade için evime yakinda değil birdaha asla sizden alışveriş yapmam tavsiye etmiyorum 😡,Ill-fitting,Yes
+516,e469,s sipariş ettim L geldi,Ill-fitting,No
+517,e470,XS beden sipariş verdim M beden gönderilmiş,Ill-fitting,Yes
+518,e471,kırışık bir ürün gönderildi iade ettik,Faulty,Yes
+519,e472,"Defolu geldi, hiç mi dikkat etmiyorsunuz, değişim için gönderdim bakalım napacaklar ona göre yorum güncellemesi yapacağım",Faulty,Yes
+520,e473,Fotodaki gibi değil beli bi garip bir fermuar kullanılsaymış keşke poşet gibi duruyo,Disappointing,Partially
+521,e474,"XL sipariş vermeme rağmen etek boyu 1,5 karıştan daha kısa şaka gibi tenis eteği resmen",Ill-fitting,Yes
+522,e475,Etek kısmı aşırı kötü bu nasıl bir kesim makasla kesipmi gönderdiniz anlayamadım aşırı kötü geldi ve kargo çok yavaştı,Faulty,Yes
+523,e476,Kumaşı çok güzel çok rahat ama defolu geldi. Yenisini sipariş verdim umarım o sorunsuz gelir,Faulty,Yes
+524,e477,Dikişleri çok kötü etek önden 84 cm arkadan 80cm o kadar kötü yani her tarafı yamuk,Faulty,Yes
+525,e477,kumaşı naylon poşet gibi,Inferior,Partially
+526,e478,Etek göründüğü gibi ama keşke bir beden küçük alsaymışım ,Ill-fitting,No
+527,e478,ve lekeli geldi,Faulty,Yes
+528,e479,Fermuarlı sıkışmış ürün göndermişsiniz gönderilmeden keşke bi kontrol edilse,Faulty,No
+529,e480,40 dedim 42 beden gelmiş ya iade etsem geç gelir ne olacak şimdi bir de terzi parası çıktı 🤨,Ill-fitting,Yes
+530,e481,Yollamadan insan kontrol eder dikiş hatalı iade,Faulty,Yes
+531,e482,Defolu ürün gönderildi. İade.,Faulty,Yes
+532,e483,Daha önce de almıştım ama bu sefer fotoğraftaki renk gelmedi. Daha farklı bir yeşili geldi. Beğenmedim,Discolored,Yes
+533,e484,ya ben haki yeşili istedim bana kına yeşili gelmiş şaka mı görselde ki renkle bu bana gelen sizce aynı mı,Discolored,Yes
+534,e485,Yeşil rengini sipariş vermeme rağmen siyah geldi,Discolored,Yes
+535,e486,Bakıldığı zaman bunun eteğe benzer bi yanı olduğunu görmüyorum. İADE,Incorrect,Yes
+536,e487,Ürün yırtık geldi,Faulty,Yes
+537,e488,Korkunç derece de kalitesiz olup ,Disappointing,No
+538,e488,lekeli ve defolu geldi dikişleri sökülmüş bii çok yerinin hiç önermiyorum,Faulty,Partially
+539,e489,İkidir sipariş veriyorum defolu gönderiyorsunuz ütü lekesi mi olmuş sarı bir leke var bir de ön tarafın pilileri yanlış tarafta olmuş ondan iade yenisi söyleyeceğim yine,Faulty,Yes
+540,e490,kesinlikle almayın çok kötü geldi yırtık bir şekilde geldi,Faulty,Yes
+541,e491,ürün defolu geldi,Faulty,Yes
+542,e492,"görselle alakası yok kesimler yamuk olmuş, maalesef iade edeceğim",Faulty,Yes
+543,e493,lekeli ürün göndermişsiniz,Faulty,Yes
+544,e493, zaten küçük de geldi iade,Ill-fitting,No
+545,e494,Sökük geldi,Faulty,Yes
+546,e495,Yırtık geldi iade,Faulty,Yes
+547,e496,en buyuk bedeni bile small beden gibi. iade ediyorum. gorseldeki urun xl,Ill-fitting,No
+548,e497,fiyasko.bildiginiz astar gibi.kumas kalitesi cok zayif mecburen iade,Inferior,No
+549,e498,Bildiğin iç eteği etek diye yollamışlar,Inferior,No
+550,e499,Aldığım şort etek başka alakasız bi ürün göndermişler direk iade,Incorrect,Yes
+551,e500,"Kalıbı hiç beğenmedim, çok salkım saçak durdu XS hiç beğenmedim",Ill-fitting,No
+552,e501,"Ben görseldeki ürünü sipariş ettim ama bana yanlış ürün göndermişler, iade maalesef",Incorrect,Yes
+553,e502,"Merhaba ürününüzün etek şort olduğunu bilerek sipariş ettim fakat elime ulaşan ürün şort olarak teslim edildi. Bu durumu açıklayabilir misiniz, ürün resminizi kaldırsanız daha iyi sanki etek yerine şort satıyorum diyebilirsiniz. kesinlikle önermiyorum",Incorrect,Yes
+554,e503,etek yerine gelen ürün resmen fiyasko,Incorrect,Yes
+555,e504,İç kısımdaki Etiketi kesik geldi muhtemelen iade olan ürün gönderildi keşke böyle bir şey yapmasaydınız umarım ürün tam olur yoksa iade edeceğim bedeni felan belli değil firma gerçekten üzdü ilk kez alışveriş yapmıştım .,Refurbished,Yes
+556,e505,Yırtık geldi.,Faulty,Yes
+557,e506,Kullanılmış ürün gönderildi. etiketi bile üstünde değil o yüZden iade.,Refurbished,Yes
+558,e507,ben 38 sipariş verdim ama 36 geldı!!!!!!! ve çok geç geldı,Ill-fitting,Yes
+559,e508,üründe dikiş hatası var sağ ve sol taraf eşit değil ve giydiğimmde yirtmac eşit olmayan az kumaş olan tarafa kayıyor alanlara baktığında böyle bir hata yok malesef iade tekrar alacağım kumaai esnek güzel tam beden alinabilir,Faulty,Yes
+560,e509,"hemen iade oluşturdum, bildiğiniz astar göndermişler!",Inferior,No
+561,e510,Bu fermuar tam kalça kısımda bir potluk yaratıyor..geniş kalçalar için uygun bir etek,Faulty,Partially
+562,e511,Çok dar bir ürün xs gibi,Ill-fitting,No
+563,e512,etek istedim çok alakasız pantolon gönderdiler daha sipariş vermem,Incorrect,Yes
+564,e513,"eteğin ön boyu çok uzun geldi,arkası uzun gelse anlardım ama önü fotoğrafta attığım şekilde çok uzun geldi, herkesin böyle mi merak ettim doğrusu",Faulty,Yes
+565,e514,Böyle bi yanlışlık olmaz cidden 36 beden sipariş vermiştim 42 beden geldi iade ettim saha dikkat etseniz iyi olur,Ill-fitting,Yes
+566,e515,Korkunç önü uzun arkası kısa resme 3 parmak kısa,Faulty,Yes
+567,e516,Maalesef bana yırtık ve etiketsiz ürün geldi :/ aslında kalıbı vs çok iyi..İade ama yine alıcam bu sefer daha dikkatli olun lütfen,Faulty,Partially
+568,e517,Etek hemen tüy ve toz tuttu. Kumaşı kalitesiz duruyor. İade,Inferior,Yes
+569,e518,Sökük geldi.Arka kısmındaki lastiğin pot duran bir dikişi var.Etekleri fazla geniş bir kloş aşırı kilolu gösteriyor.Resimdeki gibi dökümlü değil,Faulty,Partially
+570,b1,Ürünü 21Aralıkta sipariş ettim ve bugün elime ulaştı bukadar hızlı olmasına inanın çok sevindim bugün teslim alır almaz denedim hepsini ama bu taş rengi kazaktaki yerleşmiş siyah lekeleri anlayamadım. Gerçekten ürünü paketlerken hiç mi kontrol etmiyorsunuz? Bu lekenin kazaktan çıkması mümkün değil çok yazık diyorum ve iade ediyorum.,Faulty,Yes
+571,b2,"yumuşak kaliteli yapısı var fakat üzerimde hoş durmadi,ayrıca kol dikişi de sökük geldi ,iade ediyorum",Faulty,Yes
+572,b2,m beden giymeme rağmen çok bol oldu,Ill-fitting,No
+573,b3,Paketi açtığımda içinde saç çıktı bu saç kesinlikle bana ait değil kullanılmış ürün göndermişler,Refurbished,Yes
+574,b4,Ürün dikişi atmış olarak geldi. Bu şekilde giyilmesi mümkün değil. İade edeceğim,Faulty,Partially
+575,b5,"Güzel kazak ama defolu geldi maalesef. Bu ikinci alışım, ilki sorunsuz gelmişti. Kazağın sol boyun kısmında bir eğrilik var, kesim hatasından dolayı sanırım. Bir de yine sol yakasında beyaz iplik var.",Faulty,Partially
+576,b6,Rengi modeli çok güzel olsa da kalitesi 230 etmez ince ilk yıkamada ipler çıktı içine çektim ama çok üzüldüm bidaha yıkamaya korkuyorum,Inferior,No
+577,b7,kalitesi iyi değil tavsiye etmem iade ettim,Disappointing,No
+578,b8,Ürün beyaz değil kırık beyaz,Discolored,Partially
+579,b8,defolu. ,Faulty,Partially
+580,b8,Bu fiyatı asla haketmeyen abartılmış bir ürün. Ayrıca yapısı makineye atınca hemen bozulacak kadar emanet duruyor. Üzülerek iade.,Disappointing,No
+581,b9,çok fazla tüyleniyor. ,Inferior,No
+582,b9,şık görünüyor ancak uzun ömürlü değil,Disappointing,No
+583,b10,Ürün lekeli geldi ve abarttığınız kadar da güzel değil iade,Faulty,Yes
+584,b11,Ürünle görsel arasında hiç benzerlik yok çok kötü rengi,Disappointing,No
+585,b12,"Kazağın kumaşı güzel fakat kurdeleler çok özensiz şekilde, malesef iade",Faulty,Partially
+586,b13,Yanlış renk gönderilmiş,Discolored,Yes
+587,b14,omuz kısmında yırtık geldi iade ...Fakat hala inceleniyormuş ...Para iademde dengesizlik var....Brm de onu inceliyorum....,Faulty,Partially
+588,b15,Bariz bi defosu var bunu paketleyen kör galiba,Faulty,Partially
+589,b16,uzun süredir favorilerimde bekliyordu en sonunda aldim ama çok büyük hayal kırıklığına uğradım. gelen ürünün rengi fotoğraftaki ürünle hiç alakası yok. ,Discolored,No
+590,b16,kolları oversize durmuyordu. alt kismida vücuduma yapışıyordu . maalesef iade ettim,Ill-fitting,No
+591,b17,"Ürün dikiş hatası var tabiki iade
+",Faulty,Yes
+592,b18,"Kullanılmış defolu ürün gönderilmiş,",Refurbished,Partially
+593,b18,iplikleri çıkmıştı hep ve içinde faturası yoktu. Hiç memnun kalmadım iade edeceğim umarım sorun çıkartılmaz,Faulty,Partially
+594,b19,Kalitesini beğenmedim,Disappointing,No
+595,b20,"Fotoda maalesef beyaz çıkan kısımlar bildiğiniz pudra pembe ,petrol yeşilini altında hiç hoş durmamış.",Discolored,No
+596,b20,"duruşuda biraz kaba,kol boyu kısa geldi iade",Ill-fitting,No
+597,b21,ürünüm yanlış geldi fotoğraf istediniz,Incorrect,Partially
+598,b22,İlk olarak bir kere giydim ve ilk gün hemen koltuk altı delindi yaka düğmesi koptu,Inferior,Partially
+599,b22,boynu kısa olan kişilere yakışmıyor iadeyle uğraşamıycam ama gerçekten beklediğim gibi çıkmadı,Disappointing,No
+600,b23,Kollarındaki siyah detaylar yok. Hayal kırıklığına uğrattı beni.,Faulty,Yes
+601,b24,ürün çok güzel ama 2 beden falan küçük almak lazım bol kalıp birde paketleme çok kötüydü bu magzadan daha önce de alış veriş yaptım böyle paketleme görmedim,Ill-fitting,No
+602,b25,ÜRÜN ELİME 34 Olarak sipariş vermeme rağmen 40 beden olarak gönderildi iade talebinde bulundum ancak tekrar 40 beden olarak adresime kargolandı şu an iadede zorlanıyorum iade kodunun kapandığı söyleniyor cok cok acil bana ulaşılıp bu hatanın telafi edilmesini rica ediyorum,Ill-fitting,Yes
+603,b26,"Ürünün modeli ve kumas kalitesi güzel. Fakat sağ ve sol kolundaki büzgü detayı birbirinden farklıydı. Birinin lastiği gevşek, diğerinin sıkı. Bu yüzden iade etmek zorunda kaldım.",Faulty,Yes
+604,b27,"ürün kullanılmış geldi. üzerinde mürekkep lekeleri var. destek isteği yaptım, bana kupon gönderdiler. bunu yapacağınıza lütfen ürün yollarken dikkatli davranın. ürünü alıp lekeleyip sonra da gerisin geri yollayan insan da ne yaşıyor bilemiyorum artık.",Refurbished,Yes
+605,b28,Çok bol ve kumaşı çok ince,Inferior,No
+606,b29,Ürünün yaka kalıbı bozuk be giyince yamuk duruyor . Kumaşı güzel olduğu için 2 puan verdim ama maalesef giymek için tadilat gerekiyor,Faulty,Yes
+607,b30,ben 34 beden aldım etiketinde 34 beden yazıyor ama beyaz bir kağıt yapıştırmışlar onda 38 yazıyor çok büyük biraz önem gösterseler bedenlere. 45 kilo 162 boy aşırı büyük oldu 34 aldım ama 38 geldi babamın gömleğini giymişim gibi oldu,Ill-fitting,Yes
+608,b31,Normalde ürünlere yorum yazan birisi değilim ama gömleği sadece 1 kere giydim ve sonuç ortada hiçbir şekilde kimseye önermem. Verilen parayı kesinlikle hak etmiyor,Inferior,Partially
+609,b32,Giymeden önce 30 derece hızlı programda yıkadım. Bu hale gelmesine çok üzüldüm. Yıkandığı için iade de edilmez. ,Inferior,Yes
+610,b33,Kusurlu ürün gönderildi ama kalitesi güzel tekrar sipariş ettim,Faulty,Yes
+611,b34,Yorumlarda kimine çok yakışmış ben de duruşunu beğenemedim. Kapıdan sığmayacak gibi geniş durdum. Aşırı kabarık durdu fırfırları bir de kolları aşırı bol. Keşke daha kolları dar olsadı ve fırfırlar öyle kabarık kabarık durmasaydı. malesef iade,Disappointing,No
+612,b35,ürünün çoğu yerinde dikiş eksiklikleri var fırfırlı yerlerinde bazı yerler sökük büyük bi hevesle aldım ama hüsranla sonuçlandı ve her yerinde ipler çıkmış,Faulty,Yes
+613,b36,Lekeli işlemeli kısımları önü ve kollarında leke mevcut,Faulty,No
+614,b37,Gördüğünüz gibi giydikten sonra fark ettim dikişleri kol kısmınsa sökülmüş giymeden önce görseydim iade edecektim,Faulty,Partially
+615,b38,Kusurlu hiç beğenmedim,Faulty,Yes
+616,b39,Ürünün bir kolu ters dikilmiş. İşlemelerin olması gereken yüzü iç tarafta kalmış. Maalesef iade.,Faulty,Partially
+617,b40,taşı yok. poşetinin içine düşmüşse dikerim dedim ama poşetin içinde vs de yok. defolu ürün. iade edicem mecbur,Incomplete,Yes
+618,b41,ne kumaşıni ne dikisini hiç beğenmedim çok ucuz duruyo verilen paraya yazik,Disappointing,Partially
+619,b42,Ürünün yırtık olduğunu yeni farkettim ve bununla ilgili destek bekliyorum,Faulty,Partially
+620,b43,ürün defolu geldi iade edicem malı güzel ancak bedeniniz den büyük bir beden almalısınız salaş durmuyor,Faulty,Yes
+621,b44,Ürünün kumaşından mıdır bilmiyorum beyaz çizgilerin olduğu kısım çok kalitesiz duruyor. Yorumlara bakarak almıştım hayal kırıklığı oldu. Iade,Disappointing,No
+622,b45,İnanmıyorum.. resmen yırtık ürün göndermişsiniz!,Faulty,Yes
+623,b46,Asker yeşili geldi,Discolored,Partially
+624,b47,Lastiği çok kötü görünüyor,Inferior,No
+625,b48,Çok büyük xl bile 80 kilo olmama rağmen büyük geldi,Ill-fitting,Partially
+626,b49,Baskıları o kadar soluk ki hayal kırıklığı oldu. Kumaşı güzel o yüzden iade etmeyeceğim.,Discolored,Partially
+627,b50,Ürün güzel fakat kullanılmış ve lekeli geldi iade malesef dikkat edilmesi gerekirdi. Hepimizin vakti kıymetli ancak iade ile de ayrıca uğraşmak zorunda olmamız can sıkıcı,Refurbished,Partially
+628,b51,"Rengi ve yumuşaklığı iyi fakat dikisinde ciddi hatalar var o yüzden kol kısmı aşırı rahatsız ediyor, iade etmek ile uğraşmak istemiyorum, en azından bu fiyata evde giyilebilir",Faulty,No
+629,b52,Kargo hızlıydı fakat kumaşını ve kollarının duruşunu beğenmedim.,Disappointing,No
+630,b52,Kolları çok genişti. Yorumlardan beğenip aldım ama iade maalesef ,Ill-fitting,No
+631,b53,O kadar kurtarıcı bir ürün ki direk giyip çıkın çok ta şık ayrıca herseye uyuyor. GÜNCELEME İlk yıkamada saldı ilk halinden eser kalmadı boşuna almayın. Fotolarda mevcut,Inferior,Partially
+632,b54,Defolu ürün. İlk ilmek yırtık gibi duruyor. Düğmelerinden iplikler sarkıyor. Yumuşak ama üstümde daha dökümlü durmasını istemiştim. İade.,Faulty,Yes
+633,b55,istediğim kazak yerine fermuarlı hırka gönderilmiş malesef,Incorrect,Yes
+634,b56,"4. giyişimde tüylenmeye, tiftik tiftik olmaya başlaadı. Açıkçası daha kaliteli olmasını ve uzun süre dayanmasını beklerdim. Hayal kırıklığı yarattı.",Inferior,Yes
+635,b57,Ürün güzel görselde ki gibi geldi fakat daha bı kaç defa giymeme rağmen hemen tüylenme yaptı,Inferior,Yes
+636,b58,Ürünü severek aldım çok kullanışlı evet ama ilk yıkamadan sonra tülerdi bunu göze alarak alın alacaksanız,Inferior,Yes
+637,b59,Xs giyen bi insanim L soyledim daracik oldu inanilmaz gerçekten,Ill-fitting,No
+638,b60,Eger mavi renk almak isteseydim maviyi alırdım,Discolored,Yes
+639,b61,Çok salaş beğenmedim iade.,Ill-fitting,No
+640,b62,istediğim renk ve model alakasız iade,Incorrect,No
+641,b63,Kötü almayın sünüyor yıkanınca kaliteszi,Inferior,No
+642,b64,Crop değil diyor ama cok kısa resmen,Ill-fitting,No
+643,b65,görselle ilgisi yok,Disappointing,Partially
+644,b66,ürünun boyu resimde göründüğünden baya kısadır. tayt üstüne giymeye diye aldım. boyum kısa olmasına rağmen resmen belimin anca altına geldi. Yorumlarda gördüklerim de uzun gönderilmiş ama bana kisasasi geldi. Bu yüzden iade ediyorum,Ill-fitting,No
+645,b67,5 yıldız vermiştim önce onaylanmadı zaten çok çabuk tüylendi ve inanılmaz sündü,Inferior,No
+646,b68,kazak güzel ama lekeli ve farklı iplik olan yerleri vardı,Faulty,No
+647,b69,Bambaşka bi kazak göndermişler.,Incorrect,Yes
+648,b70,"Ürünün kalitesi harika fakat arkada tam görünen kısımda beyaz iplik eklenmiş ve beyaz ip ile devam edilerek örülmüş bir yer var ve siyahın üstünde çok kötü duruyor bu hata, kontrol ve dikkat edilerek gönderilmeli ürünler, iade ile uğraşmak zorunda değiliz",Faulty,Yes
+649,b71,"COK KOTÜ, yakasının dikişleri hatalı ",Faulty,Partially
+650,b71,bedeni çok geniş iade,Ill-fitting,No
+651,b72,çok büyük ve yakası çok dağınık,Ill-fitting,No
+652,b73,Giydiğim ilk gün okulda hem koldan hem yanlardan dikişleri attı. Rengi ve trikosu çok güzel fakat dikişleri çok kötü.,Inferior,Yes
+653,b74,ürün kesinlikle görseldeki gibi değil hırka gibi ve çok esnek hiç güzel değil tavsiye sıfır,Disappointing,No
+654,b75,Üzerinde çizik gibi ip kaçmış gibi bi iz var iade,Faulty,No
+655,b76,cok beğenerek alsım ama defolu geldi,Faulty,Yes
+656,b77,düğmeleri yamuk geldi vaktim yok diye iade edemedim,Faulty,Yes
+657,b78,Dikim hatasi var begenmedlm iade,Faulty,Partially
+658,b79,rengi gorselden açık geldi daha koyu beklemistim haki rengi sonuçta ama su yeşilinin biraz daha koyusu geldi,Discolored,Yes
+659,b80,Farklı marka ürün geldi.,Incorrect,No
+660,b81,göründüğü gibi değil,Disappointing,No
+661,b82,1.65 boy 75 kiloyum XL aldım taytların üzerine giymek için birazdaha bol dursun isterdim ama yine güzel oldu fakat daha yıkamadan ilk giymemde bile hemen tüylendi çokta kaliteli bişi beklemeyin derim,Inferior,Partially
+662,b83,"Ürünün yıkandıktan sonraki halini koyuyorum, almayın bence paranıza yazık. Büzük büzük dar bir gömlek haline geldi. Normalde large beden giyerim xl almıştım, bu kadar çekmesiyle zor giyilir.",Inferior,Yes
+663,b84,Aslinda cok güzel ama lekeli oldugunu fark ettim,Faulty,Yes
+664,b85,Ürün küflü bir şekilde geldi. Her yeri küflü ve çok kötü kokuyor. Yanında aldığım diğer gömleğe de koku sinmiş. Resmen poşeti açmadan küf kokusunu duydum. Hem 12 gün gelmesini bekledim hem de gelen ürünün böyle olması..,Faulty,Yes
+665,b86,"kumaşı cok guzel yazlık keten, yalniz ilk yıkamada sonuc bu oldu manşetten dikiş sıyırmış
+",Inferior,Yes
+666,b87,Gömleği 25 kasımda sipariş verdim 8 aralıkta elime ulaştı. Gömleğin aceleyle dikilmiş gibi bir hali var. Dikişleri yamuk ipleri üstünde kalite kontrol yapılmamış bir ürün hatta 2 ci kalite bir ürün. Yorumlara güvenerek aldım ama hiç güzel değil. 56 kilo M beden salaş oldu.,Faulty,Partially
+667,b88,dikişler kumaş çok kötü düğmeler düz sıralamada değil,Faulty,Partially
+668,b89,Her yerinden ip temizledim !!Ayrıca bana gelen gömlek bu renk miiii ??????,Discolored,No
+669,b90,cep detayının üzerinde dikiş hatası vardı,Faulty,Yes
+670,b91,Görseldeki gömlekle hiç alakası yok ketende değil tavsiye etmiyorum,Disappointing,No
+671,b92,Renginnee bayıldım tam bordo aşırı güzel kumaşı tam yazlık güncelleme yapıyorum kolunda yırtık varmış yeni fark ettim küçük ama yinede moral bozucu o kadar para verip aldım yırtık olması üzdü,Faulty,No
+672,b93,sakın almayın alır almaz yıkadım boyası aktı ütüledim ardından bütün siyah renkler beyaza çıktı. ve bir gün giydim aynı gün içerisinde üzerinde tüylenmeler oldu,Inferior,Partially
+673,b94,Model ve deseni güzel ama 1 yıkamadan sonra tülerdi. ,Inferior,Yes
+674,b94,Diğer düz renk gömleklere göre kalıbı büyük. Bedeniniz 1 küçüğünü alabilirsiniz.,Ill-fitting,No
+675,b95,ürün güzel ama düğmesi eksik şimdi düğmeyi nerden bulacam çöp oldu,Incomplete,Yes
+676,b96,Çok ince ve kalitesiz duruyor. ,Inferior,Partially
+677,b96,Zaten sol tarafında da delik vardı iade edeceğim.,Faulty,Yes
+678,b97,Ürün defolu gönderildi,Faulty,Yes
+679,b98,bunu sipariş ettik bu renk geldi,Discolored,Yes
+680,b99,Etikette S beden yazan tişörtün XXL ölçüsünde olması şoku… çuval alıp giyinelim daha iyi.,Ill-fitting,No
+681,b100,Merhaba bizim ürürnümüz yanlış gelmiş ürünü aldıgımızda stokta vardı ama bize farklı ürün gönderilmiş nasıl degişim yapabiliriz?,Incorrect,Yes
+682,b101,Kalite çok kötü,Disappointing,Partially
+683,b102,Yeri yumuşak yaka havalı gibi görünüyor ama değil. Özensiz yapılmış. Bir tarafı düz bir tarafı tırtıklı. Sanırım iade.,Faulty,No
+684,b103,Ürün giyilmiş etiket bile yok üstünde parfüm kokuyor lekeli saçlar deseniz üstünde dolu gerçekten girmedim direk iade vericem,Refurbished,Partially
+685,b104,Rengi görseldeki gibi canlı değil.,Discolored,No
+686,b104,Boy olarakta çok kısa.,Ill-fitting,No
+687,b105,XL sipariş vermeme rağmen 2XL göndermişler niçin dikkat edilmiyor iade etmek zorundayım üzülerek,Ill-fitting,Yes
+688,b106,defolu geldi,Faulty,Yes
+689,b107,Neden tiftiklenmiş ürün gönderiyorsunuz kontrol etmeden mi kargoya veriyorsunuz!,Faulty,Yes
+690,b108,Yırtık geldi ,Faulty,Yes
+691,b108,Gözüktüğü gibi uzun değil baya büyük almştm,Ill-fitting,No
+692,b109,Yaka kısmı her an sökülecek gibi ince sanırım defo var orada. Rengi modeli güzel,Faulty,Partially
+693,b110,Gömleğin önünde kocaman çizgi var defolu ürün yollamışsınız iade ile uğraştıracaksınız,Faulty,Yes
+694,b111,kumaşı naylon,Inferior,Partially
+695,b111,arka kısmımda dikiş hatası var ,Faulty,No
+696,b111,bir kolunun düğmesi kopuk geldi,Incomplete,No
+697,b112,"Çok kaliteli bir kumaş değil ama giyilir. Rengi de fotoğrafta göründüğünden 5-6 ton koyu.
+",Discolored,Yes
+698,b113,kol düğmesi eksik geldi iade,Incomplete,Yes
+699,b114,yapısı hemen tuylenir gibi duruyor. ondan iade edeceğim bir de 36 almama rağmen çok bol geldi ona dikkat ederek alin baksanıza daha şimdiden tüylenme yapmış gibi,Inferior,Partially
+700,b115,beğenmedim kumaşında boya izleri vardı hiç kaliteli değil.,Faulty,Yes
+701,b116,bir kolu farklı renk diğeri farklı iade,Faulty,No
+702,b117,kollari tüylendi ve çok kötü oldu bir kolunun kumasi farkli sanirim çünkü diğer yerlerinde olmadı(daha birkaç kere giydim),Inferior,Yes
+703,b118,ürün tiftikli rengi soluk ve ince ceket gibi,Faulty,No
+704,b119,her yerinde mürekkep lekeleriyle geldi sarı mavi kırmızı siyah rengarenk lekeler,Faulty,Partially
+705,b120,Ürün kusurlu geldi. 2 çıt çıtı eksik ve astarı da giyilmiş gibi aşınmıştı,Incomplete,Yes
+706,b121,çok pişman oldum 3. defa giydim hemen tiftiklendi kalitesiz kumaş keşke aldığım gün giyseydim iade ederdim üzgünüm parama yazık oldu,Inferior,Yes
+707,b122,sağ alt kısım dikim hatası ile gönderildi.bu ara aldığım ürünlerin çoğu hatalı gönderiliyor artık alışveriş yapmaya korkmuyorum,Faulty,Yes
+708,b123,Ürün kemersiz geldi ,Incomplete,Partially
+709,b123,görseldeki rengiyle alakası yok,Discolored,Partially
+710,b124,"kumaş kalitesi iyi , gayet sıcak tutacak bir ürün. Ancak dikişler yamuk ve astar dikimi pek kaliteli değil. Bu fiyatın üstüne biraz daha koyup daha iyi bir kaban alabilirsiniz. En azından kaliteli bir görüntü verir.",Faulty,Partially
+711,b125,"Antrasitini almıştım gayet güzeldi, bu rengini de aldım ama kumaşın rengi kötü, desenli gibi içinde siyahlıklar kahverengilikler var çok kötü duruyor, iade.",Discolored,Yes
+712,b126,"çok fazla büyüki, iade mecbur. Bir küçüğünü istiycem umarım böyle gelmez.",Ill-fitting,Partially
+713,b126,"hemen tiftiklenecek gibi duruyor, üzerinde tüyler vardı !",Faulty,No
+714,b127,Ürünü 2.kez sipariş ettim ikisinde de cebi yırtık geldi,Faulty,Yes
+715,b128,küflenmiş gibi kaban iade edeceğim.,Faulty,No
+716,b129,kemerin rengi farklı geldi kumaşı kalitesi hiç güzel değil,Discolored,No
+717,b130,Ürün yırtık geldi,Faulty,Yes
+718,b131,Ürünün kumaşı çok kalitesiz ve üstünde siyah benek benek lekeler var ayrıca cebi yırtık geldi milla kalitesini bozmuş iade edeceğim,Faulty,Partially
+719,b132,ürünün astarı yırtılmış bir şekilde geldi aldığım beden satışta olduğu halde değişim yapmak istemediler sözde sebep stokta yokmuş resmen insanları kandırıyorlar,Faulty,Yes
+720,b133,510 tlye aldım ürünü çok beğendim boyu falan çok güzel oldu ama fermuari dikilmemiş ve düğmesini biri kararmıştı iade,Faulty,Yes
+721,b134,"Şaka mısınız siz. Fermuarsınız göndermissiniz?! Kacıncı alışım. Dikkat edin gönderirken. Tatile yetişecektim :(
+",Faulty,Yes
+722,b135,Böylesine mükemmel bir eteği bu şekilde yırtık göndermeniz çok komik aldığıma pişman oldum gönderirken hiç mi bakmıyorsunuz acaba ayrıca xs olmasına rağmen büyük arkası tam oturmadı lastiği çok geniş duruyo potluk oluşturdu,Faulty,Yes
+723,b136,Yeni aldığım bi ürün ve ilk giymemde bu şekilde ipler çıktı 350 küsür fiyat almayı biliyorsunuz ama ürününüz aşırı kalitesiz çıktı,Inferior,Yes
+724,b137,ürün kullanılmış geldi bana ütü izi vardı bide pot duruyor beğenmedim iade,Refurbished,Partially
+725,b138,iki adet ayni beden pantolondan sipariş vermeme rağmen biri bol biri dar renkleri farklı geldi etiketleri bile farklii aldığıma pişman oldum çok kötü ,Discolored,Partially
+726,b139,Ürünün dikimi hatalı. ,Faulty,Partially
+727,b139,Ayrıca iade ürün gelmiş çünkü paketin içinden başka birinin saç teli çıktı.,Refurbished,No
+728,b140,"Rengi hiç güzel değil, fotoğrafla alakası yok çok çok koyu siyah gibi ve kalıbı dar",Discolored,No
+729,b141,Defolu geldi,Faulty,Yes
+730,b142,"böyle bir firma yırtık ürün gönderirken hiç mi utanmıyo acaba, ürünler koyulurken bakılmıyo mu merak ettim çok üzücü",Faulty,Yes
+731,b143,Şaka mısınız ya kahverengi kışlık pantolon göndermişsiniz pantolon güzel olsa iade etmezdim de çok çirkin rengi falan şimdi tekrar bunu almakla uğraşacağım,Discolored,No
+732,b144,"Sadece 2 kere giydim ve ürün bu halde. Gerçekten model olarak güzel severek almıştım ama bu kadar kalitesiz olduğunu düşünmemiştim. Hayal kırıklığı
+",Inferior,Yes
+733,b145,Dikiş hatası var 2 defa aldım ikiside sorunlu çıktı iade,Faulty,No
+734,b146,Pamtolon sipariş ettim elbise geldi,Incorrect,Yes
+735,b147,Utanmıyor musunuz defolu ürün göndermeye hem ipliği kaçmış hem belini dar dikmişler uyması için pile koymuşlar başka markadan alın kesinlikle tavsiye etmiyorum yazıklar olsun,Faulty,No
+736,b148,paça boyları eşit değil üstelik yamuk yumuk kesilmiş,Faulty,Yes
+737,b149,Bu şekilde şeritlerde izler olduğunu fark ettim ve kullanıma bağlı çoğalacak şekilde duruyor iaade etmeye karar verdim Ürün beğenmedim,Faulty,Partially
+738,b150,ürünün üstünde iki tane leke vardi uğraşmamak için iade etmeyeceğim umarım yıkayınca geçer ayriyeten kumaşı çok sert trenyolman den eşime aldığım tişörtler yumuşak geliyor milladan aldığım tüm tişörtlerin kumaşı çok sert,Faulty,No
+739,b151,İnanamıyorum gönderirken hiç kontrol edilmiyor mu kol altı yırtık geldi çok güzel bir ürün iç gösteriyor,Faulty,Yes
+740,b152,3 saat bile olmadı ustunfe yırtıldı şaka gıbı bi aktivite yaparlen dehil bakın normal yururken yırtılmış şaka gıbi buladar dandik olmamalıydı deymez almayın bence,Inferior,Yes
+741,b153,gömlek çok güzel ancak 1 kez kullandım koltuk altından yırtıldı hatta dikişten değil direkt kumaş yırtıldı. model güzel kalite kötü,Inferior,Yes
+742,b154,Ürünü o kdr beğenerek aldım ve duruşu fln müthiş ama maalesef böyle kusurlu geldi bi iade bi daha sipariş geçerim,Faulty,Yes
+743,b155,üründe kan lekesi var. iade,Faulty,Partially
+744,b156,"Eğer istediğiniz duruş modeldeki görüntü ise iki benden büyük almalısınız. Klasik siyah pantolonun üstüne beyaz gömlek giyen bankacı gibi oldum. Kumaşı güzel ama kalıbını sevmedim. Ayrıca cok kısa hareket ettiğiniz an dışarı çıkıyor, cok yuksek belli bir şeyle giymeniz lazım.",Ill-fitting,No
+745,b157,Modeli güzel ama o kadar iç gösteriyor ki içine ne giyersem giyim olmadı,Inferior,Yes
+746,b158,Yani o kadar para verilen hırkanın bu kadar gelişigüzel dikilmesi hiç hoş değil. İade edemeyeceğim için üzgünüm keşke iade edebilseydim.,Faulty,Partially
+747,b159,ürünü resmen yamuk dikmişler terzi kör müydü anlayamadım,Faulty,Yes
+748,b160,Ürünün kalıbı dar 53 kiloyum 38 olmadı biraz pot durdu ama iade etmeyeceğim,Ill-fitting,Partially
+749,b161,"Gömlek gayet güzel ama iliğindeki lastiğin birisi kopuk, düğmenin birisi 5 cm iple dikilmiş ve daha elime almadan düştü, oooo sonradan fark ettim bir debirileri kırmızı iple düğmeyi sağlamlaştırmış yazık günah o kadar paralar veriliyor taşınması için o kadar insanlar emek çekiyor gönderiliş şekli hiç hoş değil. İade ederdim ama üşeniyorum vallaha yazık",Faulty,Partially
+750,b162,Koltuk altı defolu geldi,Faulty,Partially
+751,b163,Göründüğü gibi geldi 67 kilo 38 beden aldım tam oldu rengi güzel fakat bi tık kırışıyo ütülediğiniz halde kendi bedeninizi alın,Inferior,Partially
+752,b164,Kalıp olarak güzel ama fiyonkların hepsinin arkası delik düzgün dikilmemiş sallanıyorlar,Faulty,Yes
+753,b165,Güzel bluz ama defolu.,Faulty,Yes
+754,b165,ayrıca kolları kısa. Bir beden büyük sipariş vermek istiyorum. Bakalım hasarsız ulaşacak mı,Ill-fitting,No
+755,b166,Nasıl dikmişler anlamadım iplerin biri diğerinden 10 cm aşağıda asla karşı karşıya gelmiyor.,Faulty,Yes
+756,b167,Sanki çok giyilmiş ve yıpranmış gibi duruyor,Refurbished,Partially
+757,b167,ayrıca çok sert bir kumaş beni rahatsız etti hiç beğenmedim,Inferior,Partially
+758,b168,170 boyundayım ama kolları inanılmaz uzun oldu. ,Ill-fitting,No
+759,b168,Rengi göründüğünden soluk.,Discolored,Partially
+760,b168,Bazı yerlerinde dikiş hatası var. Kollarını 2 kez katlayarak kullanacağım. Sonuçta bu fiyata keten gömlek alamam,Faulty,Yes
+761,b169,L beden sipariş etmiştim biraz uzun olmasını istediğim için ben normalde M beden giyerim ama o kadar kısa geldi ki göbek deliğime çıktı beden uzunluğu olarak çok kısa kollarının uzunluğu ise gayet iyi kalite olarak da fena değil ince kışın giyilmez yalnız kafam bile zor geçti çocuklara göre mi yaptınız ne yaptınız bir an yanlış mı gönderdiler deyip etiketine baktım hayır doğru L yazıyor merakımdan bedenini ölçtüm 48-49 santim çıktı çocuk badisi gibi duruyor olmadı bana iade edeceğim S-M-L giyen kimseye olmaz bence XS belki,Ill-fitting,No
+762,b170,Tek yıkamada 30 derecede hemen sökülmüş.az parada vermedim ne olacak şimdi? Giymeden önce yıkamıştık daha giymedim bile…,Inferior,No
+763,b171,38 beden istedim.Dev gibi bir beden geldi.Nasil bir kalip anlamadim.42 hatta 44 beden gibi.O kadar genis yani ama etikette 38 yaziyor.Ya kalip hatali ya da yanlis etiket basilmis.,Ill-fitting,Partially
+764,b171,Bu arada renk tipki görseldeki gibi ancak kumasi tülbent kumasi gibi .O kadar ince yani.Aslinda yaz için uygun bir kumas ama iç de gösteriyor.Kalibindan dolayi mecburen iade edecegim.,Inferior,No
+765,b172,Herhalde ilk defa bu kadar acımasız yorum yapıcam ama yırtık ürünü müşteriye göndermek nasıl bi akıl kârı acaba ?,Faulty,Yes
+766,b173,Rengi ikinci yıkamada soldu,Inferior,Yes
+767,b174,Ürün defolu gönderilmiş,Faulty,Yes
+768,b175,biraz önce teslim aldım ama ürünüm eksik geldi benle iletişime geçin lütfen,Incomplete,No
+769,b176,Gömleğin görselle alakası yok,Disappointing,No
+770,b176,rengi bir kere çok soluk hiç beğenmedim ,Discolored,Yes
+771,b176,ayrıca çok geniş kalıpları,Ill-fitting,No
+772,b177,Kumaşı şemsiye kumaşı gibi. Kolları bana kısa geldi. Desen çok güzel ancak kumaştan ötürü iade etmeyi planlıyorum.,Inferior,No
+773,b178,defolu yakasında garip yanık gibi bi leke var bariz belli oluyor. bunu bile isteye gönderiyorlar,Faulty,Yes
+774,b179,Giyilmiş kıyafet gönderildi ter kokusu vardı.A*yıp ama Hiç kontrol edilmiyor mu .Birde fondöten lekesi vardı,Refurbished,Partially
+775,b180,Yırtık geldi ,Faulty,Yes
+776,b181,Kolları çok bol geldi iade,Ill-fitting,No
+777,b182,Bu sizce beyaz mı???? İlk aldığım çok güzeldi kaybettim tekrar aldım ama ilk aldığımla uzaktan yakından alakası yok bu nedir allah aşkına sapsarı bir gömlek geldi kalıbı bile aynı değil. Milladan ne zaman bir şeyi tekrar alsam ilkiyle kalitesi bir olmuyor.,Discolored,Partially
+778,b183,Kargo çok hızlı ancak defolu geldi yakasında leke var,Faulty,Yes
+779,b184,koltuk altı aşırı genis kumaşı naylon ütülemek istedim hemen yandı,Inferior,Yes
+780,b185,"kol altları çok geniş modelin üzerindeki gibi değil, modelin üzerindeki 36 beden olarak belirtilmiş, ilk 36 bedenini aldım asla aynısı değil, kalıbı garip 34 bedeni bile çok oversize duruyor, beklentimi karşılamadı.",Ill-fitting,Partially
+781,b186,"dikişler gözle görülür derecede yamuk ve bozuk, önündeki parçalar bayağı yamuk dikilmiş giyilecek gibi değildi yamuklukları. iade ettim.",Faulty,Yes
+782,b186,Kumaşı biraz sert muslin gibi yumuşak değil.,Inferior,No
+783,b187,paketinden bile çıkarmadım baktım yine cepli. ilk aldığımda doğru geldi fakat leke yaptığım için aynısını sipariş ettiğimde cepli geldi hem farklı model hem farklı kalıplardı sonra geri iade ettim yine farklııı ilk aldığım üründen istiyorum görseldekini yollayın artıkkkk. ya da almayın yeni göndericekleri hem kalıbı dar hem de cepli düğmeleri bile farklı sadece rengi aynı,Incorrect,Yes
+784,b188,Aslında duruşunu beğendim ama bir kolu dikili değildi mecburen iade,Faulty,No
+785,b189,2 defa yıkadım taşlı yerlerin altı pas tuttu. Model güzel ama kaliteli taş koymayacaksanız yapmayın,Inferior,No
+786,b190,Resmen önünde ve arkasında izler vardı gönderirken nasıl fark edilmedi anlamadım iade,Faulty,Yes
+787,b191,Gömleğin kendisi çok güzel ama üçüncü yıkamadan sonra iplikleri söküldü çok üzüldüm çok severek almıştım. Hatalı ürün mü gönderdiler bilemiyorum,Inferior,Yes
+788,b192,İkinci kez sipariş ediyorum ve aynı şekilde gönderiliyor düğmeleri kopuk ipleri çekilmiş çok özensiz kargo,Faulty,Partially
+789,b193,bir yakası aşağıda diğeri yukarıda geldi dikim hatası var. görseli güzel tam beden alın o bile salaş .,Faulty,Yes
+790,b194,Ürün çok tatlı ama bana gelen defolu geldi,Faulty,Yes
+791,b195,Milladan sürekli alışveriş yapıyorum ve aşırı memnun kalıyordum böyle bişey daha önce hiç görmedim.. Ürün kontrolü yapmadan göndermek neden? Kontrol etmeden etiketi çıkarmıştım ertesi gün giymek için aldığımda arka dikiş detayı gözüme çarptı öyle gördüm etiketsiz iade yapıcam kabul etmenizi bekliyorum...,Faulty,Yes
+792,b196,"Sipariş ettiğim ürünün markası ve satıcısı ipekyol rengi haki yeşil, gelen ürünün markası twist ve hardal sarısı…",Incorrect,Yes
+793,b197,Kalıbı çok büyük paçası çok geniş ve perde gibi iade,Ill-fitting,No
+794,b197,öyle bir kumaşı var ütü tutmuyor resmen kargoda gelen şekil böyledi ve ben ütüledim ama değişmedi,Inferior,No
+795,b198,ürün kullanılmış geldi üstünde kahve lekeleri de vardı arkada giyilmeden kaynaklı kıvrılmalar var,Refurbished,Partially
+796,b198,ve yakasında da dikim hataları var o yüzden iade beden olarak tam bedeninizi alabilirsiniz iç göstermemesi için de badi ile giyilebilir .,Faulty,Partially
+797,b199,Dantel ipliklerinde lekeler vardı. İade edip yeniden alıcam çok güzel bir ürün,Faulty,Yes
+798,b200,Model olarak güzel fakat rengi beyaz değil renklilerle karışık yıkanmış beyaz gibi. İade edeceğim.,Discolored,No
+799,b201,kalıbı çok geniş kolları çok uzun ve bol xs almama rağmen çok bol oldu,Ill-fitting,No
+800,b202,yanlış ürün gönderildi,Incorrect,Yes
+801,b203,Beğendiğim için iki rengini almıştım. Fakat bir kere giymemle hemen dikişi attı.,Inferior,Yes
+802,b204,kumaşı ve dokusu güzel fakat aşırı büyük. kolları bile bol. bu yüzden iade,Ill-fitting,No
+803,b205,"Model güzel kalıp tam kendi bedeninizi alinca hafif bol duruyo, ancak özellikle %100 pamuk yazıp satılan bir ürün neden gelince %53 pamuk %47 polyester çıkıyor? Ben pamuk olduğu için almıştım. Neden doğru bilgi verilmiyor kullanici yaniltiliyor.",Inferior,Yes
+804,b206,O kadar para veriyoruz lekeli geldi Allah aşkına yeter ya bişey satıyorsunuz bari düzgün satın bi kontrol edin Allah için bu ne ya ağlıycam sinirden,Faulty,Yes
+805,b207,kumaşı naylon incecik içindeki etiket bile belli oluyor 161 boy 60 kg,Inferior,No
+806,b208,gerçekten pişman oldum sökük geldi niye dikkat etmezsiniz ki,Faulty,Yes
+807,b209,Yanlış ürün gönderdiler görselle alakası yok. Bi de iade ile uğraşacağım. Lekeli saçma sapan yeşil detaylı bi gömlek geldi.,Incorrect,Yes
+808,b210,En küçük bedeni bile aşırı büyük,Ill-fitting,Yes
+809,b211,lekeli ürün yollanmış ,Faulty,Yes
+810,b211,Ayrıca kalıbı dar,Ill-fitting,No
+811,b212,ürün kontrol süz gelmiştir. düğme yeri resmen yırtık. aynı ürünün tekrardan L beden gönderilmesi için destek Rica ediyorum. bende bu hatalı ürün için iade başlattım,Faulty,No
+812,b213,ürün güzel ama boyu kısa,Ill-fitting,No
+813,b214,Duruşu güzel ama defolu yırtık geldi 2 tane sipariş etmiştim ger ikisinde öyle üzüldüm,Faulty,Yes
+814,b215,Kumaşı idare eder naylon gibi ama hoş duruyor. Boyu kısa ve beli kalın olanların tercih etmemesi gerekiyor çünkü alt kısmı kabarık olduğu için daha çok kilolu gösteriyor.,Disappointing,No
+815,b215,Üzerinde böyle bir renk atması ile geldi o yüzden iade ediyorum.,Faulty,Yes
+816,b216,Ürün yerine basic bi tişört gönderildi,Incorrect,Yes
+817,b217,fotoğrafta çok güzel gözüküyor ama xs olmasına rağmen aşırı aşırı büyük arka kısmı dizlerimden de aşağı oldu arkadaşlar boyuna güvenen alabilir xs ölçüsünü görsele ekliyorum ben 160 olarak elendim,Ill-fitting,Yes
+818,b218,Ürün kolu yırtık göndermişler,Faulty,Yes
+819,b218,ayrıca s olmasına rağmen çok büyük,Ill-fitting,No
+820,b219,Asla gördündüğü gibi değil sakın almayın çöp iade,Disappointing,No
+821,b220,İade olmuş ürünü yollamışlar lekeli bide leş gibi korkuyordu ter gibi alırsanız ona göre alın … millaya yakıştıramadım gerçekten bu hareketi,Refurbished,Partially
+822,b221,çok alakasız bir ürün geldi,Incorrect,Yes
+823,b222,Kol dikişi hatalı geldi,Faulty,Yes
+824,b223,kumaşı ve kalıbı güzeldi ama kol düğmesi eksik geldi. iade.,Incomplete,Yes
+825,b224,Kumaşı çok kötü kalın dokulu rahatsız edici bir kumaş baharda bile giyilmez bu fiyata çok daha kaliteli gömlekler var,Inferior,Partially
+826,b225,38 sipariş verdim 40 göndermişler bol kalıp iadeyle uğraşsam tekrar almak için kargo bedeli ödücem keşke işlerini doğru yapsalar,Ill-fitting,Yes
+827,b226,Kumaşı çok kötü,Disappointing,No
+828,b227,defolu geldi iplikleri söküktu,Faulty,Yes
+829,b228,Kolunda kocaman bir “42” yazısı var kırmızı tükenmez kalemle yazılmış gerçekten nasıl böyle bir yanlış yapılabiliyor anlamıyorum. İyi ki etiketini koparmamışım.,Faulty,Yes
+830,b229,Ürün elime ulaştı fakat rengi beyaz değil sanki siyahlarla yıkanmış gibi soluktu sadece fotoğraftanda belli oluyor ondan şikayetçiyim beden olarak kendi bedeninizi tercih edebilirsiniz,Discolored,Yes
+831,b230,Rengi kalıbı güzel. Ancak ilk yıkamada (15 dk 30derece) tiftiklenmeye başladı bu parayı haketmiyor .,Inferior,Yes
+832,b231,Yanlış ürün geldi iade,Incorrect,Yes
+833,b232,İlk yıkamada taşları paslandı tüm gömleği mahvetti böyle kötü bişey olamaz,Inferior,Yes
+834,b233,gömlek siparişi verdim ama elime pantolon geldi ne saçma iş ya iade etmek istiyorum,Incorrect,Yes
+835,b234,"Renkleri fotoğraftakinden daha soluk, beğenmedim.",Discolored,Partially
+836,b235,"Gömlek güzel çok beğendim, tam yazlık. Ancak elime alır almaz bir düğmesi çıktı, diğer düğmelerin sağlamlığı da şüpheli. Dikilerek düzeltilir tabii ki ama yine de sinir bozucu.",Faulty,Yes
+837,b236,çok güzel bir ürün fakat bana üstünde siyah lekeli ve bir düğmesi kopuk şeklinde geldi gerçekten hayal kırıklığına uğradım iade edicem,Faulty,Partially
+838,b237,Ürün göründüğü gibi güzel fakat defolu geldi yıkadıktan sonra gördüğüm için iade edemedim .,Faulty,Yes
+839,b238,Erkek arkadaşıma aldım çok salaş bi gömlek 175 boy 78 kilo önce l aldım çok bol olunca m aldım,Ill-fitting,No
+840,b238,ama çok kötü halde geldi dikişleri sökük iade ettim tekrar,Faulty,Yes
+841,b239,Ürünü aldım defoluydu stoğu olduğu halde değişim yapmadılar .,Faulty,Partially
+842,b240,Rengi çok açık fıstık yeşili gibi duruyor keza yorumlardaki görseller de öyle ama bana koyu yeşil geldi alt üst takım almıştım pişman oldum,Discolored,Yes
+843,b241,Böyle lekeli bir ürünü nasıl gönderebildiniz cidden şaşırtıcı. Ürünleri gerçekten kontrol edip göndermeniz gerekiyor,Faulty,Yes
+844,b242,"Çok beğenmedim ya kaliteli değil sert kumaş,ince iç gösterir",Inferior,No
+845,b243,kalıp güzel ama kumaşı kötü bildiğiniz naylon kokutacak kumaş. kardeşime hediye almıştım kumaşına bakma fırsatım olmadı gördüğümde bu kadar naylonsu olmasına şaşırdım bilsem almazdım.,Inferior,No
+846,b244,Kötü bir ürün siyah lekeli geldi 3 ürün aldım 3 de kusurlu satıcı kötü,Faulty,Yes
+847,b245,kesinlikle birine giden sonrasında iade edilen ürün geldi bana. çünkü onca alışveriş yaparım hiçbir zaman böyle rastgele katlanmış bir ürün gelmez. zaten normalde ürn üzernde etiket olur bunda o da yoktu. bu yüzden paketin üzerine bi etiket yapıştırmışlar. üründe ortalama kalitede,Refurbished,Partially
+848,b246,Hiç güzel değil hiç beğenmedim iade erkek kardeşim için aldık dede gömleği gibi bir gömlek iadeeeeğğğ,Disappointing,No
+849,b247,2.yıkamamdan makineden böyle çıktı ve yıkadığınız diger kıyafetlerde makinadan sürekli tüylenmiş veya beyaz pamukçularla birlikte çıkıyor,Inferior,Yes
+850,b248,Kesinlikle beğenmedim fotoğrafta göründüğü gibi değil fiyatına göre çok kötü bu ürünü pazarda 100 liraya satıyorlar hayal kırıklığına uğradım,Disappointing,No
+851,b249,Rengi daha koyu geldi,Discolored,Yes
+852,b250,"Fotoğraftakı reng haki, gönderdikleri yemyeşil",Discolored,Yes
+853,b251,Yakasının biri diğerinden uzun defoluydu,Faulty,Partially
+854,b252,Gömlek çok güzel fakat lekeli geldi iade ettim.,Faulty,Yes
+855,b253,"Eşime aldım kumaşı gayet tok, renkleri çok hoş tam kışlık. Düzeltme akşam eşim gelince verdim ve katlarını açıp o zaman denedi. Farkettik ki ürün defolu öyle küçükte değil hediye almıştım çok üzüldüm. İade edeceğim",Faulty,Yes
+856,b254,Rengi aynı değil solmuş gibi,Discolored,Yes
+857,b255,Bedeni küçük geldi dar kalıp bir beden büyük alınmalı ama şık güzel,Ill-fitting,No
+858,b256,"Ne yazıkki defolu ürün göndermişler,bu fiyata kaliteli bir ürün olduğu söylenemez.",Faulty,No
+859,b257,Lekeli geldi yani paketlerler görmemek elde değil,Faulty,Yes
+860,b258,asla tavsiye etmiyorum. İlk yıkamada yırtıldı.,Inferior,Yes
+861,b259,Hayatım da aldığım en kötü gömlek diyebilirim resimdeki gömlekle bana gelen gömleğin Alakası yok,Disappointing,No
+862,b259,xl aldım eşim için xxl gibi kalıbı ve çok kötü duruyor kesinlikle almayın bu fiyata bu gömlek rezillik,Ill-fitting,No
+863,b260,maalesef ürünler kontrol edilmeden yırtık bir şekilde gönderiliyor!!!!bizleri tekrardan kargo kapılarına yoneltiyorsunuz!!! lütfen daha ilgili olmanizi ve kusurlu ürünlerinizin bizlere gönderiminin çok üzdüğünü ve sinir bozucu olduğunu belirtmek istiyorum!!!,Faulty,Yes
+864,b261,Ürün çok ince. Kumaşı kalitesiz ilk giyimde gömlekte yırtılmalar oldu,Inferior,No
+865,b262,ürün defolu,Faulty,Partially
+866,b263,malesef üründe ufak tefek defolar kumaş ezilmeleri mevcut. bu durum bizi üzdü,Faulty,Partially
+867,b264,"Ürün elime ulaştığında farketmedik ancak eşim bugün giydiğinde kol kısmında defolu olduğunu fakettik, defolu ürün gönderilmiş tarafıma",Faulty,Yes
+868,b265,"Gömleği çok beğenerek sipariş ettim, sizlerde keşke gönderim öncesi leke, deforme kontrolü yaparak kargolasaydınız. Tekrar sipariş edicem lütfen leke mürekkep durumuna dikkat edin, hizmet kalitenizi arttırmak için.",Faulty,Yes
+869,b266,Asla aynı renk değil gönderdikleri renk aşırı koyu,Discolored,Yes
+870,b267,Kolu yırtılmış bir şekilde geldi değişim için gönderdim günlerdir bekliyorum hala kargoya verilmedi destek talebi oluşturdum 3 iş günü içerisinde dönüş yapılacak deniyor daha kaç gün bekleyeceğim acaba,Faulty,Yes
+871,b268,Ürün elime kolu bir karıştan fazla yırtık bir şekilde geldi. Bunu hiç mi görmüyorsunuz ya da hiç mi dikkat etmiyorsunuz da insanlara bu şekilde gönderiyorsunuz gerçekten pes.,Faulty,Yes
+872,b269,Pek beğenmedim tüy toplar gibi bir kumaşı var,Inferior,No
+873,b270,"bunu hangi akıl yapar ki? keşke gönderirken daha dikkatli olsaydınız, 2 gün sonra düğünde giyeceğim iade yetişmez üstünde yazan gibi 1 puan veriyorum.",Faulty,Yes
+874,b271,Resimde ki ile pek uyuşmuyor etiket yok renk garip bir beyaz kumas görseldekilere benzemiyor anlamadım,Discolored,No
+875,b272,tüylenme yaptı Kemer hizasında çekme ve tüylenme var büzgülü gibi oldu,Inferior,Yes
+876,b273,2xl istemiştik ama xl geldi bu konuda yardımcı olur musunuz?,Ill-fitting,Yes
+877,b274,"Ürün defolu geldi. Tüm emeyime, parama ve zamanıma yazık.... Yazıklar olsun…",Faulty,Yes
+878,b275,Güzel ama s bedeni bile çok büyük,Ill-fitting,No
+879,b276,Kumaşı baya ince ama fiyatına göre giyebilir,Inferior,No
+880,b277,"Kumaşını dokusunu nasıl beğendiniz anlamadım, parasını asla haketmiyor",Disappointing,No
+881,b278,"
+iade ediyorum pet şişe giymek istemiyorum.",Inferior,No
+882,b279,Sökük ve etiketsiz onun dışında kalıp olarak güzel ama üzülerek iade edeceğim yenisini sipariş edeceğim boyu tam pantolon bitiminde kolları cok salaş değil kalıp olarak güzel,Faulty,Partially
+883,b280,boyu kisa bedrni genis kalin bir Kazak,Ill-fitting,Partially
+884,b281,Çok garipti yüzeyi tüylenmiş gibi iade,Inferior,Yes
+885,b282,urun defolu gönderilmiş sirf ugrasmamak ve tekrar yuksek.fiyata almamak icin iade etmiyorum.evet cok guzel bir irun fakat satış ahlaki degil insan sattığı seyi defalarca incelemez mi? ilk bakista benim gözüme carpan sey sizin nasil dikkatinizi cekmiyor.satalim da nasil olursa olsun,Faulty,Yes
+886,b283,Ürün ilk yıkamada tüylenmiştir asla almayın iade etmek istiyorum bende,Inferior,Partially
+887,b284,kazağın yeri çok güzel yumuşacık ama ipi kaçmış ürün gönderilmiş dikkat edilmesi gerekiyor,Faulty,Yes
+888,b285,üzerinde kahve iplik defo vardı tam önünde 2 yerde,Faulty,Partially
+889,b286,ben hayatımda bu kadar kalitesiz ve çirkin bir kıyafeti ilk defa görüyorum . 30° ve 15 dk kısa programda geldiği hale kimse inanamadi. nasıl böyle olabilir. verdiğim paraya yazıklar olsun,Inferior,Yes
+890,b287,"Ürün lekeli geldi, iade.",Faulty,Yes
+891,b288,Asla tavsiye etmem iade ettim aşırı kalitesiz.,Disappointing,No
+892,b289,ürün kullanılmış kirli bir şekilde gönderildi üstelik bir yıkamada kendini salacak gibi,Refurbished,Yes
+893,b290,"Ürünün iç etiketi kesilmiş bir halde geldi ayrıca kazak daha önce giyilmiş ve yıkanmış gibi bir koku vardı .İlk defa böyle bir şey ile karşılaşıyorum ,bu durum beni çok şaşırttı",Refurbished,No
+894,b291,"Rengi, dokusu çok hoş, kalıbı da tam ama bana hatalı ürün gönderilmiş, hiç bakmadan mı paketliyorsunuz? Alt kısmı büzülmüş, yukarı doğru çekilmiş duruyor. 👎🏻 Her alışverişimde bu sefer ne olacak diye beklemeye başladım, sanırım artık Milla’dan alışverişi bırakacağım.",Faulty,Partially
+895,b292,kusurlu ürün gönderilmiş kalitesini de beğenmedim,Faulty,Yes
+896,b293,İpi kaçmış bir şekilde geldi rengi güzel ama ipi kaçık olduğu için geri göndericem:(,Faulty,Yes
+897,b294,"Rengi asla bordo değil, mor. Alanlar da rengi için alacaktır sanırım boşuna almayın. Kalıp konusunda ben herhangi bir sıkıntı yaşamadım",Discolored,No
+898,b295,"aşırı kısa ,boyu asla gorundugu gelmiyo gibi gelmiyo kumaşı cok guzel",Ill-fitting,No
+899,b296,defolu geldi,Faulty,Yes
+900,b297,Omuzları falan bi garip iade cart curtla uğraşması külfet,Disappointing,No
+901,b298,defolu ürün gelmiş bu nasıl dikkatsizlik kocaman delik var,Faulty,Yes
+902,b299,Kumaşı laynonsu duruşunu beğenmedim iade,Disappointing,No
+903,b300,Kumaşı kötü beğenmedim iade,Disappointing,No
+904,b301,yakası hatalı geldi,Faulty,Yes
+905,b302,Ürün etiketi ters dikilmiş,Faulty,Yes
+906,b303,bir kez giydim yikamaya attim ve uzerindeki baski hemen soldu yazik ya pijama oldu cok begenerek almistim,Inferior,Partially
+907,b304,ürünün yaka kısmı arka kısmı da yarısı dikişsiz geldi,Faulty,Partially
+908,b305,S beden istedim m gönderilmiş beden konusunda bu yaşadığım kaçıncı maduriyet bilmiyorum tişörtler güzel evet ama dikkat edilmediği için 1 puan. Uygun fiyatlı olduğu için iade etmekle uğraşmayacağım,Ill-fitting,Yes
+909,b306,Defolu. İade,Faulty,Yes
+910,b307,çoook büyükk xs aldım large gibi lutfenn bedenleri yeniden ayarlansın çok şık ama aşırı büyük xxxs olsa tam olurdu @trendyolmilla mecbur iade etmek durumundayım,Ill-fitting,Partially
+911,b308,Ürünü paketinden çıkartmadım bile kalplerinde lekeler vardı maalesef iade edeceğim,Faulty,Yes
+912,b309,Dokusu düzel ama kol kısmında dikiş yok,Faulty,Partially
+913,b310,Yakası yırtık gönderilmiş,Faulty,Yes
+914,b311,Sadece iki yikamada aşırı pamuklandı,Inferior,Yes
+915,b312,"Sadece bir yıkama sonrası daha giymedim bile, ekspres programda yıkandı bir de soğuk sayılır su",Inferior,Yes
+916,b313,Bir yıkamada tüm canlılığı gitti. İlk geldiğinde capcanlı renge sahipken tek yıkamada bu hale geldi.,Inferior,Yes
+917,b314,Ne zaman beyaz tshirt alsam fondöten lekeli geliyor bıktım artık,Faulty,Yes
+918,b315,tek yikamada yazilar gitti alinmaz cok kalitesiz,Inferior,Yes
+919,b316,Dikiş hataları çok fazla hiç beğenmedim. İade edemedim çünkü giydikten sonra fark ettim öncesinde fark etseydim hiç düşünmeden iade ederdim birde 320 tl ye aldım millaya yakışmadı bu,Faulty,Yes
+920,b317,Çok ince bol dokusu güzel değil,Inferior,No
+921,b318,daha ilk yıkamada dikisler kaydı çok kalitesizmiş,Inferior,Partially
+922,b319,Ürün çok güzel fakat sadece bir defa giymiş olmama rağmen üründe yırtıklar ufak delikler oluştu çok üzgünüm bu kadarını beklemiyordum,Inferior,No
+923,b320,Kollarındaki lastik detayları rahatsız edecek seviyede sıkıyor ve ürün iç gösteriyor,Inferior,No
+924,b321,Bu ürün xs aldim ama çuval gibj,Ill-fitting,No
+925,b322,tek yikamada soldu uzerindeki baskilar halbuki cok sevmistim cok uzgunum,Inferior,Yes
+926,b323,Ya bu kaç oldu böyle yırtık ürün gönderiyorsunuz ne biçim şey bu,Faulty,Yes
+927,b324,Ürün güzel ama baskısında yapıışkan izi gibi bir lekeyle geldi dıştan çok belli olmuyor diye iadeyle uğraşmayacağım ama üzdü:(,Faulty,Yes
+928,b325,Gönderip göndermeme konusunda kararsız kaldım yamuk dikilmiş ipleri çıkmıs ,Faulty,Partially
+929,b325,viskon gibi de değil naylonlu bi kumaş indirimden aldığım için emin olamıyorum,Inferior,No
+930,b326,"ürün güzel ama rengi gorseldeki gibi değil. daha çok kiremit-kahverengiye benziyor
+",Discolored,No
+931,b327,Ürün güzel ama defolu geldi. Yıkadıktan sonra farkettiğim için iade edemiyorum,Faulty,Yes
+932,b328,Zaten evde giymek için almıştım ama ürün lekeli geldi. Birinin giyip iade ettiği ürünü mü yolladınız gerçekten? ,Refurbished,Yes
+933,b328,Ayrıca 4 beden büyük aldım üzerime çok bol olsun diye OLMADI.,Ill-fitting,No
+934,b329,ilk defa curvenin ürününde sorunla karsilastim malesef defoluydu t-shirt geç farkettim yıkadiktan sonra utulerken gördüm bildiğin delik varmis arkasında bu yüzden iade edemiyorum lütfen ürünleri kontrol edin paketlerken,Faulty,Yes
+935,b330,Yanlış ürün gönderildi iade…,Incorrect,Yes
+936,b331,"Kumaşı güzel ama rengi fotoğraftakinden daha koyu, ona göre tercih edin
+",Discolored,Yes
+937,b332,görseldeki gibi değildi gri renkdi,Discolored,No
+938,b333,Yeri gayet güzel boyu vs de ama lekeli görüntüsü var daha özenilmesi lazım ayrıca iki tişört aldım yırtık bir poşette ikisi ürün birlikte ve öylesine içine konulmuş kırış kırış geldi.,Faulty,Partially
+939,b334,Rengi göründüğünden daha soluk ama kumaşı rahat iade etmeyeceğim,Discolored,No
+940,b335,Renk guzel kumas guzel ama kaliplar xxl gibi. O yuzden iade,Ill-fitting,No
+941,b336,Açıkçası ilk defa böyle bir şeyle karşılaştım defalarca ürün aldım ama bu ürünü makinaya attım uygun derecede ve üzerindeki baskı neredeyse silinmişti iade süreside geçmişti hayal kırıklığ.. Evet biraz eskitilmeli bir baskı ama aradaki farkı anlayabilirsiniz,Inferior,Partially
+942,b337,aslında gzl bir ürün boyu iyi ama eni aşırı derecede geniş s beden aldm bana pek yakışmadı geri iade edicm ,Ill-fitting,Partially
+943,b337,birazda iç gösteriyor onun dışında kumaşı fln iyi yazlık,Inferior,No
+944,b338,Modelinden mi bilmiyorum ama renkleri soluk sanki eskimiş gibi duruyor ama rahatlığı iyi tabi,Discolored,No
+945,b339,hiç giymeden 30 derece kısa programda sıvı deterjan ile yıkadım baskısı soyulmuş. ,Inferior,Yes
+946,b339,ve fotoğraftakiden çok koyu rengi.,Discolored,Yes
+947,b340,Kumaşın kalitesi çok güzel yumuşacık ve hafif esnek ama rengi çok kötü. Mavi kotla birlikte yıkanmış gibi bir mavilik var hiç begenmedim bu yüzden iade,Discolored,No
+948,b341,Yamuk dikilmiş yaka kısmı. Resimdeki gibi canlı değildi ona rağmen giymek isterdim ama defolu yamuk dikişli olduğu için mecburen iade,Faulty,Yes
+949,b342,çok beğenerek almistim ancak hayal kırıklığı oldu..,Disappointing,Yes
+950,b343,bir kez giyip yikamaya attim baskisi soldu pijama oldu👏🏻,Inferior,Partially
+951,b344,yorumlara bakarak almıştım kumaşı kötü önü aşırı fazla açık giydiğimde boğuluyorum sandım beğenemedim iade ediyorum,Disappointing,Partially
+952,b345,Üründe baskı hatası var . Sweet kelimesinin ilk iki harfı yok 😞😞😞😞 çok güzeldi üzüldüm,Faulty,Yes
+953,b346,Bir yıkamada bu hale geldi çok üzüldüm yaa giymedim daha,Inferior,Yes
+954,b347,ürün defolu geldi iade,Faulty,Yes
+955,b348,Ürünlerde yıkama sonrası lekeler oluştu,Inferior,Yes
+956,b349,Urunu s aldım ama bu nasıl bir s L resmen elınızde kalanları etıket degısıp mı satıyorsunuz gercekten anlamıyorum daha açmadım ama bellı yanı buyuk oldugu tek yapmanız gereken dogru bedende uretmek tısort kendısı cok guzel hıc sıkıntısı yok ama bı bedenı sorun,Ill-fitting,No
+957,b350,lekeli geldi ,Faulty,Partially
+958,b351,kumaşı güzel. rengi bordosu çok koyu beyazı kırmızımsı. sarışın ve beyaz tenliyim ama beni aşırı boğdu renk. görseldeki gibi durmuyo,Discolored,No
+959,b352,güzel ama keşke yırtık olmasaydı ( çok kötü yeniden puanliyorum ilk giymemde de dikişler söküldü rezil oldumm,Faulty,Yes
+960,b353,Ürünün baskısı kalitesiz ve naylon Yaz için terletici bir yapısı var.,Inferior,No
+961,b354,Üstünde leke var bence almayın,Faulty,No
+962,b355,"Bu kadar kalitesiz bir urunu size yakistiramadim, 2. giyiste delikler basladi.",Inferior,Yes
+963,b356,kumasi yumusacik guzel ama baskisi cok kotu malesef daha ilk giyisimde catlak catlak oldu:((,Inferior,Yes
+964,b357,Ürün yırtık geldi iade,Faulty,Yes
+965,b358,Tişörtü çok severek almıştım. ancak tek yıkamada baskısı soldu. fotodaki hali birden fazla kez yıkanmış hali. ancak ilk yıkamadan beri böyle. ürünü alalı 17 gün oldu. dıarıda giymek için almıştım. ama evde giyebiliyorum. o kadar para veriyoruz. keşke daha kaliteli malzeme kullansanız. hiç memnun kalmadım.,Inferior,Partially
+966,b359,Ürünün kumaşı ve modeli güzel ama defolu geldi maalesef iade,Faulty,Yes
+967,b360,defolu geldi kol dikişleri sökük,Faulty,No
+968,b361,Maalesef tüylendi hem de 1 haftada. Halbuki kalıbı güzeldi. Yazık oldu,Inferior,Yes
+969,b362,ürünün modeli rengi ve kalitesi çok güzel ancak ürün aşırı geniş bu oversize olamaz 158 42 kilo xs giymeme rağmen en az 1 2 beden büyük oldu eğer daha küçük bedeni olsaydı bir daha alırdım,Ill-fitting,Partially
+970,b363,Cok severek almıstım ama maalesef ürünün kumaşı çok kötü dantel kısmı salas oldugu ıcın giyince kotu duruyor bu yüzden iade edicem,Disappointing,No
+971,b364,Üstünde çamaşır suyu lekeleri vardı. Hiç beğenmedik,Faulty,Yes
+972,b365,Yırtık yolladılar,Faulty,Yes
+973,b366,yanlış ürün gönderildi,Incorrect,Yes
+974,b367,Görseldeki gibi iki kurdele yoktu,Incomplete,Yes
+975,b368,"Ürün üzerinde boydan boya çizgi vardı belki yikarsam kumaş toplar düzelir dedim ama maalesef yıkadım sonuç değişmedi defolu ürün gönderilmiş, firma yardımcı olurmu bu konu da bilemiyorum",Faulty,Partially
+976,b369,"Ürün lekeli geldi hiç beklemezdim milladan…. Eski kalitesi kalmamış kesinlikle bir yıldızı bile hak etmiyor
+",Faulty,No
+977,b370,sadece 1 kere giydim ve pamuklandı yıkmadım bile lütfen ilgilenebilir misiniz iade etmek istiyorum,Inferior,Yes
+978,b371,yanlış ürün gönderdiler ama iade etmek istemiyorum,Incorrect,No
+979,b372,Tam etiketi söktüm kolundaki yırtığı gördümm keşke dikkatli kargolansa iadeyle uğrasmak istemediğim için kendim diktim,Faulty,Yes
+980,b373,Ürün elime yırtık bir şekilde geldi bide iade ile uğraşıcam,Faulty,Yes
+981,b374,tişört güzel fiyat performans ben xl aldım oldu 1.75 80 kilo ama ilk yikama için dikkat edin inanılmaz boya akiyor rengi ilk yıkamada soldu ve boyu çekti elimde yıkama rağmen,Inferior,Partially
+982,b375,"Maalesef beğenmedim. Kumaşı pamuklu evet ama bedene göre boyu şekli tuaf oluyor. Beden büyüdükçe boyu da orantılı olması lazım ama sadece en olarak genişlemiş. Maalesef iade
+",Ill-fitting,No
+983,b376,taşı düşmüş bir şekilde geldi iade,Faulty,Yes
+984,b377,Ürün bugün elime LEKELİ ulaştı ne lekesi olduğunu bilmiyorum ve çıkmıyor,Faulty,Yes
+985,b378,kalıbı dar fena değil,Ill-fitting,No
+986,b379,"Kumaşı tok, bayılarak giyeceğim bir tişört, çok güzel. Ancak yıkadıktan sonra fark ettim ki arkasında leblebi tanesi kadar yırtık vardı. Yıkandığı için iade edemeyip diktim. Yardımcı olabilirseniz sevinirim :(",Faulty,Partially
+987,b380,ürün kullanılmış üzerinde lekeler var etiketi kesilmiş ve tekrardan bağlanılmış ve buram buram birisinin parfümü kokuyor bu yapılan çok kötü bir şey nasıl böyle kullanılmış bir ürünü gönderirler lekeli parfüm kokulu pes doğrusu.,Refurbished,Partially
+988,b381,ilk yıkamada taşı düştü ve düşen yerin yırtık görüntüsü kaldı.,Inferior,Yes
+989,b382,ürün yanlış geldi!!!!! şaka mıdır … paris olan pembe yazıyor buna rağmen beyaz ve paris geldi. italy nerde😫,Incorrect,Yes
+990,b383,Resimdeki kot etekli modeldeki gibi durmuyor oversize olduğunu düşünerek S sipariş verdim çok bol geldi o yüzden iade edeceğim birde kenarlarının ip görüntüsü hoşuma gitmedi,Ill-fitting,No
+991,b384,"Ürün lekeli geldi, kontrol edilmiyor sanırım.",Faulty,Yes
+992,b385,"Baskısı soluyor arkadaşlar. İki defa aldım ilki makinede mahvoldu iade ettim yenisini gönderdiler, onu elde yıkadım yine soluyor. Tek giyimlik birşey",Inferior,No
+993,b386,KOLTUK ALTI YIRTIK GELDİ???,Faulty,Yes
+994,b387,ilk elde yikamama ragmen uzun dal gibi olan yerlerdeki boncuklarinin rengi soyuldu,Inferior,No
+995,b388,Kumaşını beğenmedim pazar malı gibi evde bile giyilmez,Disappointing,No
+996,b389,ürün güzel biraz ic gosteriyor ama defolu gonderilmis kontrol etmeden mi gonderiyolar anlamayadım gorulmeyecek gibi bi defo degil iadeyle ugrasmak istemedigim icin kendim diktiricem boyle buyuk firmaya yakıstıramadım,Faulty,Yes
+997,b390,Fp bence iç gösteriyor biraz ona göre alın uygun olduğu için iade etmeyeceğim,Disappointing,No
+998,b391,Çok beğenerek almıştım fakat ürün yırtık geldi üzülerek iade ediyorum,Faulty,Yes
+999,b392,merhabalar bu ürünün yikam talimatı nedir acaba?ben birkere yıkadım çilek hemen soyuldu,Inferior,Yes
+1000,b393,"ürün malesef defolu geldi, yıkadiktan sora gördüm,",Faulty,Yes
+1001,b394,ilk yikamada esnedi yamuldu,Inferior,Partially
+1002,b395,288 liraya aldım kumaşı yumuşak ama iç gösteriyor maalesef baskısı güzel görseli yansıtıyor rengi de öyle ama ben sevemedim ucuz duruyor üzülerek iade,Disappointing,No
+1003,b396,Lekeli ürün geldi. Evde giyilecek bişi,Faulty,Yes
+1004,b397,çok kötü bir parça,Disappointing,No
+1005,b398,Kumaşı kalitesiz ama bu fiyata normal model olarakta baya zayıf kızlar alsın yoksa daha da geniş gösteriyor,Disappointing,No
+1006,b399,"Çok severek aldım fakat lekeli geldi yağ lekesi, çıkabilecek bi.leke olsa yıkardım ama malesef yağ lekesiydi iade ettim",Faulty,Yes
+1007,b400,ürünün deseni Neon pembe geldi pembe değil Neon pembe Ayrıca biraz da ic gösteriyor,Discolored,Yes
+1008,b401,Bembeyaz tişörtte bu işaretler nasıl görünmeden yollanır saçmalık aciliyeti olduğu için iade edemiyorum kurdeleleri söküp dikicem onun dışında tişört güzel,Faulty,Partially
+1009,b402,"İlk giyişte önü paramparça oldu,ya zaten delikti ben fark etmedim ya da kumaş çok kalitesiz. Sakın almayın.",Inferior,Yes
+1010,b403,ürün defolu geldi,Faulty,Yes
+1011,b404,"Defolu urun
+",Faulty,Yes
+1012,b405,"Ürün kirli beyaz, karşılaştırma açısından yanına beyaz tişört koydum. ",Discolored,Yes
+1013,b405,L beden aldım ben ama M alsam daha iyi olurmuş. Pamuklu olması güzel.,Disappointing,No
+1014,b406,Ürün küflü gibi gönderildi,Faulty,Yes
+1015,b407,Alakası yok fotoğraf çok yanıltıcı,Disappointing,No
+1016,b408,fiyonklarının rengi asla ürünün görselindeki gibi değil oldukça koyu bir pembe,Discolored,No
+1017,b409,Ürün lekeli geldi. küf gibi. kontrol edilmesi gerekirdi. iade etmek zorundayım. ancak kargo ücreti kesilecek ve bu mağduriyeti yaratan tendyolmilla,Faulty,Yes
+1018,b410,Ben bu ürünün morunun 2 xl olarak aldım güzel olmuştu ama bu yeşilde 2 xl adı altında 6 xl gelmiş 80 kiloyum benden bir tane daha girerdi öyle diyim bunun neresi 2 xl kalite olarak sevmiştim yeşilini de alayım dedim üzülerek iade ediyorum,Ill-fitting,No
+1019,b411,fiyonklari nerede bu ürünün??? ,Incomplete,Yes
+1020,b411,M beden istedim L yollamissiniz????!,Ill-fitting,No
+1021,b412,Ürün güzel ama defolu geldi maalesef,Faulty,Yes
+1022,b413,163 53-54 beden bilgilerim 36 beden aldım çok bol durdu beğenmedim 34 beden almaliymisim oda büyük gelir mi bilmiyorum ,Ill-fitting,No
+1023,b413,iç gösteriyor nakışları güzel,Inferior,Yes
+1024,b414,Hiç tavsiye etmiyorum maksimum 2 defa giydim tüylendi hemen,Inferior,Yes
+1025,b415,ürün iç göstermiuorum çok iyi fakat lekeli geldi sildim ama çıkmıyor. bu tişörte acil işim olduğu için iade etmiyeceğim fakat böyle bi sorun üzdü. Ayrıca tam 1 günde gekdi kargo çok hızlıydı,Faulty,Yes
+1026,b416,Bildiğin üstünde saç olan dikişi hatalı iade gelen ürünü göndermişler gerçekten sinir bozucu,Refurbished,Partially
+1027,b417,tüylenme yaptı daha yıkamaya bile aymamıştım 2. gün sanki yıllardır giydiğim bir tişört gibi duruyordu giydiğim için iade de yapamıyorum,Inferior,Yes
+1028,b418,Tişörtte bildiğin yağ lekesi var siz nasıl kalite kontrol yapıyorsunuz abi. SATICISI KİMSE ACİLEN SATIŞI BIRAKSIN Bİ TİŞÖRT İÇİN BİR SÜRÜ SAÇMA SAPAN ŞEYLE UĞRAŞTIRDILAR BENİ BÖYLE RZKLLİK GÖRMEDİM BEN,Faulty,Yes
+1029,b419,Kumaşı kaliteli ama şöyle bi dikiş hatasıyla geldi.,Faulty,No
+1030,b420,defolu olmasa çok güzel fakat delikli ve garip lekelerle geldi iade de edemiyorum çünkü etiketi çıkardım ama tisort gayet güzel büyük ihtimalle bana denk gelmiştir alın yani,Faulty,Partially
+1031,b421,baskılar gayet iyi kumaşı hafif kaygan kumaş gibi paketleme güzel fakat fazla oversize olsun istemiyorsanız kendi bedeninizden bir beden küçük alın büyük geldi bana onun dışında sorunsuz,Ill-fitting,No
+1032,b422,Ürün lekeli geldi gerçekten umduğum gibi olmadı,Faulty,Yes
+1033,b423,çok hevesle aldım ama kırış kırış ve baskısı bozuk geldi.,Faulty,Yes
+1034,b423,Normalde L giyiyorum ama m aldım yorumlara bakarak. keşke L alsaydım üstüme biraz yapıştı. onun dışında güzel bir tişörttü baskıdan dolayı üzülerek iade.,Ill-fitting,No
+1035,b424,"ürünü giyerken fark etmedim kolunda delik varmış, 2 saat giydim sadece ve kolundaki delik ilerlemiş tamir edilecek gibi değil. çok dandik parama yazık oldu",Faulty,Yes
+1036,b425,Beyaz diye aldım hiç beyaz gibi değil buz mavi gibi 🥺,Discolored,Partially
+1037,b426,Lekeli gönderildi iade,Faulty,Partially
+1038,b427,Tişört boyu kısa önündeki katmanlardan sanırım çok kilolu gösteriyor,Disappointing,No
+1039,b428,yırtık ürün gondermissiniz saka gibi!!!!,Faulty,Yes
+1040,b429,İlk yıkamada sonuç hiç bir albenisi kalmadı yeri kalitesi çok güzel ama birdaha dışarıya giyemeyeceğim toz bezi oldu,Disappointing,No
+1041,b430,defolu geldi,Faulty,Partially
+1042,b431,"Kumaşı yumuşacık fakat ince olduğu için iç gösteriyor.
+",Inferior,Partially
+1043,b432,Kolları çok tuhaf durdu sevmedim iade,Disappointing,No
+1044,b433,Kumaşı güzel ama defolu geldi kollarının boyu farklı,Faulty,Yes
+1045,b434,Kolu yırtık geldikumaş olarak çok güzel fakat kol kısmı kesik,Faulty,Yes
+1046,b435,Baskı hatalı geldi ürün,Faulty,Yes
+1047,b436,Beyazın S bedenini ve grinin M bedenini almıştım. Resmen ikisi de birebir aynı beden 👎🏼,Ill-fitting,No
+1048,b437,güzel bir ürün ama en küçük bedenini almama rağmen boyu çok uzun kalıpları çok geniş kendi bedeninizden küçük olanları alın kumaşı fln iyi yazlık,Ill-fitting,No
+1049,b438,Kazak görünümü çok güzeldi faka 2. Giymeden yünlenme yaptı hemde çok fazla kullanışlı değil,Inferior,Yes
+1050,b439,genis bir tişört. salaş durmasını istiyorsanız kendi bedeninizi alın.,Ill-fitting,No
+1051,b440,"Kol detayı çok kötü
+",Disappointing,Partially
+1052,b441,Kızım giydi denedi güzeldi yıkadım giysin diye kolları saldı kendini çok kötü oldu yıkadığım için iadede edemiyorum mağduriyetim nasıl giderilir bilmiyorum,Inferior,Yes
+1053,b442,çok şükür bir ürünü de defozsuz geçmedik :)),Faulty,Yes
+1054,b443,kumasi modeli kalibi cok guzel arkasindaki baski hemen silindi ben xs aldim normalde tisortlerde s m giyerim ama yeterince oversize,Inferior,No
+1055,b444,tisortun arkasi baskisiz geldi,Faulty,No
+1056,b445,Ürünü bir yıkamada bozuldu30 derecede yıkadım. Dikiş yerleri yıkamadan sonra içi dışında duruyor.,Inferior,Partially
+1057,b446,yalnis ürün göndərildi,Incorrect,Yes
+1058,b447,30 derece ilk yıkama da bu hal aldı çok soldu,Inferior,Partially
+1059,b448,Yırtık geldi,Faulty,Yes
+1060,b449,Rengi harika ancak 2. Yıkamada baskıları malesef dökülmeye başladı. 1 sezonu bile çıkaramayacak,Inferior,Yes
+1061,b450,Çok beğenerek almıştım yıkayıp giyeyim dedim ilk yıkama durum bu,Inferior,Partially
+1062,b451,Beğenerek aldım kumaşı da güzel. ama etiketli ürünü nasıl cay lekesiyle gonderebilir hala dusunuyorum. tam önünde görünmeyecek gibi değil. çok tereddutle yıkamaya attım ve Allah'tan çıktı. ama bu durum hic hoş olmadı.,Faulty,Partially
+1063,b452,Cok kotu bir kalitesi var((((bu ne kumaş(((((cok kotu bir kumas(((iade etmek istiyorum!!!,Disappointing,No
+1064,b453,"Max. 30 derecede yıkayın diyor. Ben tüm tişörtlerim gibi bunu da 40 derecede yıkadım, bu inanılmaz renk verdi😞 Siyahlar akmış, mavisi solmuş. Yazık oldu.",Inferior,Partially
+1065,b454,Ürün iyi ama üzerinde küçük pembe bir boya lekesiyle geldi yıkadığım halde de geçmedi,Faulty,No
+1066,b455,"ürün yırtık geldi iade edicem
+",Faulty,Yes
+1067,b456,Boyu crop gibi hiç resim gibi durmuyor,Disappointing,Partially
+1068,b457,FULAR KISMI GÖRSELDEKİYLE AYNI DEĞİL,Disappointing,No
+1069,b458,Ürün güzel göründüğü gibi ama göndermeden önce bir kontrol etseler de iyi olurdu delik geldi,Faulty,Yes
+1070,b459,T-shirt'ūn esprisi denim parçanın yanısıra asimetrik birlesmeydi. Gelen ürün özensiz bitim dikişli ve asimetrik olmayan kesim. Penye kumaşın kalitesinden bahsetmiyorum bile..Edit by Trendyol'dan beklentim yüksekti sanirim.,Faulty,Partially
+1071,b460,Pamuklu bir görüntü veriyordu resimlerden ama kumaşı kağıt gibi bir dokuya sahip. Ben böyle tişörtler giyemiyorum bunalıyorum. İade edeceğim.,Inferior,No
+1072,b461,Fiyatı tabii ki çok uygun ama rengi beyaz değil siyahlarla yıkanmış beyaz gibi ve başka bir tişört daha almıştım kumaşı çok güzel ama bunun kumaşı da eh işte,Discolored,No
+1073,b462,ürün yıkanmadan önce baskısında bi sıkıntı yoktu ilk yıkamadan sonra rengi attı,Inferior,No
+1074,b463,Kalite güzel ama aşısı geniş,Ill-fitting,No
+1075,b464,Urun lekeli geldi aldigim fiyatla simdiki fiyati arasinda fark var umarim yikayinca cikar,Faulty,Yes
+1076,b465,Kumaşı duruşu vs iyi fiyat performans olarak değerlendirilebilir ama maalesef defolu ürün göndermişler iade işiyle uğraşmak istemediğim için iade etmiyorum zaten evde giymek için almıştım,Faulty,Yes
+1077,b466,İlk yıkamada beyazları renk aldı ve grileşti 30 derecede yıkadım çektiğim fotoğrafta daha beyaz görünüyor ama grileşti,Inferior,Yes
+1078,b467,Aşırı büyükk :( S beden almama rağmen hic guzel durmadi üzerimde iade ettim oysa ki cok sevmiştim modelini. Ama kumaşi cok iyi,Ill-fitting,No
+1079,b468,Tişörtte hafif buruşukluklar var dikişten dolayı o pek hoşuma gitmedi. ,Faulty,Partially
+1080,b468,Resimdeki tişörtle alakası da yok ayrıca ne renkleri aynı ne de dikişler. İade.,Disappointing,No
+1081,b469,"Ürünü giymeden yıkamaya attım ters yıkamama rağmen, pembe baskısı soldu. ürün kumaş kalitesi iyi ancak baskı kalitesinden kaldı. ",Inferior,Partially
+1082,b469,Ayrıca 1 beden küçük alabilirsiniz baya baya geniş bir ürün.,Ill-fitting,No
+1083,b470,Daha hiç giymeden ilk yıkandıktan sonra böyle oldu sakın almayın,Inferior,Partially
+1084,b471,Görmedim etiketi söküp şimdi ütülerken fark ettim delik tişört göndermişler maalesef 250tl ye ev tişörtü almış oldum,Faulty,Yes
+1085,b472,"Allah aşkına bu kadar para verip alıyoruz, ilk yıkamada da yamulmasın bir zahmet!!!!!!! Yazık günah yaa hepimize!!!! Almayın net almayın!!!",Inferior,Partially
+1086,b473,"Tam bedeninizi alabilirsiniz ancak ürün defolu geldi, kolunda yırtık var.",Faulty,Partially
+1087,b474,Kolu yırtık geldi,Faulty,Partially
+1088,b475,Çuval giymek istiyorsanız alabilirsiniz çok aşırı bol m beden xxl gibi iade ediyorum,Ill-fitting,No
+1089,b476,Kollarında yağ lekesiyle geldi umarım yıkayınca çıkar.,Faulty,No
+1090,b477,İlk giydiğim zaman çok beğenmiştim fakat bir kere yıkadıktan sonra baskı kenarları paramparça oldu. İade etme sürecim dolduğu için çöp oldu.,Inferior,Yes
+1091,b478,Ürün kumaş kalitesi güzel ancak s beden bile L beden gibi buyuk,Ill-fitting,No
+1092,b479,duruşunu sevmedim iade edicem,Disappointing,No
+1093,b480,yırtık geldi,Faulty,Yes
+1094,b481,Beğendim ama yazı rengi lacivert geldi ya of,Discolored,Yes
+1095,b482,Yorumumu güncelliyorum ürünü 40 derecede renkli ayarında yıkamama rağmen ilk yıkamada çöp oldu yazı kısmının rengi soldu baskıları çatladı paranızı çöp etmeyin!!!!!!!!!!!!!!!,Inferior,No
+1096,b483,İlk ayda tüylendi,Inferior,No
+1097,b484,Tişörtte delik vardı,Faulty,Yes
+1098,b485,Baskısı bir yıkamada doldu ve dikiş yerlerinde minik delikler oluştu,Inferior,Partially
+1099,b486,Hiç hoş deil 2xl söyledim ve gelen beden xs 4 ürün den bir tanesi yanlış beden geldi,Ill-fitting,Yes
+1100,b487,Bırı denemiş fondoten yapmıs ve o sekılde tekrardn yollanmış,Refurbished,Yes
+1101,b488,neden S sipariş vermişim M göndermişsiniz?çok kötü oldu Bakuden sipariş etmişim napiyim,Ill-fitting,Yes
+1102,b489,görseldeki ile aynı deil,Incorrect,Yes
+1103,b490,Eşime sipariş vermiştim Ürün maalesef kusurlu geldi. İnşallah benimkide kusurlu gelmez Mürekkep lekesi gibi bir şey paketlemeden önce kontrol edilmeli !!!,Faulty,Yes
+1104,b491,"Ay model kumas cok guzeldi, baya genis kalipti 165 boy 120 kiloya 3xl aldim ama ilk yikamada mavi detaylarin rengi gecti her yere mahvoldu :( cok severek alip giymistim",Inferior,Yes
+1105,b492,bu tisortun hali ne yikamaya atana kadar biseyi yoktu bi yikamadan cikti hrr tarafina baskisinin boyasi bulasmus baskisuni elimle bile sökebilirim bu nedir nasil bi kafayla üretildi bu yikanamayacaksa daha ne diyeyim birde ters cevirip yikadim baskisına bisey olmasin diye,Inferior,No
+1106,b493,lekeli olduğu için değişim,Faulty,Yes
+1107,b494,Ürünün bedeni rengi çok güzel ancak lekeli geldi iade tekrar sipariş vermekten hiç hoşlanmıyorum inşallah leke çıkar ama hiç hoş bir durum değil bu,Faulty,Partially
+1108,b495,defolu geldi elimee...,Faulty,Yes
+1109,b496,"Aslında tişört gayet iyi, xl aldım oversize durdu (1.67-85). Ama makine de yıkadım üzerinde kendiliğinden lekeler oluştu, sadece kırmızı tonları olan diğer 2 giysimle yıkattım ve yarım saatlik programdı. Bu lekeler nasıl oluştu anlamadım, sadece bu tişörtte oldu. Artık temizlik yaparken giyiyorum :(",Inferior,Yes
+1110,b497,"Ürünü çok beğenerek aldım ve giysim fakat ilk yıkamada Siyah Yıldız soldu, t-shirtun şekli kaydı gördüğünüz gibi o yüzden tavsiye etmiyorum.",Inferior,No
+1111,b498,"Güzel fakat boğazı dar gibi evde giymeye aldım bunaltabilir. Bir beden büyük alın.
+",Ill-fitting,No
+1112,b499,aşırı ince bunu alacağıma pazardan rastgele alırım daha iyi kalıbı falan çok güzel ama ince hafif işikta bile iç gösteriyor,Inferior,Yes
+1113,b500,yani S bedenin bu kadar büyük olabileceğini tahmin etmiyordum tamam oversize ama bunu babama giydirsem olur babam 110 kilo ben 56 kiloyum mantık olarak babama olabilen bi şey bana olamaz 🥲 kalitesini beğendim,Ill-fitting,Yes
+1114,b501,Üzeri lekeleli geldi…,Faulty,Yes
+1115,b502,Ürün beyaz değil kesinlikle krem çok uzun ,Discolored,Partially
+1116,b502,ve lekeli geldi ürün iade edicem,Faulty,Partially
+1117,b503,Ürünü magazisinda deneme sansim olmustu begenerek aldim. Ama gonderilmeden önce keşke kontrol edilse. Ürünün kol kismi sökük halde geldi. Şehir dışına cikacagimdan iade edemedim.,Faulty,Yes
+1118,b504,Defolu ürün göndermişler !!!,Faulty,Yes
+1119,b505,Ürün yırtık geldi.,Faulty,Yes
+1120,b506,"Renk körü değilsem eğer bunun neresi kırmızı söylermisiniz. Fotoğrafla alakası olmayan bi renkte. Elinizde satılmamış kalan fuşyaları pembeleri de kırmızı başlığı altında mı gönderiyorsunuz. Bu ne saygısızlık koy pembe diye, koy fuşya diyen alan alır. Kırmızı iateyen kırmızı alır. Şuna eğer sizin görselinizdeki kırmızı ile aynı diyosanız diyecek sözüm yok. Birde 3 tane aldım hediye.",Discolored,Yes
+1121,b507,Okadar dandik ki anlatamam pazardan 10 tl almış gibi,Disappointing,No
+1122,b507,heryerinde tüyler var,Faulty,Yes
+1123,b508,O kadar kötü bir ürün ki yer bezi bile olmaz,Disappointing,No
+1124,b509,"Kazak arka kısmı yırtık geldi iade ediyorum, kalınlıgı güzeldi.",Faulty,Yes
+1125,b510,İnce bir kazak. ,Inferior,No
+1126,b510,Rengi bek değil kahveye yakın geldi.,Discolored,Yes
+1127,b511,Ürün çok kısa kesinlikle mankendeki gibi uzun değil. Bol bekliyordum ama bol da değil.,Ill-fitting,No
+1128,b511,Ön kısmında sökülmeye başlamış gibi iç kısmında da lekeler mevcut.,Faulty,Partially
+1129,b512,Rengi daha koyu,Discolored,Yes
+1130,b512,tunik kadar uzun s beden ile alakası yok iade,Ill-fitting,No

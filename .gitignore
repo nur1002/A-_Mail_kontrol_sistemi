@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Env
+.env
+
+# Database
+*.db
+
+# Models
+*.pkl
+
+# Vector DB
+chroma_db/
+
+# Logs
+*.log
+
+# VSCode
+.vscode/

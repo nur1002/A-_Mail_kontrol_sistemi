@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Şikayet Agent — Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --bg:      #0b0d11;
+  --s1:      #111318;
+  --s2:      #171a21;
+  --border:  #1e2230;
+  --border2: #252a38;
+  --text:    #dde3f0;
+  --muted:   #5a6480;
+  --muted2:  #8494b8;
+  --acc:     #4f8ef7;
+  --acc2:    #7c5df7;
+  --green:   #2dd4a0;
+  --yellow:  #f0b429;
+  --orange:  #f97316;
+  --red:     #ef4444;
+  --blue:    #60a5fa;
+  --mono: 'DM Mono', monospace;
+  --sans: 'Syne', sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);min-height:100vh}
+body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(var(--border) 1px,transparent 1px),linear-gradient(90deg,var(--border) 1px,transparent 1px);background-size:48px 48px;opacity:.2;pointer-events:none;z-index:0}
+
+header{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:20px;padding:0 32px;height:56px;background:rgba(11,13,17,.9);border-bottom:1px solid var(--border);backdrop-filter:blur(16px)}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1rem;letter-spacing:-.02em;cursor:pointer}
+.logo:hover{opacity:.7}
+.logo-dot{width:8px;height:8px;border-radius:50%;background:var(--acc);box-shadow:0 0 10px var(--acc);animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 10px var(--acc)}50%{box-shadow:0 0 20px var(--acc),0 0 40px var(--acc2)}}
+.header-pills{display:flex;gap:8px;margin-left:auto;align-items:center}
+.pill{display:flex;align-items:center;gap:6px;padding:4px 12px;border-radius:20px;font-family:var(--mono);font-size:.7rem;border:1px solid var(--border2);background:var(--s1);color:var(--muted2)}
+.pill.green{background:rgba(45,212,160,.08);border-color:rgba(45,212,160,.2);color:var(--green)}
+.pill.red{background:rgba(239,68,68,.08);border-color:rgba(239,68,68,.2);color:var(--red)}
+.pill-dot{width:5px;height:5px;border-radius:50%;background:currentColor}
+.header-btn{background:none;border:1px solid var(--border2);color:var(--muted2);padding:4px 12px;border-radius:6px;font-family:var(--mono);font-size:.7rem;cursor:pointer;transition:all .2s}
+.header-btn:hover{border-color:var(--acc);color:var(--text)}
+
+.container{position:relative;z-index:1;padding:28px 32px;max-width:1600px;margin:0 auto;display:flex;flex-direction:column;gap:24px}
+
+/* İSTATİSTİK KARTLARI */
+.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.stat-card{background:var(--s1);border:1px solid var(--border);border-radius:12px;padding:18px 20px;display:flex;flex-direction:column;gap:6px;transition:border-color .2s}
+.stat-card:hover{border-color:var(--border2)}
+.stat-label{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.stat-val{font-size:1.8rem;font-weight:800;letter-spacing:-.03em;line-height:1}
+.stat-sub{font-family:var(--mono);font-size:.7rem;color:var(--muted)}
+.stat-card.kritik .stat-val{color:var(--red)}
+.stat-card.yeni .stat-val{color:var(--acc)}
+.stat-card.dusuk-guven .stat-val{color:var(--yellow)}
+
+/* CHART GRID */
+.chart-grid{display:grid;grid-template-columns:1fr 1fr 1.5fr;gap:12px}
+.chart-card{background:var(--s1);border:1px solid var(--border);border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:12px;min-height:240px}
+.chart-card-title{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.chart-wrap{flex:1;position:relative;min-height:200px}
+
+/* FİLTRE */
+.filtre-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.filtre-bar input{background:var(--s1);border:1px solid var(--border2);border-radius:8px;color:var(--text);font-family:var(--mono);font-size:.8rem;padding:8px 14px;outline:none;transition:border-color .2s;flex:1;min-width:200px}
+.filtre-bar input:focus{border-color:var(--acc)}
+.filtre-bar input::placeholder{color:var(--muted)}
+select{background:var(--s1);border:1px solid var(--border2);border-radius:8px;color:var(--text);font-family:var(--mono);font-size:.78rem;padding:8px 12px;outline:none;cursor:pointer;transition:border-color .2s}
+select:focus{border-color:var(--acc)}
+.btn{padding:8px 16px;border:none;border-radius:8px;font-family:var(--sans);font-size:.8rem;font-weight:600;cursor:pointer;transition:all .2s}
+.btn-primary{background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff}
+.btn-primary:hover{opacity:.85}
+.btn-primary:disabled{opacity:.4}
+.btn-ghost{background:var(--s1);border:1px solid var(--border2);color:var(--muted2)}
+.btn-ghost:hover{border-color:var(--acc);color:var(--text)}
+
+/* TABLO */
+.tablo-wrap{background:var(--s1);border:1px solid var(--border);border-radius:12px;overflow:hidden}
+.tablo-header{padding:16px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.tablo-baslik{font-size:.9rem;font-weight:700}
+.tablo-sayac{font-family:var(--mono);font-size:.72rem;color:var(--muted)}
+
+table{width:100%;border-collapse:collapse}
+th{padding:10px 16px;font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:1px solid var(--border);white-space:nowrap}
+td{padding:12px 16px;border-bottom:1px solid var(--border);vertical-align:top;font-size:.83rem}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:rgba(255,255,255,.02)}
+tr{cursor:pointer;transition:background .15s}
+
+.badge{display:inline-flex;align-items:center;gap:4px;padding:3px 8px;border-radius:5px;font-family:var(--mono);font-size:.65rem;font-weight:500;letter-spacing:.04em;text-transform:uppercase;white-space:nowrap}
+.badge-kargo {background:rgba(96,165,250,.12);color:var(--blue)}
+.badge-iade  {background:rgba(45,212,160,.12);color:var(--green)}
+.badge-teknik{background:rgba(240,180,41,.12);color:var(--yellow)}
+.badge-fatura{background:rgba(249,115,22,.12);color:var(--orange)}
+
+.aci-badge{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:6px;font-family:var(--mono);font-size:.78rem;font-weight:700}
+.aci-1{background:rgba(45,212,160,.1);color:var(--green)}
+.aci-2{background:rgba(96,165,250,.1);color:var(--blue)}
+.aci-3{background:rgba(240,180,41,.1);color:var(--yellow)}
+.aci-4{background:rgba(249,115,22,.1);color:var(--orange)}
+.aci-5{background:rgba(239,68,68,.1);color:var(--red)}
+
+.guven-mini{display:flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.72rem;color:var(--muted)}
+.guven-mini-bar{width:48px;height:3px;background:var(--border2);border-radius:2px;overflow:hidden}
+.guven-mini-fill{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--acc),var(--acc2))}
+.gonderen-cell{font-family:var(--mono);font-size:.75rem;color:var(--muted2);max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.konu-cell{max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600}
+.tarih-cell{font-family:var(--mono);font-size:.7rem;color:var(--muted);white-space:nowrap}
+.uyari-icon{color:var(--orange);font-size:.9rem}
+
+.pagination{display:flex;align-items:center;justify-content:center;gap:8px;padding:16px}
+.page-btn{padding:6px 12px;border:1px solid var(--border2);border-radius:6px;background:var(--s1);color:var(--muted2);font-family:var(--mono);font-size:.75rem;cursor:pointer;transition:all .2s}
+.page-btn:hover:not(:disabled){border-color:var(--acc);color:var(--text)}
+.page-btn:disabled{opacity:.3;cursor:not-allowed}
+.page-info{font-family:var(--mono);font-size:.72rem;color:var(--muted);padding:0 8px}
+
+/* MODAL */
+.modal-overlay{
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.7);
+  z-index:1000;
+  backdrop-filter:blur(4px);
+  align-items:center;            /* dikey ortala */
+  justify-content:center;
+  padding:24px;
+}
+.modal-overlay.open{display:flex}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+.modal{
+  background:var(--s1);
+  border:1px solid var(--border2);
+  border-radius:16px;
+  width:100%;
+  max-width:760px;
+  max-height:calc(100vh - 48px);  /* viewport'tan padding kadar küçük */
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;                /* sadece modal-body scroll edecek */
+  animation:fadeUp .25s ease;
+}
+.modal-header{
+  padding:20px 24px;
+  border-bottom:1px solid var(--border);
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:16px;
+  flex-shrink:0;                  /* küçülmesin */
+}
+.modal-close{background:none;border:none;color:var(--muted);font-size:1.2rem;cursor:pointer;padding:4px;line-height:1;transition:color .2s}
+.modal-close:hover{color:var(--text)}
+.modal-body {
+  padding:24px;
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  flex:1 1 auto;
+  min-height:0;                   /* flex shrink için kritik */
+  overflow-y:auto;                /* iç scroll burada */
+}
+.m-section{background:var(--s2);border:1px solid var(--border);border-radius:10px;overflow:hidden;transition:border-color .2s}
+.m-section:hover{border-color:var(--border2)}
+.m-section-header{
+  padding:14px 18px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  cursor:pointer;
+  user-select:none;
+  transition:background .15s;
+}
+.m-section-header:hover{background:rgba(255,255,255,.02)}
+.m-section-title{
+  font-family:var(--mono);
+  font-size:.7rem;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  color:var(--muted);
+}
+.m-section.open .m-section-title{color:var(--text)}
+.m-chevron{
+  width:14px;height:14px;
+  color:var(--muted);
+  transition:transform .25s ease;
+  flex-shrink:0;
+}
+.m-section.open .m-chevron{transform:rotate(180deg);color:var(--acc)}
+.m-section-body{
+  padding:0 18px;
+  max-height:0;
+  overflow:hidden;
+  transition:max-height .3s ease, padding .3s ease;
+}
+.m-section.open .m-section-body{
+  padding:4px 18px 18px;
+  max-height:1200px;   /* yeterince büyük, animasyon için */
+}
+.m-grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.m-metric{display:flex;flex-direction:column;gap:3px}
+.m-metric-label{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.m-metric-val{font-size:1.2rem;font-weight:800}
+.aksiyon-text{font-family:var(--mono);font-size:.78rem;line-height:1.7;white-space:pre-wrap;color:var(--text)}
+.govde-text{font-family:var(--mono);font-size:.75rem;line-height:1.7;color:var(--muted2);white-space:pre-wrap;max-height:200px;overflow-y:auto}
+.skor-row{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:.75rem}
+.skor-label{width:56px;color:var(--muted)}
+.skor-track{flex:1;height:4px;background:var(--border2);border-radius:2px;overflow:hidden}
+.skor-fill{height:100%;border-radius:2px}
+.skor-pct{width:32px;text-align:right;color:var(--muted)}
+.detay-3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.detay-item{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:12px}
+.detay-label{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.detay-val{font-family:var(--mono);font-size:.88rem;font-weight:500}
+.benzer-item{display:flex;align-items:flex-start;gap:10px;padding:10px 12px;background:var(--bg);border:1px solid var(--border);border-radius:8px;margin-bottom:8px}
+.benzer-rank{font-family:var(--mono);font-size:.68rem;color:var(--muted);min-width:18px;margin-top:2px}
+.benzer-konu{font-size:.82rem;font-weight:600;margin-bottom:3px}
+.benzer-meta{display:flex;gap:8px;font-family:var(--mono);font-size:.67rem;color:var(--muted)}
+.benzer-sim{margin-left:auto;font-family:var(--mono);font-size:.7rem;color:var(--acc)}
+
+.empty{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:64px;color:var(--muted);text-align:center}
+.empty-icon{font-size:2.5rem;opacity:.3}
+.empty h3{font-size:.95rem;font-weight:600;color:var(--muted)}
+.empty p{font-family:var(--mono);font-size:.75rem;line-height:1.6;max-width:320px}
+.loading-row td{text-align:center;padding:40px;color:var(--muted);font-family:var(--mono);font-size:.8rem}
+.spinner-inline{display:inline-block;width:14px;height:14px;border:2px solid var(--border2);border-top-color:var(--acc);border-radius:50%;animation:spin .7s linear infinite;vertical-align:middle;margin-right:8px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+.settings-form{display:flex;flex-direction:column;gap:14px}
+.form-group{display:flex;flex-direction:column;gap:6px}
+.form-label{font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.form-input{background:var(--bg);border:1px solid var(--border);border-radius:8px;color:var(--text);font-family:var(--mono);font-size:.8rem;padding:10px 12px;outline:none}
+.form-input:focus{border-color:var(--acc)}
+.form-buttons{display:flex;gap:10px;margin-top:8px}
+
+::-webkit-scrollbar{width:5px;height:5px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px}
+
+@media(max-width:1200px){.stat-grid{grid-template-columns:repeat(2,1fr)}.chart-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:768px){.stat-grid{grid-template-columns:1fr 1fr}.chart-grid{grid-template-columns:1fr}.container{padding:16px}header{padding:0 16px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo" onclick="location.reload()">
+    <div class="logo-dot"></div>
+    Şikayet Agent
+  </div>
+  <div class="header-pills">
+    <div class="pill" id="statusPill"><div class="pill-dot"></div><span id="statusText">Bağlanıyor...</span></div>
+    <div class="pill" id="otoSyncPill" title="Her saat başında otomatik mail kontrolü yapılır">⏰ Otomatik</div>
+  </div>
+  <button class="header-btn" onclick="verileriSifirla()" title="Tüm analizleri sil ve mailleri yeni ağırlıklarla yeniden analiz et">🔄 Yeniden Analiz Et</button>
+  <button class="header-btn" onclick="settingsAc()">⚙️ Gmail Ayarları</button>
+</header>
+
+<div class="container">
+
+  <!-- İSTATİSTİK KARTLARI -->
+  <div class="stat-grid">
+    <div class="stat-card"><div class="stat-label">Toplam Mail</div><div class="stat-val" id="s-toplam">—</div><div class="stat-sub">analiz edildi</div></div>
+    <div class="stat-card yeni"><div class="stat-label">Son 24 Saat</div><div class="stat-val" id="s-son24">—</div><div class="stat-sub">yeni mail</div></div>
+    <div class="stat-card kritik"><div class="stat-label">Kritik</div><div class="stat-val" id="s-kritik">—</div><div class="stat-sub">aciliyet 4-5</div></div>
+    <div class="stat-card dusuk-guven"><div class="stat-label">Düşük Güven</div><div class="stat-val" id="s-dusuk">—</div><div class="stat-sub">manuel kontrol</div></div>
+  </div>
+
+  <!-- GRAFİKLER -->
+  <div class="chart-grid">
+    <div class="chart-card">
+      <div class="chart-card-title">Kategori Dağılımı</div>
+      <div class="chart-wrap"><canvas id="chartKategori"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-card-title">Aciliyet Dağılımı</div>
+      <div class="chart-wrap"><canvas id="chartAciliyet"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-card-title">Son 7 Gün — Mail Sayısı</div>
+      <div class="chart-wrap"><canvas id="chartGunluk"></canvas></div>
+    </div>
+  </div>
+
+  <!-- FİLTRE -->
+  <div class="filtre-bar">
+    <input type="search" id="araInput" placeholder="Ara... (konu, gönderen, içerik)" autocomplete="off" name="ara_filtresi" oninput="aramaDebounce()">
+    <select id="katFiltre" onchange="yukle()">
+      <option value="">Tüm kategoriler</option>
+      <option value="kargo">🔵 Kargo</option>
+      <option value="iade">🟢 İade</option>
+      <option value="teknik">🟡 Teknik</option>
+      <option value="fatura">🟠 Fatura</option>
+    </select>
+    <select id="aciFiltre" onchange="yukle()">
+      <option value="">Tüm aciliyet</option>
+      <option value="5">🔴 5 — Kritik</option>
+      <option value="4">🟠 4 — Yüksek</option>
+      <option value="3">🟡 3 — Orta</option>
+      <option value="2">🔵 2 — Normal</option>
+      <option value="1">🟢 1 — Düşük</option>
+    </select>
+    <select id="siralamaFiltre" onchange="yukle()">
+      <option value="analiz_tarihi">Analiz tarihi</option>
+      <option value="gelen_tarih">Gelen tarih</option>
+      <option value="aciliyet">Aciliyet</option>
+      <option value="kategori">Kategori</option>
+    </select>
+    <button class="btn btn-ghost" onclick="filtreleriSifirla()">Sıfırla</button>
+  </div>
+
+  <!-- TABLO -->
+  <div class="tablo-wrap">
+    <div class="tablo-header">
+      <div class="tablo-baslik">Analiz Edilen Mailler</div>
+      <div class="tablo-sayac" id="tableSayac">—</div>
+    </div>
+    <div style="overflow-x:auto">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Kategori</th>
+            <th>Aciliyet</th>
+            <th>Konu</th>
+            <th>Gönderen</th>
+            <th>Güven</th>
+            <th>Gelen Tarih</th>
+            <th>Uyarı</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <tr class="loading-row"><td colspan="8"><span class="spinner-inline"></span>Yükleniyor...</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="pagination" id="pagination"></div>
+  </div>
+
+</div>
+
+<!-- DETAY MODAL -->
+<div class="modal-overlay" id="modalOverlay" onclick="modalKapat(event)">
+  <div class="modal" id="modalIcerik">
+    <div class="modal-header">
+      <div>
+        <div style="font-family:var(--mono);font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:6px">Mail Detayı</div>
+        <div style="font-size:1rem;font-weight:700" id="modalKonu">—</div>
+        <div style="font-family:var(--mono);font-size:.72rem;color:var(--muted);margin-top:4px" id="modalGonderen">—</div>
+      </div>
+      <button class="modal-close" onclick="modalKapat()">✕</button>
+    </div>
+    <div class="modal-body" id="modalBody">
+      <div style="text-align:center;padding:32px;color:var(--muted);font-family:var(--mono);font-size:.8rem">
+        <span class="spinner-inline"></span>Yükleniyor...
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SETTINGS MODAL -->
+<div class="modal-overlay" id="settingsOverlay" onclick="settingsKapat(event)">
+  <div class="modal">
+    <div class="modal-header">
+      <div>
+        <div style="font-family:var(--mono);font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:6px">Gmail Bağlantısı</div>
+        <div style="font-size:1rem;font-weight:700">Uygulama Şifresi Gir</div>
+      </div>
+      <button class="modal-close" onclick="settingsKapat()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div style="background:var(--s2);border:1px solid var(--border);border-radius:10px;padding:16px;font-family:var(--mono);font-size:.75rem;line-height:1.6;color:var(--muted)">
+        💡 <strong>2 Adımlı Doğrulama</strong>'nın açık olması gerekir.<br>
+        Şifreyi buradan al: <strong>myaccount.google.com/apppasswords</strong><br><br>
+        Bağlantıdan sonra mailler her saat başında otomatik çekilir.
+      </div>
+      <div class="settings-form">
+        <div class="form-group">
+          <label class="form-label">Gmail Adresi</label>
+          <input type="email" class="form-input" id="gmailUser" placeholder="sizinmail@gmail.com">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Uygulama Şifresi (16 karakter)</label>
+          <input type="password" class="form-input" id="gmailPassword" placeholder="abcd efgh ijkl mnop">
+        </div>
+        <div class="form-buttons">
+          <button class="btn btn-primary" id="bağlanBtn" onclick="gmailBaglan()">Bağlan & Test Et</button>
+          <button class="btn btn-ghost" onclick="settingsKapat()">İptal</button>
+        </div>
+        <div id="settingsMsg" style="font-family:var(--mono);font-size:.75rem;padding:10px 12px;border-radius:8px;display:none"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const API = '';
+let sayfa = 0;
+const LIMIT = 50;
+let toplam = 0;
+let araTimer = null;
+
+// Chart instance'ları
+let chartKategori = null, chartAciliyet = null, chartGunluk = null;
+
+// Chart.js global ayarları
+if (window.Chart) {
+  Chart.defaults.color = '#8494b8';
+  Chart.defaults.font.family = "'DM Mono', monospace";
+  Chart.defaults.font.size = 11;
+  Chart.defaults.borderColor = '#1e2230';
+}
+
+// ── Sistem durumu ──
+async function statusKontrol() {
+  try {
+    const r = await fetch(API + '/saglik');
+    const d = await r.json();
+    const pill = document.getElementById('statusPill');
+    const txt  = document.getElementById('statusText');
+    if ((d.genel_durum||'').includes('✅')) {
+      pill.className = 'pill green';
+      txt.textContent = 'Sistem Hazır';
+    } else {
+      pill.className = 'pill';
+      pill.style.color = 'var(--orange)';
+      txt.textContent = 'Uyarı Var';
+    }
+  } catch {
+    document.getElementById('statusPill').className = 'pill red';
+    document.getElementById('statusText').textContent = 'Bağlantı Yok';
+  }
+}
+
+// ── İstatistikler + Charts ──
+async function istatistikYukle() {
+  try {
+    const r = await fetch(API + '/analizler/istatistik/ozet');
+    const d = await r.json();
+
+    document.getElementById('s-toplam').textContent = d.toplam ?? 0;
+    document.getElementById('s-son24').textContent  = d.son_24_saat ?? 0;
+    document.getElementById('s-kritik').textContent = d.kritik_sayisi ?? 0;
+    document.getElementById('s-dusuk').textContent  = d.dusuk_guven_sayisi ?? 0;
+
+    // Charts
+    cizKategoriChart(d.kategori_dagilimi || {});
+    cizAciliyetChart(d.aciliyet_dagilimi || {});
+    
+    // Günlük chart (ayrı endpoint)
+    const r2 = await fetch(API + '/analizler/istatistik/gunluk?gun=7');
+    const d2 = await r2.json();
+    cizGunlukChart(d2.gunler || []);
+    
+  } catch(e) {
+    console.warn('İstatistik yüklenemedi:', e);
+  }
+}
+
+// ── Kategori Doughnut Chart ──
+function cizKategoriChart(data) {
+  const ctx = document.getElementById('chartKategori');
+  if (!ctx) return;
+  
+  const renkler = {
+    kargo: '#60a5fa',
+    iade: '#2dd4a0',
+    teknik: '#f0b429',
+    fatura: '#f97316'
+  };
+  
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+  const colors = labels.map(l => renkler[l] || '#4f8ef7');
+  
+  if (chartKategori) chartKategori.destroy();
+  
+  if (!labels.length) {
+    ctx.getContext('2d').clearRect(0, 0, ctx.width, ctx.height);
+    return;
+  }
+  
+  chartKategori = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: labels.map(l => l.toUpperCase()),
+      datasets: [{
+        data: values,
+        backgroundColor: colors,
+        borderColor: '#0b0d11',
+        borderWidth: 2,
+        hoverOffset: 8
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      cutout: '65%',
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: { padding: 12, boxWidth: 10, font: { size: 10 } }
+        },
+        tooltip: {
+          backgroundColor: '#171a21',
+          borderColor: '#252a38',
+          borderWidth: 1,
+          padding: 10,
+          callbacks: {
+            label: (ctx) => {
+              const total = ctx.dataset.data.reduce((a,b)=>a+b, 0);
+              const pct = total ? ((ctx.parsed / total) * 100).toFixed(1) : 0;
+              return ` ${ctx.label}: ${ctx.parsed} (${pct}%)`;
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+// ── Aciliyet Bar Chart ──
+function cizAciliyetChart(data) {
+  const ctx = document.getElementById('chartAciliyet');
+  if (!ctx) return;
+  
+  const renkler = ['#2dd4a0', '#60a5fa', '#f0b429', '#f97316', '#ef4444'];
+  const etiketler = ['1 Düşük', '2 Normal', '3 Orta', '4 Yüksek', '5 Kritik'];
+  const values = [1,2,3,4,5].map(s => data[s] || 0);
+  
+  if (chartAciliyet) chartAciliyet.destroy();
+  
+  chartAciliyet = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: etiketler,
+      datasets: [{
+        data: values,
+        backgroundColor: renkler,
+        borderRadius: 4,
+        barPercentage: 0.7
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#171a21',
+          borderColor: '#252a38',
+          borderWidth: 1,
+          padding: 10,
+          callbacks: {
+            label: (ctx) => ` ${ctx.parsed.y} mail`
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: { display: false },
+          ticks: { font: { size: 9 } }
+        },
+        y: {
+          beginAtZero: true,
+          grid: { color: '#1e2230' },
+          ticks: { 
+            stepSize: 1,
+            precision: 0
+          }
+        }
+      }
+    }
+  });
+}
+
+// ── Günlük Line Chart ──
+function cizGunlukChart(gunler) {
+  const ctx = document.getElementById('chartGunluk');
+  if (!ctx) return;
+  
+  // Son 7 günü doldur (boş günler 0)
+  const bugun = new Date();
+  const haritaSayilar = {};
+  gunler.forEach(g => haritaSayilar[g.tarih] = g.sayi);
+  
+  const labels = [];
+  const values = [];
+  for (let i = 6; i >= 0; i--) {
+    const d = new Date(bugun);
+    d.setDate(d.getDate() - i);
+    const iso = d.toISOString().slice(0, 10);
+    const gosterim = d.toLocaleDateString('tr-TR', {day:'2-digit', month:'2-digit'});
+    labels.push(gosterim);
+    values.push(haritaSayilar[iso] || 0);
+  }
+  
+  if (chartGunluk) chartGunluk.destroy();
+  
+  chartGunluk = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Mail',
+        data: values,
+        borderColor: '#4f8ef7',
+        backgroundColor: 'rgba(79,142,247,0.15)',
+        borderWidth: 2,
+        fill: true,
+        tension: 0.35,
+        pointBackgroundColor: '#4f8ef7',
+        pointBorderColor: '#0b0d11',
+        pointBorderWidth: 2,
+        pointRadius: 4,
+        pointHoverRadius: 6
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#171a21',
+          borderColor: '#252a38',
+          borderWidth: 1,
+          padding: 10
+        }
+      },
+      scales: {
+        x: { grid: { display: false } },
+        y: {
+          beginAtZero: true,
+          grid: { color: '#1e2230' },
+          ticks: { stepSize: 1, precision: 0 }
+        }
+      }
+    }
+  });
+}
+
+// ── Mail tablosu ──
+async function yukle() {
+  sayfa = 0;
+  await tablo();
+}
+
+async function tablo() {
+  const ara  = document.getElementById('araInput').value.trim();
+  const kat  = document.getElementById('katFiltre').value;
+  const aci  = document.getElementById('aciFiltre').value;
+  const sir  = document.getElementById('siralamaFiltre').value;
+
+  const params = new URLSearchParams({skip: sayfa*LIMIT, limit: LIMIT, siralama: sir});
+  if (ara) params.set('ara', ara);
+  if (kat) params.set('kategori', kat);
+  if (aci) params.set('aciliyet', aci);
+
+  const tbody = document.getElementById('tableBody');
+  tbody.innerHTML = '<tr class="loading-row"><td colspan="8"><span class="spinner-inline"></span>Yükleniyor...</td></tr>';
+
+  try {
+    const r = await fetch(API + '/analizler?' + params);
+    const d = await r.json();
+    toplam = d.toplam ?? 0;
+
+    document.getElementById('tableSayac').textContent = `${toplam} kayıt`;
+    renderTablo(d.mailler || []);
+    renderPagination();
+  } catch {
+    tbody.innerHTML = '<tr class="loading-row"><td colspan="8" style="color:var(--red)">API\'ye bağlanılamadı</td></tr>';
+  }
+}
+
+function renderTablo(mailler) {
+  const tbody = document.getElementById('tableBody');
+  if (!mailler.length) {
+    tbody.innerHTML = `<tr><td colspan="8">
+      <div class="empty">
+        <div class="empty-icon">📭</div>
+        <h3>Henüz analiz edilmiş mail yok</h3>
+        <p>Gmail Ayarları'nı yapın. Sistem her saat başında otomatik mail çeker.</p>
+      </div></td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = mailler.map(m => {
+    const tarih = m.gelen_tarih ? formatTarih(m.gelen_tarih) : '—';
+    const guven = m.kategori_guven ?? 0;
+    return `<tr onclick="modalAc(${m.id})">
+      <td><span style="font-family:var(--mono);font-size:.7rem;color:var(--muted)">${m.id}</span></td>
+      <td><span class="badge badge-${m.kategori||''}">${m.kategori||'—'}</span></td>
+      <td><span class="aci-badge aci-${m.aciliyet||1}">${m.aciliyet||1}</span></td>
+      <td><div class="konu-cell" title="${esc(m.konu||'')}">${esc(m.konu||'(Konusuz)')}</div></td>
+      <td><div class="gonderen-cell" title="${esc(m.gonderen||'')}">${esc(m.gonderen||'—')}</div></td>
+      <td><div class="guven-mini">
+        <div class="guven-mini-bar"><div class="guven-mini-fill" style="width:${(guven*100).toFixed(0)}%"></div></div>
+        <span>${(guven*100).toFixed(0)}%</span>
+      </div></td>
+      <td><div class="tarih-cell">${tarih}</div></td>
+      <td>${m.uyari ? '<span class="uyari-icon" title="'+esc(m.uyari)+'">⚠️</span>' : ''}</td>
+    </tr>`;
+  }).join('');
+}
+
+function renderPagination() {
+  const toplamSayfa = Math.ceil(toplam / LIMIT);
+  const el = document.getElementById('pagination');
+  if (toplamSayfa <= 1) { el.innerHTML = ''; return; }
+  el.innerHTML = `
+    <button class="page-btn" onclick="sayfaDegis(-1)" ${sayfa===0?'disabled':''}>← Önceki</button>
+    <span class="page-info">${sayfa+1} / ${toplamSayfa}</span>
+    <button class="page-btn" onclick="sayfaDegis(1)" ${sayfa>=toplamSayfa-1?'disabled':''}>Sonraki →</button>`;
+}
+
+async function sayfaDegis(yon) {
+  sayfa = Math.max(0, sayfa + yon);
+  await tablo();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+function aramaDebounce() {
+  clearTimeout(araTimer);
+  araTimer = setTimeout(yukle, 350);
+}
+
+function filtreleriSifirla() {
+  document.getElementById('araInput').value = '';
+  document.getElementById('katFiltre').value = '';
+  document.getElementById('aciFiltre').value = '';
+  document.getElementById('siralamaFiltre').value = 'analiz_tarihi';
+  yukle();
+}
+
+// ── Gmail Bağlantısı ──
+function settingsAc() {
+  document.getElementById('settingsOverlay').classList.add('open');
+}
+
+function settingsKapat(e) {
+  if (!e || e.target === document.getElementById('settingsOverlay')) {
+    document.getElementById('settingsOverlay').classList.remove('open');
+    document.getElementById('settingsMsg').style.display = 'none';
+  }
+}
+
+async function gmailBaglan() {
+  const user = document.getElementById('gmailUser').value.trim();
+  const pass = document.getElementById('gmailPassword').value.trim();
+  const btn  = document.getElementById('bağlanBtn');
+  const msg  = document.getElementById('settingsMsg');
+
+  if (!user || !pass) {
+    msg.style.display = 'block';
+    msg.style.background = 'rgba(239,68,68,.1)';
+    msg.style.color = 'var(--red)';
+    msg.textContent = '❌ Tüm alanları doldurun';
+    return;
+  }
+
+  btn.disabled = true;
+  msg.style.display = 'block';
+  msg.style.background = 'rgba(79,142,247,.1)';
+  msg.style.color = 'var(--acc)';
+  msg.textContent = '⏳ Bağlanılıyor ve mailler analiz ediliyor (biraz bekleyin)...';
+
+  try {
+    // Önce bağlantıyı test et
+    const r = await fetch(API + '/gmail/baglan', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({gmail_user: user, gmail_password: pass})
+    });
+    const d = await r.json();
+
+    if (!d.basarili) {
+      msg.style.background = 'rgba(239,68,68,.1)';
+      msg.style.color = 'var(--red)';
+      msg.textContent = `❌ ${d.hata}\n💡 ${d.cozum||''}`;
+      btn.disabled = false;
+      return;
+    }
+    
+    // Bağlantı başarılı, şimdi sync tetikle (bu sefer DB'ye kaydeder)
+    msg.textContent = `✅ ${d.mesaj}. Mailler analiz ediliyor...`;
+    
+    const sr = await fetch(API + '/mail/sync', {method: 'POST'});
+    const sd = await sr.json();
+    
+    if (sd.basarili) {
+      msg.style.background = 'rgba(45,212,160,.1)';
+      msg.style.color = 'var(--green)';
+      msg.textContent = `✅ ${sd.kaydedilen||0} mail analiz edildi ve kaydedildi`;
+      
+      setTimeout(() => {
+        settingsKapat();
+        istatistikYukle();
+        tablo();
+      }, 2000);
+    } else {
+      msg.style.background = 'rgba(249,115,22,.1)';
+      msg.style.color = 'var(--orange)';
+      msg.textContent = `⚠️ Bağlantı OK ama analiz hatası: ${sd.hata||'bilinmiyor'}`;
+    }
+  } catch(e) {
+    msg.style.background = 'rgba(239,68,68,.1)';
+    msg.style.color = 'var(--red)';
+    msg.textContent = '❌ API\'ye bağlanılamadı: ' + e.message;
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+// ── Modal ──
+async function modalAc(id) {
+  document.getElementById('modalOverlay').classList.add('open');
+  document.getElementById('modalKonu').textContent = '—';
+  document.getElementById('modalGonderen').textContent = '—';
+  document.getElementById('modalBody').innerHTML = `<div style="text-align:center;padding:32px;color:var(--muted);font-family:var(--mono);font-size:.8rem"><span class="spinner-inline"></span>Yükleniyor...</div>`;
+
+  try {
+    const r = await fetch(API + '/analizler/' + id);
+    const d = await r.json();
+    renderModal(d);
+  } catch {
+    document.getElementById('modalBody').innerHTML = `<div style="color:var(--red);font-family:var(--mono);font-size:.8rem;padding:16px">Detay yüklenemedi</div>`;
+  }
+}
+
+function renderModal(d) {
+  document.getElementById('modalKonu').textContent = d.konu || '(Konusuz)';
+  document.getElementById('modalGonderen').textContent = d.gonderen || '—';
+
+  const renk = {kargo:'var(--blue)',iade:'var(--green)',teknik:'var(--yellow)',fatura:'var(--orange)'};
+  const aciRenk = ['','var(--green)','var(--blue)','var(--yellow)','var(--orange)','var(--red)'];
+  const kat = d.kategori || '';
+  const aci = d.aciliyet || 1;
+
+  const skorlar = d.kategori_skorlari || {};
+  const skorHTML = Object.entries(skorlar).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`
+    <div class="skor-row">
+      <span class="skor-label">${k}</span>
+      <div class="skor-track"><div class="skor-fill" style="width:${(v*100).toFixed(0)}%;background:${renk[k]||'var(--acc)'}"></div></div>
+      <span class="skor-pct">${(v*100).toFixed(0)}%</span>
+    </div>`).join('');
+
+  const det = d.aciliyet_detay || {};
+  const detHTML = `<div class="detay-3">
+    <div class="detay-item"><div class="detay-label">Kural</div><div class="detay-val">${det.kural!=null?(det.kural*100).toFixed(0)+'%':'—'}</div></div>
+    <div class="detay-item"><div class="detay-label">Stil</div><div class="detay-val">${det.stil!=null?(det.stil*100).toFixed(0)+'%':'—'}</div></div>
+    <div class="detay-item"><div class="detay-label">Sentiment</div><div class="detay-val">${det.sentiment!=null?(det.sentiment*100).toFixed(0)+'%':'—'}</div></div>
+  </div>`;
+
+  const benzer = d.benzer_sikayetler || [];
+  const benzerHTML = benzer.length ? benzer.map((b,i)=>`
+    <div class="benzer-item">
+      <span class="benzer-rank">#${i+1}</span>
+      <div>
+        <div class="benzer-konu">${esc(b.konu||'')}</div>
+        <div class="benzer-meta"><span class="badge badge-${b.kategori}">${b.kategori}</span><span>Aciliyet ${b.aciliyet}</span></div>
+      </div>
+      <span class="benzer-sim">${(b.benzerlik*100).toFixed(0)}%</span>
+    </div>`).join('')
+    : '<div style="font-family:var(--mono);font-size:.75rem;color:var(--muted)">Benzer şikayet bulunamadı</div>';
+
+  document.getElementById('modalBody').innerHTML = `
+    <div class="m-section open" data-acc>
+      <div class="m-section-header" onclick="accToggle(this)">
+        <span class="m-section-title">Sınıflandırma</span>
+        <svg class="m-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+      </div>
+      <div class="m-section-body">
+        <div class="m-grid-2">
+          <div class="m-metric">
+            <div class="m-metric-label">Kategori</div>
+            <div class="m-metric-val" style="color:${renk[kat]||'var(--text)'}">${kat.toUpperCase()||'—'}</div>
+            <div style="font-family:var(--mono);font-size:.7rem;color:var(--muted);margin-top:2px">${esc(d.kategori_aciklamasi||'')}</div>
+          </div>
+          <div class="m-metric">
+            <div class="m-metric-label">Aciliyet</div>
+            <div class="m-metric-val" style="color:${aciRenk[aci]}">${aci}/5</div>
+            <div style="font-family:var(--mono);font-size:.7rem;color:var(--muted);margin-top:2px">${esc(d.aciliyet_etiketi||'')}</div>
+          </div>
+        </div>
+        ${skorHTML ? `<div style="margin-top:16px;display:flex;flex-direction:column;gap:8px">${skorHTML}</div>` : ''}
+      </div>
+    </div>
+
+    <div class="m-section" data-acc>
+      <div class="m-section-header" onclick="accToggle(this)">
+        <span class="m-section-title">Önerilen Aksiyon</span>
+        <svg class="m-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+      </div>
+      <div class="m-section-body">
+        ${d.departman?`<div style="font-family:var(--mono);font-size:.7rem;color:var(--muted);margin-bottom:10px">Yönlendir → <span style="color:var(--text)">${esc(d.departman)}</span></div>`:''}
+        <div class="aksiyon-text">${esc(d.onerilen_aksiyon||'—')}</div>
+        ${d.uyari?`<div style="margin-top:12px;padding:10px 12px;background:rgba(249,115,22,.07);border:1px solid rgba(249,115,22,.2);border-radius:8px;font-family:var(--mono);font-size:.75rem;color:var(--orange)">⚠️ ${esc(d.uyari)}</div>`:''}
+      </div>
+    </div>
+
+    <div class="m-section" data-acc>
+      <div class="m-section-header" onclick="accToggle(this)">
+        <span class="m-section-title">Aciliyet Analizi</span>
+        <svg class="m-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+      </div>
+      <div class="m-section-body">
+        ${d.aciliyet_aciklamasi?`<div style="font-family:var(--mono);font-size:.75rem;color:var(--muted);margin-bottom:12px">${esc(d.aciliyet_aciklamasi)}</div>`:''}
+        ${detHTML}
+      </div>
+    </div>
+
+    <div class="m-section" data-acc>
+      <div class="m-section-header" onclick="accToggle(this)">
+        <span class="m-section-title">Benzer Şikayetler${benzer.length?` <span style="opacity:.6">(${benzer.length})</span>`:''}</span>
+        <svg class="m-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+      </div>
+      <div class="m-section-body">${benzerHTML}</div>
+    </div>
+
+    <div class="m-section" data-acc>
+      <div class="m-section-header" onclick="accToggle(this)">
+        <span class="m-section-title">Temizlenmiş İçerik</span>
+        <svg class="m-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>
+      </div>
+      <div class="m-section-body"><div class="govde-text">${esc(d.govde_temiz||d.govde||'—')}</div></div>
+    </div>
+  `;
+}
+
+function accToggle(headerEl) {
+  const section = headerEl.closest('.m-section');
+  const isOpen = section.classList.contains('open');
+  
+  // Tüm bölümleri kapat
+  document.querySelectorAll('#modalBody .m-section').forEach(s => s.classList.remove('open'));
+  
+  // Eğer bu zaten açık değildiyse, aç
+  if (!isOpen) section.classList.add('open');
+}
+
+function modalKapat(e) {
+  if (!e || e.target === document.getElementById('modalOverlay')) {
+    document.getElementById('modalOverlay').classList.remove('open');
+  }
+}
+document.addEventListener('keydown', e => { if(e.key==='Escape') {modalKapat(); settingsKapat();} });
+
+async function verileriSifirla() {
+  const onay = confirm(
+    "Tüm analiz kayıtları silinip mailler yeniden analiz edilecek.\n\n" +
+    "Bu işlem birkaç dakika sürebilir. Devam etmek istiyor musun?"
+  );
+  if (!onay) return;
+  
+  // Tüm header butonlarını disable et
+  document.querySelectorAll('.header-btn').forEach(b => b.disabled = true);
+  
+  // Tabloya loading göster
+  document.getElementById('tableBody').innerHTML = 
+    '<tr class="loading-row"><td colspan="8"><span class="spinner-inline"></span>Veriler sıfırlanıyor ve mailler yeniden analiz ediliyor... (1-2 dakika sürebilir)</td></tr>';
+  
+  try {
+    const r = await fetch(API + '/mail/reset', {method: 'POST'});
+    const d = await r.json();
+    
+    if (d.basarili) {
+      alert(`✅ ${d.mesaj}`);
+      await istatistikYukle();
+      await tablo();
+    } else {
+      alert(`❌ ${d.hata}\n\n${d.cozum||''}`);
+    }
+  } catch(e) {
+    alert('❌ API\'ye bağlanılamadı: ' + e.message);
+  } finally {
+    document.querySelectorAll('.header-btn').forEach(b => b.disabled = false);
+  }
+}
+
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function formatTarih(iso) {
+  try {
+    const d = new Date(iso);
+    return d.toLocaleDateString('tr-TR',{day:'2-digit',month:'2-digit',year:'numeric'}) + ' ' +
+           d.toLocaleTimeString('tr-TR',{hour:'2-digit',minute:'2-digit'});
+  } catch { return iso; }
+}
+
+// ── Başlangıç ──
+document.getElementById('araInput').value = '';
+setTimeout(() => { document.getElementById('araInput').value = ''; }, 100);
+
+//değiştirildi: sayfa açılır açılmaz mail sync işlemi tetikleniyor, böylece kullanıcı ilkdefa bağlandığında güncel verilere hızlıca erişebiliyor. Ayrıca istatistikler ve tablo da hemen yükleniyor.
+async function init() {
+  await fetch(API + '/mail/sync', { method: 'POST' }); // ⭐ EKLE
+  await istatistikYukle();
+  await tablo();
+}
+
+init();
+statusKontrol();
+
+// Otomatik yenile (5 dakikada bir)
+setInterval(()=>{ istatistikYukle(); tablo(); }, 5*60*1000);
+setInterval(statusKontrol, 30000);
+</script>
+</body>
+</html>
